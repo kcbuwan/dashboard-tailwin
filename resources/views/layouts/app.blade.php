@@ -46,11 +46,13 @@
                 </div>
             </div>
         </nav>
-
         @yield('content')
     </div>
 
+    
+
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.js"></script>
 </body>
 </html>
