@@ -16,7 +16,7 @@
 <body class="bg-gray-100 font-sans">
     
     @yield('header')
-    
+
     <div class="main-content container mx-auto mt-6 pl-4 pr-4 lg:pl-0 lg:pr-0 md:pl-0 md:pr-0">
         @yield('content')
     </div>
@@ -24,6 +24,7 @@
     @yield('footer')
 
     @yield('scripts')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.js"></script>
 
 </body>
 
