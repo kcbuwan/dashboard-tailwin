@@ -48,10 +48,21 @@
             <div class="container mx-auto flex flex-wrap">
                 <ul class="list-reset lg:flex flex-1 items-center px-4 md:px-0">
                     <li class="mr-6 my-2 md:my-0">
-                        <a href="#"
-                            class="block py-1 md:py-3 align-middle text-white hover:text-gray-100 font-semibold uppercase">
+                        <a href="/dashboard" class="block py-1 md:py-3 align-middle text-white hover:text-gray-100 font-semibold uppercase">
                             <i class="fas fa-tachometer-alt mr-3"></i>
                             <span class="pb-1 md:pb-0 text-sm">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="mr-6 my-2 md:my-0">
+                        <a href="/dashboard/forms" class="block py-1 md:py-3 pl-1 align-middle text-white font-semibold uppercase">
+                            <i class="fab fa-wpforms"></i>
+                            <span class="pb-1 md:pb-0 text-sm">Forms</span>
+                        </a>
+                    </li>
+                    <li class="mr-6 my-2 md:my-0">
+                        <a href="/dashboard/tables" class="block py-1 md:py-3 pl-1 align-middle text-white font-semibold uppercase">
+                            <i class="fas fa-table"></i>
+                            <span class="pb-1 md:pb-0 text-sm">Tables</span>
                         </a>
                     </li>
                     <li class="mr-6 my-2 md:my-0">

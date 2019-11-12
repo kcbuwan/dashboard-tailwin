@@ -1,9 +1,5 @@
 @extends('layouts.blank')
 
-@section('title')
-    Dashboard Tailwind
-@endsection
-
 @section('header')
     @include('layouts.header')
 @endsection
