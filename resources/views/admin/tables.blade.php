@@ -110,7 +110,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
+                                    <a href="/dashboard/forms-sidebar" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
                                         <i class="fas fa-pen-nib"></i>
                                     </a>
                                 </li>
@@ -149,7 +149,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
+                                    <a href="/dashboard/forms-sidebar" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
                                         <i class="fas fa-pen-nib"></i>
                                     </a>
                                 </li>
@@ -188,7 +188,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
+                                    <a href="/dashboard/forms-sidebar" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
                                         <i class="fas fa-pen-nib"></i>
                                     </a>
                                 </li>
@@ -228,7 +228,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
+                                    <a href="/dashboard/forms-sidebar" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
                                         <i class="fas fa-pen-nib"></i>
                                     </a>
                                 </li>
@@ -268,7 +268,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
+                                    <a href="/dashboard/forms-sidebar" class="block text-xs font-medium text-gray-800 border border-solid border-gray-300 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-10 text-center">
                                         <i class="fas fa-pen-nib"></i>
                                     </a>
                                 </li>

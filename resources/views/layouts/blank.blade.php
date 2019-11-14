@@ -20,8 +20,10 @@
     
     @yield('header')
 
-    <div class="main-content container mx-auto mt-6 pl-4 pr-4 lg:pl-0 lg:pr-0 md:pl-0 md:pr-0">
-        @yield('content')
+    <div class="main-content  mt-6 pl-4 pr-4 md:pl-4 md:pr-4">
+        <div class="container mx-auto">
+            @yield('content')
+        </div>
     </div>
         
     @yield('footer')
