@@ -39,6 +39,10 @@ Route::group(['middleware' => ['auth','admin']], function () {
     Route::get('dashboard/role', function () {
         return view('admin.role');
     });
+
+     Route::get('dashboard/forms-basic', function () {
+        return view('admin.forms-basic');
+    });
 });
 
 
