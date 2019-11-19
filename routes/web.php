@@ -40,9 +40,14 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.role');
     });
 
-     Route::get('dashboard/forms-basic', function () {
+    Route::get('dashboard/forms-basic', function () {
         return view('admin.forms-basic');
     });
+
+    Route::get('dashboard/table-basic', function () {
+        return view('admin.table-basic');
+    });
+
 });
 
 
