@@ -7,7 +7,7 @@
         <div class="flex flex-wrap mb-4">
             <div class="w-full lg:w-1/2">
 
-                <div class="rounded-sm shadow bg-white pb-4 text-gray-700 mb-6">
+                <div class="rounded-sm-sm shadow bg-white pb-4 text-gray-700 mb-6">
                     <div class="flex p-4 pt-2 pb-2 mb-2 font-medium">
                         <h2 class="pull-right pr-4">Basic Form</h2>
                     </div>
@@ -15,14 +15,14 @@
                         <label class="text-sm block tracking-wide text-gray-700 mb-2" for="email">
                             Email Address
                         </label>
-                        <input class="appearance-none block w-full  text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Enter email" id="email">
+                        <input class="appearance-none block w-full  text-gray-700 border border-red-500 rounded-sm py-2 px-3 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Enter email" id="email">
                         <small>We'll never share your email with anyone else.</small>
                     </div>
                     <div class="px-4 mb-3">
                         <label class="text-sm block tracking-wide text-gray-700 mb-2" for="password">
                             Password
                         </label>
-                        <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="password" placeholder="Password" id="password">
+                        <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="password" placeholder="Password" id="password">
                     </div>
                     <div class="px-4 mb-6">
                         <label class="md:w-2/3 block text-gray-700">
@@ -34,14 +34,14 @@
                     </div>
 
                     <div class="px-4">
-                        <button class="bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm inline-flex">
+                        <button class="bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm-sm inline-flex">
                             Submit
                         </button>
                     </div>
 
                 </div>
 
-                <div class="rounded-sm shadow bg-white pb-4 text-gray-700 mb-6">
+                <div class="rounded-sm-sm shadow bg-white pb-4 text-gray-700 mb-6">
                     <div class="flex p-4 pt-2 pb-2 mb-2 font-medium">
                         <h2 class="pull-right pr-4">Horizontal Form</h2>
                     </div>
@@ -53,7 +53,7 @@
                                 </label>
                             </div>
                             <div class="w-full">
-                                <input class=" appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" type="text" value="Email">
+                                <input class=" appearance-none border-2 border-gray-200 rounded-sm w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" type="text" value="Email">
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                                 </label>
                             </div>
                             <div class="w-full">
-                                <input class=" appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-password" type="text" value="Password">
+                                <input class=" appearance-none border-2 border-gray-200 rounded-sm w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-password" type="text" value="Password">
                             </div>
                         </div>
                     </div>
@@ -109,14 +109,14 @@
                     </div>
 
                     <div class="px-4">
-                        <button class="bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm inline-flex">
+                        <button class="bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm-sm inline-flex">
                             Sign in
                         </button>
                     </div>
 
                 </div>
 
-                <div class="rounded-sm shadow bg-white pb-4 text-gray-700">
+                <div class="rounded-sm-sm shadow bg-white pb-4 text-gray-700">
                     <div class="flex p-4 pt-2 pb-2 mb-2 font-medium">
                         <h2 class="pull-right pr-4">Validation</h2>
                     </div>
@@ -126,27 +126,27 @@
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                     First Name
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                                <input class="appearance-none block w-full  text-gray-700 border border-red-500 rounded-sm py-2 px-3 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
                             </div>
                             <div class="w-full md:w-1/2 px-3">
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                                     Last Name
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
                             </div>
 
                             <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                     City
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Belmont">
+                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Belmont">
                             </div>
                             <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                     State
                                 </label>
                                 <div class="relative">
-                                    <select class="block appearance-none w-full  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                                    <select class="block appearance-none w-full  border border-gray-200 text-gray-700 py-2 px-3 pr-8 rounded-sm leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                                         <option>Victoria</option>
                                         <option>New Mexico</option>
                                         <option>Missouri</option>
@@ -163,13 +163,13 @@
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
                                     Zip
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="90210">
+                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="90210">
                             </div>
                         </div>
                     </div>
 
                     <div class="px-4">
-                        <button class="bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm inline-flex">
+                        <button class="bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm-sm inline-flex">
                             Submit form
                         </button>
                     </div>
@@ -178,7 +178,7 @@
 
             </div>
             <div class="w-full lg:w-1/2">
-                <div class="rounded-sm shadow bg-white pb-4 mt-4 lg:mt-0 lg:ml-6 text-gray-700 mb-6">
+                <div class="rounded-sm-sm shadow bg-white pb-4 mt-4 lg:mt-0 lg:ml-6 text-gray-700 mb-6">
                     <div class="flex p-4 pt-2 pb-2 mb-4 font-medium">
                         <h2 class="pull-right pr-4">Complex Form Layout</h2>
                     </div>
@@ -188,35 +188,35 @@
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                     First Name
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                                <input class="appearance-none block w-full  text-gray-700 border border-red-500 rounded-sm py-2 px-3 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
                             </div>
 
                             <div class="w-full md:w-1/2 px-3">
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                                     Last Name
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
                             </div>
 
                             <div class="w-full px-4 mb-1">
                                 <label class="text-sm block tracking-wide text-gray-700 mb-2" for="adress">
                                     Address
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Victoria, 3216" id="address">
+                                <input class="appearance-none block w-full  text-gray-700 border rounded-sm py-2 px-3 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Victoria, 3216" id="address">
                             </div>
 
                             <div class="w-full md:w-1/3 px-3 mb-3">
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                     City
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Belmont">
+                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Belmont">
                             </div>
                             <div class="w-full md:w-1/3 px-3 mb-3">
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                     State
                                 </label>
                                 <div class="relative">
-                                    <select class="block appearance-none w-full  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                                    <select class="block appearance-none w-full  border border-gray-200 text-gray-700 py-2 px-3 pr-8 rounded-sm leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                                         <option>Victoria</option>
                                         <option>New Mexico</option>
                                         <option>Missouri</option>
@@ -233,7 +233,7 @@
                                 <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
                                     Zip
                                 </label>
-                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="3216">
+                                <input class="appearance-none block w-full  text-gray-700 border border-gray-200 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="3216">
                             </div>
                             <div class="px-4">
                                 <label class="block text-gray-700">
@@ -246,13 +246,13 @@
                         </div>
                     </div>
                     <div class="px-4">
-                        <button class="bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm inline-flex">
+                        <button class="bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm-sm inline-flex">
                             Sign In
                         </button>
                     </div>
                 </div>
 
-                <div class="rounded-sm shadow bg-white pb-4 mt-4 lg:mt-0 lg:ml-6 text-gray-700 mb-6">
+                <div class="rounded-sm-sm shadow bg-white pb-4 mt-4 lg:mt-0 lg:ml-6 text-gray-700 mb-6">
                     <div class="flex p-4 pt-2 pb-2 mb-2 font-medium">
                         <h2 class="pull-right pr-4">Disabled Forms</h2>
                     </div>
@@ -260,14 +260,14 @@
                         <label class="text-sm block tracking-wide text-gray-700 mb-2" for="email">
                             Disabled input
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200  text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white cursor-not-allowed" type="text" placeholder="Disabled input" id="email">
+                        <input class="appearance-none block w-full bg-gray-200  text-gray-700 border border-red-500 rounded-sm py-2 px-3 mb-3 leading-tight focus:outline-none focus:bg-white cursor-not-allowed" type="text" placeholder="Disabled input" id="email">
                     </div>
                     <div class="px-4 mb-3">
                         <label class="text-sm block tracking-wide text-gray-700 mb-2" for="password">
                             Disabled select menu
                         </label>
                         <div class="relative">
-                            <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 cursor-not-allowed" id="grid-state">
+                            <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-2 px-3 pr-8 rounded-sm leading-tight focus:outline-none focus:bg-white focus:border-gray-500 cursor-not-allowed" id="grid-state">
                                 <option>Victoria</option>
                                 <option>New Mexico</option>
                                 <option>Missouri</option>
@@ -290,7 +290,7 @@
                     </div>
 
                     <div class="px-4">
-                        <button class="bg-blue-500 text-white py-1 px-4 rounded opacity-50 cursor-not-allowed">
+                        <button class="bg-blue-500 text-white py-1 px-4 rounded-sm opacity-50 cursor-not-allowed">
                             Submit
                         </button>
                     </div>

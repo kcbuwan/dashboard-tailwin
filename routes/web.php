@@ -48,6 +48,14 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.table-basic');
     });
 
+    Route::get('dashboard/menu', function () {
+        return view('admin.menu');
+    });
+
+    Route::get('dashboard/add-menu', function () {
+        return view('admin.add-menu');
+    });
+
 });
 
 
