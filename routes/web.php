@@ -56,6 +56,10 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.add-menu');
     });
 
+    Route::get('dashboard/media-manager', function () {
+        return view('admin.media-manager');
+    });
+
 });
 
 
