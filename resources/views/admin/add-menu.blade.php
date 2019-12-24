@@ -2,6 +2,7 @@
 @section('header') 
     @include('layouts.header') 
 @endsection 
+
 @section('content')
     
     <div class="lg:mt-0 rounded shadow bg-white mb-6 overflow-hidden">

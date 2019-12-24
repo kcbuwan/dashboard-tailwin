@@ -60,6 +60,10 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.media-manager');
     });
 
+    Route::get('dashboard/product', function () {
+        return view('admin.product');
+    });
+
 });
 
 

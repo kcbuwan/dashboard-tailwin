@@ -317,22 +317,22 @@
                 </div>
             </div>
             <div class="flex w-full mt-4 p-4 pb-1 border-t border-grey-light">
-                <ul class="flex pl-0 list-none rounded mx-auto">
-                    <li class="text-md block py-3 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 ml-0 rounded-l hover:bg-blue-500">
+                <ul class="flex flex-end pl-0 list-none rounded mx-auto">
+                    <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 ml-0 rounded-l hover:bg-gray-400">
                         <a href="#">
                             <i class="fas fa-angle-double-left"></i>
                         </a>
                     </li>
-                    <li class="text-md block py-2 px-3 bg-blue-500 border border-gray-400 text-white border-r-0">
+                    <li class="text-md block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 border-r-0">
                         <a href="#">1</a>
                     </li>
-                    <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-blue-500">
+                    <li class="text-md block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-gray-400">
                         <a href="#">2</a>
                     </li>
-                    <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-blue-500">
+                    <li class="text-md block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-gray-400">
                         <a href="#">3</a>
                     </li>
-                    <li class="text-md block py-3 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-blue-500">
+                    <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
                         <a href="#">
                             <i class="fas fa-angle-double-right"></i>
                         </a>
