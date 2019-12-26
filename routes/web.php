@@ -64,6 +64,14 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.product');
     });
 
+    Route::get('dashboard/product-edit', function () {
+        return view('admin.product-edit');
+    });
+
+     Route::get('dashboard/product-edit-sidebar', function () {
+        return view('admin.product-edit-sidebar');
+    });
+
 });
 
 
