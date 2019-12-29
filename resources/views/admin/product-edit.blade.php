@@ -124,7 +124,7 @@
                         Categories <span class="text-red-400">*<span>
                     </label>
                     
-                    <div class="relative">
+                    <div class="flex flex-wrap items-stretch relative">
                         <select class="w-full rounded-sm appearance-none text-gray-500 border border-gray-400 px-4 pr-6 h-10 focus:outline-none focus:bg-white focus:border-gray-500" id="categories">
                             <option selected="">
                                 Select Some Option
