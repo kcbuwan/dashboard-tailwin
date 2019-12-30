@@ -76,6 +76,10 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.website-setting');
     });
 
+    Route::get('dashboard/data-import', function () {
+        return view('admin.data-import');
+    });
+
 });
 
 
