@@ -80,6 +80,10 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.data-import');
     });
 
+    Route::get('dashboard/permissions', function () {
+        return view('admin.permissions');
+    });
+
 });
 
 
