@@ -84,6 +84,10 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.permissions');
     });
 
+    Route::get('dashboard/auspost', function () {
+        return view('admin.auspost');
+    });
+
 });
 
 
