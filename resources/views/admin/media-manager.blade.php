@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap lg:mt-0 p-4 pr-2">
+        <div class="flex flex-wrap lg:mt-0 p-4 lg:pr-2">
             <div class="w-full lg:w-1/4 text-gray-700">
                 <div class="lg:mt-0 lg:mr-4">
                     <div class="rounded-sm border border-solid border-gray-300 mb-1">
@@ -151,7 +151,7 @@
             </div>
             <div class="w-full lg:w-3/4">
                 <div class="flex flex-wrap mb-4">
-                    <div class="w-full md:w-1/3 lg:w-1/3 px-2 py-2">
+                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
                         
                         <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
                             <div class="md:flex p-2">
@@ -163,18 +163,20 @@
                                 <div class="text-gray-600 text-xs">2017-04-08 06:47:43</div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap border-t border-grey-light p-2">
-                                <a href="#" class="rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                    Edit Meta
-                                </a>
-                                <a href="#" class="rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                    Delete Forever
-                                </a>
+                            <div class="border-t border-grey-light p-2">
+                                <div class="text-center">
+                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                        Edit Meta
+                                    </a>
+                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                        Delete Forever
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 px-2 py-2">
+                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
                         
                         <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
                             <div class="md:flex p-2">
@@ -186,18 +188,20 @@
                                 <div class="text-gray-600 text-xs">2018-02-08 17:57:46</div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap border-t border-grey-light p-2">
-                                <a href="#" class="rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                    Edit Meta
-                                </a>
-                                <a href="#" class="rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                    Delete Forever
-                                </a>
+                            <div class="border-t border-grey-light p-2">
+                                <div class="text-center">
+                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                        Edit Meta
+                                    </a>
+                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                        Delete Forever
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 px-2 py-2">
+                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
                         
                         <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
                             <div class="md:flex p-2">
@@ -209,18 +213,20 @@
                                 <div class="text-gray-600 text-xs">2017-11-14 16:21:17</div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap border-t border-grey-light p-2">
-                                <a href="#" class="rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                    Edit Meta
-                                </a>
-                                <a href="#" class="rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                    Delete Forever
-                                </a>
+                            <div class="border-t border-grey-light p-2">
+                                <div class="text-center">
+                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                        Edit Meta
+                                    </a>
+                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                        Delete Forever
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 px-2 py-2">
+                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
                         
                         <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
                             <div class="md:flex p-2">
@@ -232,18 +238,20 @@
                                 <div class="text-gray-600 text-xs">2017-10-27 17:01:47</div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap border-t border-grey-light p-2">
-                                <a href="#" class="rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                    Edit Meta
-                                </a>
-                                <a href="#" class="rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                    Delete Forever
-                                </a>
+                            <div class="border-t border-grey-light p-2">
+                                <div class="text-center">
+                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                        Edit Meta
+                                    </a>
+                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                        Delete Forever
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 px-2 py-2">
+                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
                         
                         <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
                             <div class="md:flex p-2">
@@ -255,18 +263,20 @@
                                 <div class="text-gray-600 text-xs">2017-05-10 10:16:11</div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap border-t border-grey-light p-2">
-                                <a href="#" class="rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                    Edit Meta
-                                </a>
-                                <a href="#" class="rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                    Delete Forever
-                                </a>
+                            <div class="border-t border-grey-light p-2">
+                                <div class="text-center">
+                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                        Edit Meta
+                                    </a>
+                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                        Delete Forever
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 px-2 py-2">
+                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
                         
                         <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
                             <div class="md:flex p-2">
@@ -278,19 +288,21 @@
                                 <div class="text-gray-600 text-xs">2017-05-10 10:16:14</div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap border-t border-grey-light p-2">
-                                <a href="#" class="rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                    Edit Meta
-                                </a>
-                                <a href="#" class="rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                    Delete Forever
-                                </a>
+                            <div class="border-t border-grey-light p-2">
+                                <div class="text-center">
+                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                        Edit Meta
+                                    </a>
+                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                        Delete Forever
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         
                     </div>
 
-                    <div class="w-full md:w-1/3 lg:w-1/3 px-2 py-2">
+                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
                         
                         <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
                             <div class="md:flex p-2">

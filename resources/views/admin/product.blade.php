@@ -33,10 +33,10 @@
                 </div>
             </div>
             <div class="md:w-1/2 text-center md:text-right">
-                <div class="inline-flex">
+                <div class="lg:inline-flex">
 
-                    <div class="relative">
-                        <select class="appearance-none bg-gray-300 border border-gray-200 text-gray-700 py-2 px-4 pr-8 h-10 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    <div class="relative mb-4 lg:mb-0">
+                        <select class="w-full appearance-none bg-gray-300 border border-gray-200 text-gray-700 py-2 px-4 pr-8 h-10 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                             <option>Select Warehouse</option>
                             <option>All</option>
                             <option>Australia</option>
@@ -45,8 +45,8 @@
                         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg></div>
                     </div>
 
-                    <div class="relative">
-                        <select class="appearance-none border border-gray-400 text-gray-700 py-2 px-4 pr-8 h-10 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                    <div class="relative mb-4 lg:mb-0">
+                        <select class="w-full appearance-none border border-gray-400 text-gray-700 py-2 px-4 pr-8 h-10 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                             <option>Product</option>
                             <option>Sku</option>
                             <option>Brand</option>
@@ -59,8 +59,8 @@
                         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg></div>
                     </div>
 
-                    <div class="relative">
-                        <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;">
+                    <div class="relative mb-4 lg:mb-0">
+                        <span class="w-full algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;">
                             <input id="docsearch" class="transition focus:outline-0 border border-transparent focus:bg-white focus:border-gray-300 placeholder-gray-600 bg-gray-100 py-2 pr-4 pl-4 h-10 block w-full appearance-none leading-normal ds-input" type="text" placeholder="Search.." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-label="search input" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
                             <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
                             <span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; left: 0px; right: auto; display: none;">

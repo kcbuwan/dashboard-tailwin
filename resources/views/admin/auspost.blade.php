@@ -10,8 +10,8 @@
                 AusPost Freight
             </h2>
         </div>
-        <div class="flex flex-wrap pt-6 pb-4 pl-2 pr-3">
-            <div class="w-full lg:w-1/4 text-gray-700 mb-4 px-3">
+        <div class="flex flex-wrap pt-6 pb-4">
+            <div class="w-full lg:w-1/4 text-gray-700 mb-4 px-4">
                 <ul class="overflow-hidden">
                     <li>
                         <a class="bg-blue-400 border-b border-gray-300 block py-2 px-4 text-white hover:text-gray-100 text-sm font-medium" href="#">

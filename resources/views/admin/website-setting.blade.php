@@ -5,76 +5,76 @@
 
 @section('content')
     <div class="lg:mt-0 rounded shadow bg-white mb-6 overflow-hidden">
-        <div class="flex p-4 border-b border-bg-gray-300">
+        <div class="flex p-4 border-b border-bg-gray-300 mb-4">
             <h2 class="uppercase pr-4 text-gray-700 text-lg font-medium">
                 General
             </h2>
         </div>
-        <div class="flex flex-wrap pt-6 pb-4 pl-2 pr-3">
+        <div class="flex flex-wrap">
             <div class="w-full lg:w-1/4 text-gray-700 mb-4 px-3">
                 <ul class="overflow-hidden">
                     <li>
-                        <a class="bg-blue-400 border-b border-gray-300 block py-2 px-4 text-white hover:text-gray-100 text-sm font-medium" href="#">
+                        <a href="#" class="bg-blue-400 border-b border-gray-300 block py-2 px-4 text-white hover:text-gray-100 text-sm font-medium">
                             General
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Logging
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             API Integrations
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Redirects
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             SEO
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Contact Information 
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Email Credentials
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Email Marketing
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Google Analytics
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Marketing Referrals
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Maintenance Mode
                         </a>
                     </li>
                     <li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Cart
                         </a>
                     </li>
                     </li>
-                        <a class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium" href="#">
+                        <a href="#" class="bg-gray-200 border-b border-gray-300 block py-2 px-4 text-gray-700 hover:text-blue-600 text-sm font-medium">
                             Store Locator
                         </a>
                     </li>
@@ -88,14 +88,14 @@
                 </div>
 
                 <div class="pb-4 pt-0 pl-0 pr-0">
-                    <div class="flex flex-wrap mb-4">
-                        <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-1/2 px-4 mb-4">
                             <label class="block text-sm font-medium text-gray-600 mb-2" for="title">
                                 Title
                             </label>
                             <input class="appearance-none block w-full  text-gray-500 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white border border-gray-400 focus:border-gray-500" type="text" placeholder="Please fill in your Title" id="title">
                         </div>
-                        <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                        <div class="w-full md:w-1/2 px-4 mb-4">
                             <label class="block text-sm font-medium text-gray-600 mb-2" for="keywords">
                                 Keywords
                             </label>
@@ -119,7 +119,7 @@
                 <div class="pb-4 pt-0 pl-0 pr-0">
                     <div class="flex flex-wrap mb-4">
                         
-                        <div class="w-full px-4 mb-6">
+                        <div class="w-full px-4 mb-4">
                             <label class="block text-sm font-medium text-gray-600 mb-2" for="client-max">
                                 Client Max. No. of Items/Page
                             </label>

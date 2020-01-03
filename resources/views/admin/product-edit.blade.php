@@ -11,7 +11,7 @@
             </h2>
         </div>
         
-        <ul class="flex p-4 pb-0 border-b border-bg-gray-300">
+        <ul class="flex flex-wrap p-4 pb-0 border-b border-bg-gray-300">
             <li class="-mb-px mr-1">
                 <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-3 text-blue-400 text-sm font-medium" href="#">
                     Information
@@ -79,12 +79,12 @@
             </li>
         </ul>
 
-        <div class="p-6 pt-4 pb-4">
+        <div class="p-4">
             <div class="flex flex-wrap p-4 pl-0 pr-0 border-b border-bg-gray-300">
-                <div class="w-1/2 self-center">
+                <div class="w-full lg:w-1/2 self-center">
                     <h2 class="uppercase pr-4 text-gray-700 font-medium">Basic Information </h2>
                 </div>
-                <div class="w-1/2 text-right self-center">
+                <div class="w-full lg:w-1/2 text-center lg:text-right self-center">
                     <button class="bg-blue-400 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-6 rounded-sm inline-flex text-sm font-medium">
                         Add Brand
                     </button>
@@ -96,21 +96,21 @@
         </div> 
 
         <div class="pb-4 pt-0">
-            <div class="px-6 mb-4">
+            <div class="px-4 mb-4">
                 <label class="block text-sm font-medium text-gray-600 mb-2" for="warehouses">
                     Warehouses <span class="text-red-400">*<span>
                 </label>
                 <input class="appearance-none block w-full  text-gray-500 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white border border-gray-400 focus:border-gray-500" type="text" placeholder="Select the warehouses you would like to be seen in" id="warehouses">
             </div>
 
-            <div class="flex flex-wrap mb-4">
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 px-4 mb-4">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="product-name">
                         Name <span class="text-red-400">*<span>
                     </label>
                     <input class="appearance-none block w-full  text-gray-500 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white border border-gray-400 focus:border-gray-500" type="text" placeholder="Name i.e. 'Ceramic Flower Pot" id="product name">
                 </div>
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+                <div class="w-full md:w-1/2 px-4 mb-4">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="slug">
                         Slug <span class="text-red-400">*<span>
                     </label>
@@ -119,7 +119,7 @@
             </div>
 
             <div class="flex flex-wrap mb-4">
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+                <div class="w-full md:w-1/2 px-4 mb-4">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="categories">
                         Categories <span class="text-red-400">*<span>
                     </label>
@@ -138,7 +138,7 @@
                     </div>
                         
                 </div>
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+                <div class="w-full md:w-1/2 px-4 md:mb-0">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="brands">
                         Brands
                     </label>
@@ -159,8 +159,8 @@
                 </div>
             </div>
 
-            <div class="flex flex-wrap mb-4">
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="product-condition">
                         Product Condition <span class="text-red-400">*<span>
                     </label>
@@ -181,7 +181,7 @@
                     </div>
                         
                 </div>
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+                <div class="w-full md:w-1/2 px-4 mb-4">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="product-type">
                         Product Type
                     </label>
@@ -202,35 +202,35 @@
                 </div>
             </div>
 
-            <div class="px-6 mb-4">
+            <div class="px-4 mb-4">
                 <label class="block text-sm font-medium text-gray-600 mb-2" for="short-description">
                     Short Description
                 </label>
                 <input class="appearance-none block w-full text-gray-500 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white border border-gray-400 focus:border-gray-500" type="text" placeholder="Short Description i.e. 'Chinese ceramics pottery with ...'" id="short-description">
             </div>
 
-            <div class="px-6 mb-4">
+            <div class="px-4 mb-4">
                 <label class="block text-sm font-medium text-gray-600 mb-2" for="content">
                     Content
                 </label>
                 <textarea class="border border-gray-400 focus:border-gray-500" id="mytextarea">Hello, World!</textarea>
             </div>
 
-            <div class="px-6 mb-4">
+            <div class="px-4 mb-4">
                 <label class="block text-sm font-medium text-gray-600 mb-2" for="meta-title">
                     Meta Title
                 </label>
                 <input class="appearance-none block w-full  text-gray-500 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white border border-gray-400 focus:border-gray-500" type="text" placeholder="Title tag goes here" id="meta-title">
             </div>
 
-            <div class="flex flex-wrap mb-4">
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 px-4 mb-4">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="meta-description">
                         Meta Description
                     </label>
                     <input class="appearance-none block w-full  text-gray-500 rounded-sm py-2 px-3 leading-tight focus:outline-none focus:bg-white border border-gray-400 focus:border-gray-500" type="text" placeholder="This is an interesting 255 character string" id="meta-description">
                 </div>
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+                <div class="w-full md:w-1/2 px-4 mb-4">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="meta-keywords">
                         Meta Keywords
                     </label>
@@ -239,7 +239,7 @@
             </div>
             
             <div class="flex flex-wrap mb-4">
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+                <div class="w-full md:w-1/2 px-4 mb-4">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="visibility">
                         Visibility <span class="text-red-400">*<span>
                     </span></span></label>
@@ -260,7 +260,7 @@
                     </div>
                         
                 </div>
-                <div class="w-full md:w-1/2 px-6 mb-6 md:mb-0">
+                <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
                     <label class="block text-sm font-medium text-gray-600 mb-2" for="status">
                         Enabled <span class="text-red-400">*<span>
                     </label>
@@ -279,7 +279,7 @@
                 </div>
             </div>
             
-            <div class="p-6 pt-4 pb-4">
+            <div class="p-4 pt-0">
                 <button class="font-medium bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm inline-flex">
                     Edit Information
                 </button>

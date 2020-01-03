@@ -223,10 +223,10 @@
                     <h2 class="uppercase pull-right pr-4">Import/Export</h2>
                 </div>
                 <ul class="list-reset">
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">Import Data</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">Export Data</a>
                     </li>
                 </ul>
@@ -237,88 +237,88 @@
                     <h2 class="uppercase pull-right pr-4">Sample Exports</h2>
                 </div>
                 <ul class="list-reset">
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Birthdays</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Users</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Page Redirects</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Bikes for Sale</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Blog Posts</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Blog Categories</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="text-blue-500 block font-medium text-sm py-2 px-4">Products</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Product Brands</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Product Categories</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Product Associations</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Product Association Values</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Product Attributes</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Related Products</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Product Prices</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Product Shipping</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Shipping - Auspost Rates</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Shipping - Post Codes</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Shipping - Overseas Rates</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Shipping - Overseas Zones</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Equipment</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Frequently Asked Questions</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Jobs</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Newsletter Subscribers</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">OEM Pricing</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">DHL Freight Rate</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">DHL Zone</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Stores</a>
                     </li>
-                    <li class="border-b border-gray-100 mx-2">
+                    <li class="border-b border-gray-100 mx-3">
                         <a href="#" class="bg-gray-200 text-gray-700 hover:text-blue-500 block font-medium text-sm py-2 px-4">Pages</a>
                     </li>
                 </ul>
