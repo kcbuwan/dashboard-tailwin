@@ -32,7 +32,7 @@
                 <div class="flex p-1 pt-3 pb-3">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Admin</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Admin</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -92,7 +92,7 @@
                 <div class="flex p-1 pt-3 pb-3 bg-gray-100">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Settings</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Settings</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -152,7 +152,7 @@
                 <div class="flex p-1 pt-3 pb-3">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Warehouses</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Warehouses</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -212,7 +212,7 @@
                 <div class="flex p-1 pt-3 pb-3 bg-gray-100">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Users</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Users</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -272,7 +272,7 @@
                 <div class="flex p-1 pt-3 pb-3">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Roles</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Roles</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -332,7 +332,7 @@
                 <div class="flex p-1 pt-3 pb-3 bg-gray-100">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Comments</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Comments</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -392,7 +392,7 @@
                 <div class="flex p-1 pt-3 pb-3">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Forms</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Forms</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -452,7 +452,7 @@
                 <div class="flex p-1 pt-3 pb-3 bg-gray-100">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Appearances</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Appearances</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -512,7 +512,7 @@
                 <div class="flex p-1 pt-3 pb-3">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Media Managers</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Media Managers</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -572,7 +572,7 @@
                 <div class="flex p-1 pt-3 pb-3 bg-gray-100">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Snippets</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Snippets</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -632,7 +632,7 @@
                 <div class="flex p-1 pt-3 pb-3">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Generals</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Generals</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -692,7 +692,7 @@
                 <div class="flex p-1 pt-3 pb-3 bg-gray-100">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">Service Enquiries</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">Service Enquiries</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>
@@ -752,7 +752,7 @@
                 <div class="flex p-1 pt-3 pb-3">
                     <div class="w-full lg:w-2/6 self-center px-3 self-center">
                         <div class="items-center leading-none flex flex-wrap">
-                            <span class="text-gray-800 text-sm font-medium flex-auto self-center">localizations</span>
+                            <span class="text-gray-800 text-sm font-medium flex-auto self-center block text-center lg:text-left mb-4 lg:mb-0">localizations</span>
                             <span class="flex-auto lg:text-right inline-block self-center lg:pr-6">
                                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-sm inline-block text-xs">All</a>
                             </span>

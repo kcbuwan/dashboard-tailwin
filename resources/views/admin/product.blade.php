@@ -115,7 +115,7 @@
                         <td class="text-sm p-4 pt-2 pb-2 text-gray-700" style="width: 50px;">
                             1
                         </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700">Tester US Product	</td>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 w-64">Tester US Product	</td>
                         <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
                             <span class="bg-gray-300 inline-block px-3 p-1 rounded-sm">Australia</span>
                         </td>
@@ -846,31 +846,31 @@
                 </tfoot>
             </table>
         </div>
-        <div class="md:flex p-4 pt-0 pb-4">
-            <div class="mb-4 md:mb-0 md:w-1/2 self-center text-center md:text-left">
-                <ul class="flex flex-end pl-0 list-none rounded mx-auto">
-                    <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 ml-0 rounded-l hover:bg-gray-400">
+        <div class="flex flex-wrap p-4 pt-4 pb-4">
+            <div class="mb-4 md:mb-0 w-full md:w-1/2">
+                <ul class="md:flex pl-0 list-none rounded mx-auto text-center">
+                    <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 ml-0 rounded-l hover:bg-gray-400">
                         <a href="#">
                             <i class="fas fa-angle-double-left"></i>
                         </a>
                     </li>
-                    <li class="text-md block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 border-r-0">
+                    <li class="text-md inline-block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 md:border-r-0">
                         <a href="#">1</a>
                     </li>
-                    <li class="text-md block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-gray-400">
+                    <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
                         <a href="#">2</a>
                     </li>
-                    <li class="text-md block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-gray-400">
+                    <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
                         <a href="#">3</a>
                     </li>
-                    <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
+                    <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
                         <a href="#">
                             <i class="fas fa-angle-double-right"></i>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="md:w-1/2 text-center md:text-right">
+            <div class="w-full md:w-1/2 text-center md:text-right">
                 <div class="inline-flex">
                     <div class="relative">
                         <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">

@@ -5,8 +5,9 @@
 @endsection
 
 @section('content')
-        
-    <div class="lg:mt-0 rounded shadow bg-white mb-6 ">
+<div class="flex flex-wrap">   
+    
+    <div class="w-full lg:w-3/4 rounded-sm shadow bg-white pb-4 text-gray-700 mb-6 lg:mt-0">
         <div class="flex border-b border-grey-light p-4 font-medium">
             <h2 class="uppercase pull-right pr-4">Media Manager</h2>
         </div>
@@ -63,297 +64,316 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap lg:mt-0 p-4 lg:pr-2">
-            <div class="w-full lg:w-1/4 text-gray-700">
-                <div class="lg:mt-0 lg:mr-4">
-                    <div class="rounded-sm border border-solid border-gray-300 mb-1">
-                        <div class="bg-gray-200 border-b border-grey-light p-3 pt-2 pb-2">
-                            <span class="font-medium pr-4">Types</span>
+        <div class="flex flex-wrap lg:mt-0 p-4 px-4 lg:px-1">
+                
+            <div class="w-full md:w-1/3 lg:w-1/3 lg:px-3 py-2">
+                
+                <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
+                    <div class="md:flex p-2">
+                        <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/400/200/">
+                        <div class="text-center md:text-left">
+                        <h2 class="text-md font-medium text-gray-800">Snapshot.jpg</h2>
+                        <div class="text-gray-600 text-sm mb-1">Snapshot</div>
+                        <div class="text-gray-600 text-xs">32x32 - 754 bytes</div>
+                        <div class="text-gray-600 text-xs">2017-04-08 06:47:43</div>
                         </div>
-                        <div class="p-3">
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio" name="documents" value="documents">
-                                <span class="text-sm font-medium">
-                                    Documents
-                                </span>
-                            </label>
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio" name="images" value="images">
-                                <span class="text-sm font-medium">
-                                    Images
-                                </span>
-                            </label>
-                            
-                        </div>
-
-                        <div class="bg-gray-200 border-b border-grey-light p-3 pt-2 pb-2">
-                            <span class="font-medium pr-4">Mimes</span>
-                        </div>
-
-                        <div class="p-3">
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio">
-                                <span class="text-sm font-medium">
-                                     application/vnd.openxmlformats-officedocument.spre
-                                </span>
-                            </label>
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio">
-                                <span class="text-sm font-medium">
-                                    image/jpeg
-                                </span>
-                            </label>
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio">
-                                <span class="text-sm font-medium">
-                                     image/png
-                                </span>
-                            </label>
-                            
-                        </div>
-
-                        <div class="bg-gray-200 border-b border-grey-light p-3 pt-2 pb-2">
-                            <span class="font-medium pr-4">Meta</span>
-                        </div>
-
-                        <div class="p-3">
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio">
-                                <span class="text-sm font-medium">
-                                     Has Title
-                                </span>
-                            </label>
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio">
-                                <span class="text-sm font-medium">
-                                    Has Description
-                                </span>
-                            </label>
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio">
-                                <span class="text-sm font-medium">
-                                    No Title
-                                </span>
-                            </label>
-
-                            <label class="flex text-gray-700 bg-gray-100 p-2 rounded mb-1">
-                                <input class="inline-flex mr-2 mt-1" type="radio">
-                                <span class="text-sm font-medium">
-                                    No Description
-                                </span>
-                            </label>
-                            
-                        </div>
-                        
                     </div>
-
+                    <div class="border-t border-grey-light p-2">
+                        <div class="text-center">
+                            <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                Edit Meta
+                            </a>
+                            <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                Delete Forever
+                            </a>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
-            <div class="w-full lg:w-3/4">
-                <div class="flex flex-wrap mb-4">
-                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
-                        
-                        <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
-                            <div class="md:flex p-2">
-                                <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/400/200/">
-                                <div class="text-center md:text-left">
-                                <h2 class="text-md font-medium text-gray-800">Snapshot.jpg</h2>
-                                <div class="text-gray-600 text-sm mb-1">Snapshot</div>
-                                <div class="text-gray-600 text-xs">32x32 - 754 bytes</div>
-                                <div class="text-gray-600 text-xs">2017-04-08 06:47:43</div>
-                                </div>
-                            </div>
-                            <div class="border-t border-grey-light p-2">
-                                <div class="text-center">
-                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                        Edit Meta
-                                    </a>
-                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                        Delete Forever
-                                    </a>
-                                </div>
-                            </div>
+            <div class="w-full md:w-1/3 lg:w-1/3 lg:px-3 py-2">
+                
+                <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
+                    <div class="md:flex p-2">
+                        <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
+                        <div class="text-center md:text-left">
+                        <h2 class="text-md font-medium text-gray-800">alpha.png</h2>
+                        <div class="text-gray-600 text-sm mb-1">No description Set.</div>
+                        <div class="text-gray-600 text-xs">500x500 - 182 KB</div>
+                        <div class="text-gray-600 text-xs">2018-02-08 17:57:46</div>
                         </div>
-                        
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
-                        
-                        <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
-                            <div class="md:flex p-2">
-                                <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                                <div class="text-center md:text-left">
-                                <h2 class="text-md font-medium text-gray-800">alpha.png</h2>
-                                <div class="text-gray-600 text-sm mb-1">No description Set.</div>
-                                <div class="text-gray-600 text-xs">500x500 - 182 KB</div>
-                                <div class="text-gray-600 text-xs">2018-02-08 17:57:46</div>
-                                </div>
-                            </div>
-                            <div class="border-t border-grey-light p-2">
-                                <div class="text-center">
-                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                        Edit Meta
-                                    </a>
-                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                        Delete Forever
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="border-t border-grey-light p-2">
+                        <div class="text-center">
+                            <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                Edit Meta
+                            </a>
+                            <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                Delete Forever
+                            </a>
                         </div>
-                        
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
-                        
-                        <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
-                            <div class="md:flex p-2">
-                                <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/400/200/sports/">
-                                <div class="text-center md:text-left">
-                                <h2 class="text-md font-medium text-gray-800">mockup1-352x332.jpg</h2>
-                                <div class="text-gray-600 text-sm mb-1">Mockup1</div>
-                                <div class="text-gray-600 text-xs">538x580 - 207 KB</div>
-                                <div class="text-gray-600 text-xs">2017-11-14 16:21:17</div>
-                                </div>
-                            </div>
-                            <div class="border-t border-grey-light p-2">
-                                <div class="text-center">
-                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                        Edit Meta
-                                    </a>
-                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                        Delete Forever
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
-                        
-                        <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
-                            <div class="md:flex p-2">
-                                <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="https://via.placeholder.com/150C/O https://placeholder.com/">
-                                <div class="text-center md:text-left">
-                                <h2 class="text-md font-medium text-gray-800">placeholder.jpg</h2>
-                                <div class="text-gray-600 text-sm mb-1">Placeholder</div>
-                                <div class="text-gray-600 text-xs">352x332 - 15 KB</div>
-                                <div class="text-gray-600 text-xs">2017-10-27 17:01:47</div>
-                                </div>
-                            </div>
-                            <div class="border-t border-grey-light p-2">
-                                <div class="text-center">
-                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                        Edit Meta
-                                    </a>
-                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                        Delete Forever
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
-                        
-                        <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
-                            <div class="md:flex p-2">
-                                <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="https://via.placeholder.com/150C/O https://placeholder.com/">
-                                <div class="text-center md:text-left">
-                                <h2 class="text-md font-medium text-gray-800">Devil's Ivy.jpg</h2>
-                                <div class="text-gray-600 text-sm mb-1">No description Set.</div>
-                                <div class="text-gray-600 text-xs">400x578 - 44 KB</div>
-                                <div class="text-gray-600 text-xs">2017-05-10 10:16:11</div>
-                                </div>
-                            </div>
-                            <div class="border-t border-grey-light p-2">
-                                <div class="text-center">
-                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                        Edit Meta
-                                    </a>
-                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                        Delete Forever
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
-                        
-                        <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
-                            <div class="md:flex p-2">
-                                <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                                <div class="text-center md:text-left">
-                                <h2 class="text-md font-medium text-gray-800">Tongue.jpg</h2>
-                                <div class="text-gray-600 text-sm mb-1">No description</div>
-                                <div class="text-gray-600 text-xs">187x270 - 7 KB</div>
-                                <div class="text-gray-600 text-xs">2017-05-10 10:16:14</div>
-                                </div>
-                            </div>
-                            <div class="border-t border-grey-light p-2">
-                                <div class="text-center">
-                                    <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                        Edit Meta
-                                    </a>
-                                    <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                        Delete Forever
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <div class="w-full md:w-1/3 lg:w-1/3 lg:px-2 py-2">
-                        
-                        <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
-                            <div class="md:flex p-2">
-                                <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                                <div class="text-center md:text-left">
-                                <h2 class="text-md font-medium text-gray-800">suzuki-blue_7.png</h2>
-                                <div class="text-gray-600 text-sm mb-1">No description</div>
-                                <div class="text-gray-600 text-xs">187x270 - 7 KB</div>
-                                <div class="text-gray-600 text-xs">2017-05-10 10:16:14</div>
-                                </div>
-                            </div>
-                            <div class="flex flex-wrap border-t border-grey-light p-2 sm:text-center">
-                                <a href="#" class="rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
-                                    Edit Meta
-                                </a>
-                                <a href="#" class="rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
-                                    Delete Forever
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
                 </div>
+                
             </div>
-            <div class="flex w-full mt-4 p-4 pb-1 border-t border-grey-light">
-                <ul class="flex flex-end pl-0 list-none rounded mx-auto">
-                    <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 ml-0 rounded-l hover:bg-gray-400">
-                        <a href="#">
-                            <i class="fas fa-angle-double-left"></i>
-                        </a>
+            <div class="w-full md:w-1/3 lg:w-1/3 lg:px-3 py-2">
+                
+                <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
+                    <div class="md:flex p-2">
+                        <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/400/200/sports/">
+                        <div class="text-center md:text-left">
+                        <h2 class="text-md font-medium text-gray-800">mockup1-352x332.jpg</h2>
+                        <div class="text-gray-600 text-sm mb-1">Mockup1</div>
+                        <div class="text-gray-600 text-xs">538x580 - 207 KB</div>
+                        <div class="text-gray-600 text-xs">2017-11-14 16:21:17</div>
+                        </div>
+                    </div>
+                    <div class="border-t border-grey-light p-2">
+                        <div class="text-center">
+                            <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                Edit Meta
+                            </a>
+                            <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                Delete Forever
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-full md:w-1/3 lg:w-1/3 lg:px-3 py-2">
+                
+                <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
+                    <div class="md:flex p-2">
+                        <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="https://via.placeholder.com/150C/O https://placeholder.com/">
+                        <div class="text-center md:text-left">
+                        <h2 class="text-md font-medium text-gray-800">placeholder.jpg</h2>
+                        <div class="text-gray-600 text-sm mb-1">Placeholder</div>
+                        <div class="text-gray-600 text-xs">352x332 - 15 KB</div>
+                        <div class="text-gray-600 text-xs">2017-10-27 17:01:47</div>
+                        </div>
+                    </div>
+                    <div class="border-t border-grey-light p-2">
+                        <div class="text-center">
+                            <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                Edit Meta
+                            </a>
+                            <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                Delete Forever
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-full md:w-1/3 lg:w-1/3 lg:px-3 py-2">
+                
+                <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
+                    <div class="md:flex p-2">
+                        <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="https://via.placeholder.com/150C/O https://placeholder.com/">
+                        <div class="text-center md:text-left">
+                        <h2 class="text-md font-medium text-gray-800">Devil's Ivy.jpg</h2>
+                        <div class="text-gray-600 text-sm mb-1">No description Set.</div>
+                        <div class="text-gray-600 text-xs">400x578 - 44 KB</div>
+                        <div class="text-gray-600 text-xs">2017-05-10 10:16:11</div>
+                        </div>
+                    </div>
+                    <div class="border-t border-grey-light p-2">
+                        <div class="text-center">
+                            <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                Edit Meta
+                            </a>
+                            <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                Delete Forever
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-full md:w-1/3 lg:w-1/3 lg:px-3 py-2">
+                
+                <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
+                    <div class="md:flex p-2">
+                        <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
+                        <div class="text-center md:text-left">
+                        <h2 class="text-md font-medium text-gray-800">Tongue.jpg</h2>
+                        <div class="text-gray-600 text-sm mb-1">No description</div>
+                        <div class="text-gray-600 text-xs">187x270 - 7 KB</div>
+                        <div class="text-gray-600 text-xs">2017-05-10 10:16:14</div>
+                        </div>
+                    </div>
+                    <div class="border-t border-grey-light p-2">
+                        <div class="text-center">
+                            <a href="#" class="inline-block rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                Edit Meta
+                            </a>
+                            <a href="#" class="inline-block rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                Delete Forever
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="w-full md:w-1/3 lg:w-1/3 lg:px-3 py-2">
+                
+                <div class="bg-gray-100 rounded-sm border-solid border-gray-400 border">
+                    <div class="md:flex p-2">
+                        <img class="h-16 w-16 md:h-15 md:w-15 rounded-sm mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
+                        <div class="text-center md:text-left">
+                        <h2 class="text-md font-medium text-gray-800">suzuki-blue_7.png</h2>
+                        <div class="text-gray-600 text-sm mb-1">No description</div>
+                        <div class="text-gray-600 text-xs">187x270 - 7 KB</div>
+                        <div class="text-gray-600 text-xs">2017-05-10 10:16:14</div>
+                        </div>
+                    </div>
+                    <div class="border-t border-grey-light p-2">
+                        <div class="text-center">
+                            <a href="#" class="rounded-sm bg-blue-400 hover:bg-blue-500 text-white text-xs font-sm p-1 px-2 mr-2">
+                                Edit Meta
+                            </a>
+                            <a href="#" class="rounded-sm bg-red-600 hover:bg-red-700 text-white text-xs font-sm p-1 px-2">
+                                Delete Forever
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="flex w-full mt-4 p-4 border-t border-grey-light">
+            <ul class="flex flex-end pl-0 list-none rounded mx-auto">
+                <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 ml-0 rounded-l hover:bg-gray-400">
+                    <a href="#">
+                        <i class="fas fa-angle-double-left"></i>
+                    </a>
+                </li>
+                <li class="text-md block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 border-r-0">
+                    <a href="#">1</a>
+                </li>
+                <li class="text-md block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-gray-400">
+                    <a href="#">2</a>
+                </li>
+                <li class="text-md block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-gray-400">
+                    <a href="#">3</a>
+                </li>
+                <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
+                    <a href="#">
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+    <div class="w-full lg:w-1/4 text-gray-700">
+        <div class="lg:ml-6 mb-6">
+            <div class="rounded-sm shadow bg-white pb-2 mb-6">
+                <div class="flex border-b border-grey-light p-4 pt-2 pb-2 mb-2 font-medium">
+                    <h2 class="uppercase pull-right pr-4">Types</h2>
+                </div>
+                <ul class="list-reset">
+                    <li class="border-b border-gray-100 mx-3">
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio" name="documents" value="documents">
+                            <span class="text-sm font-medium">
+                                Documents
+                            </span>
+                        </label>
                     </li>
-                    <li class="text-md block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 border-r-0">
-                        <a href="#">1</a>
-                    </li>
-                    <li class="text-md block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-gray-400">
-                        <a href="#">2</a>
-                    </li>
-                    <li class="text-md block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white border-r-0 hover:bg-gray-400">
-                        <a href="#">3</a>
-                    </li>
-                    <li class="text-md block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
-                        <a href="#">
-                            <i class="fas fa-angle-double-right"></i>
-                        </a>
+                    <li class="border-b border-gray-100 mx-3">
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio" name="image" value="images">
+                            <span class="text-sm font-medium">
+                                Images
+                            </span>
+                        </label>
                     </li>
                 </ul>
             </div>
-        </div>
 
+            <div class="rounded-sm shadow bg-white pb-2 mb-6">
+                <div class="flex border-b border-grey-light p-4 pt-2 pb-2 mb-2 font-medium">
+                    <h2 class="uppercase pull-right pr-4">Mimes</h2>
+                </div>
+                <ul class="list-reset">
+                    <li class="border-b border-gray-100 mx-3">
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio">
+                            <span class="text-sm font-medium">
+                                    application/vnd.openxmlformats-officedocument.spre
+                            </span>
+                        </label>
+                    </li>
+                    <li class="border-b border-gray-100 mx-3">
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio">
+                            <span class="text-sm font-medium">
+                                image/jpeg
+                            </span>
+                        </label>
+                    </li>
+                    <li class="border-b border-gray-100 mx-3">
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio">
+                            <span class="text-sm font-medium">
+                                    image/png
+                            </span>
+                        </label>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="rounded-sm shadow bg-white pb-2 mb-6">
+                <div class="flex border-b border-grey-light p-4 pt-2 pb-2 mb-2 font-medium">
+                    <h2 class="uppercase pull-right pr-4">Mimes</h2>
+                </div>
+                <ul class="list-reset">
+                    <li class="border-b border-gray-100 mx-3">
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio">
+                            <span class="text-sm font-medium">
+                                    Has Title
+                            </span>
+                        </label>
+                    </li>
+                    <li class="border-b border-gray-100 mx-3">
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio">
+                            <span class="text-sm font-medium">
+                                Has Description
+                            </span>
+                        </label>
+                    </li>
+                    <li class="border-b border-gray-100 mx-3">
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio">
+                            <span class="text-sm font-medium">
+                                No Title
+                            </span>
+                        </label>
+                    </li>
+                    <li class="border-b border-gray-100 mx-3">
+
+                        <label class="bg-gray-200 text-gray-700 hover:text-blue-500 block text-sm font-medium py-2 px-4">
+                            <input class="inline-flex mr-2 mt-1" type="radio">
+                            <span class="text-sm font-medium">
+                                No Description
+                            </span>
+                        </label>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
     </div>
+</div>
 
 @endsection
 
