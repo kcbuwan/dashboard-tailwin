@@ -18,8 +18,8 @@
             
             <table class="w-full">
                 <tbody><tr>
-                    <th class="text-sm text-gray-500 font-medium bg-gray-100 p-4 text-left uppercase">User</th>
-                    <th class="text-sm text-gray-500 font-medium bg-gray-100 p-4 text-left uppercase">Role</th>
+                    <th class="text-sm text-gray-600 font-medium bg-gray-100 p-4 text-left uppercase">User</th>
+                    <th class="text-sm text-gray-600 font-medium bg-gray-100 p-4 text-left uppercase">Role</th>
                 </tr>
                 <tr>
                     <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">
@@ -27,18 +27,8 @@
                         <span class="block mb-1 text-xs">BALLINA 2478, New South Wales, Australia</span>
                         5 minutes ago
                     </td>
-                    <td class="p-4 border-solid border-b border-gray-200">
-                        <a href="#" class="text-xs font-medium text-white bg-blue-400 hover:bg-blue-600 rounded py-1 px-4 w-24 text-center">View</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">
-                        <strong class="block mb-1 text-sm">LEE FORSYTH</strong>
-                        <span class="block mb-1 text-xs">BALLINA 2478, New South Wales, Australia</span>
-                        5 minutes ago
-                    </td>
-                    <td class="p-4 border-solid border-b border-gray-200">
-                        <a href="#" class="text-xs font-medium text-white bg-blue-400 hover:bg-blue-600 rounded py-1 px-4 w-24 text-center">View</a>
+                    <td class="p-4 border-solid border-b border-gray-200 text-left">
+                        <a href="#" class="text-xs font-medium text-white bg-blue-400 hover:bg-blue-600 rounded py-1 px-4 w-24 text-center">User</a>
                     </td>
                 </tr>
                 <tr>
@@ -47,7 +37,17 @@
                         <span class="block mb-1 text-xs">BALLINA 2478, New South Wales, Australia</span>
                         5 minutes ago
                     </td>
-                    <td class="p-4 border-solid border-b border-gray-200">
+                    <td class="p-4 border-solid border-b border-gray-200 text-left">
+                        <a href="#" class="text-xs font-medium text-white bg-green-400 hover:bg-green-600 rounded py-1 px-4 w-24 text-center">Administrator</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">
+                        <strong class="block mb-1 text-sm">LEE FORSYTH</strong>
+                        <span class="block mb-1 text-xs">BALLINA 2478, New South Wales, Australia</span>
+                        5 minutes ago
+                    </td>
+                    <td class="p-4 border-solid border-b border-gray-200 text-left">
                         <a href="#" class="text-xs font-medium text-white bg-blue-400 hover:bg-blue-600 rounded py-1 px-4 w-24 text-center">View</a>
                     </td>
                 </tr>
@@ -56,3 +56,4 @@
         </div>
     </div>
 </div>
+

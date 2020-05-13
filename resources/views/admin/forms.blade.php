@@ -100,10 +100,10 @@
             </div>
 
             <div class="w-full mt-4 p-4 bg-gray-200">
+                <a href="#" class="font-medium outline-none text-gray-800 py-1 px-8 inline-flex">Cancel</a>
                 <button class=" font-medium bg-blue-600 hover:bg-blue-700 outline-none focus:border-teal-900 text-white py-1 px-8 rounded-sm inline-flex">
                     Publish
                 </button>
-                <a href="#" class="font-medium outline-none hover:bg-gray-300 focus:border-gray-500 text-gray-800 border border-solid bg-white py-1 px-8 rounded-sm inline-flex">Cancel</a>
             </div>
             
         </div>

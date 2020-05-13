@@ -20,9 +20,11 @@
     
     @yield('header')
 
-    <div class="main-content  mt-6 pl-4 pr-4 md:pl-4 md:pr-4">
-        <div class="container mx-auto">
-            @yield('content')
+    <div id="app">
+        <div id="main-body" class="leading-normal tracking-normal">
+            <div class="flex flex-wrap">
+                @yield('content')
+            </div>
         </div>
     </div>
         
@@ -46,7 +48,7 @@
                 label: 'Pageviews',
                 data: plot,
                 borderWidth: 3,
-                borderColor: 'rgba(101,116,205)',
+                borderColor: 'rgba(3, 169, 244, 0.9)',
                 pointBackgroundColor: 'rgba(101,116,205)',
                 backgroundColor: gradient,
                 }]

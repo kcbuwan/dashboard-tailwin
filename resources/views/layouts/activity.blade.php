@@ -4,13 +4,13 @@
     </div>
     <table class="w-full">
         <tbody><tr>
-            <th class="text-sm text-gray-500 font-medium bg-gray-100 p-4 text-left uppercase">
+            <th class="text-sm text-gray-600 font-medium bg-gray-100 p-4 text-left uppercase">
                 Occurred
             </th>
-            <th class="text-sm text-gray-500 font-medium bg-gray-100 p-4 text-left uppercase">Event</th>
-            <th class="text-sm text-gray-500 font-medium bg-gray-100 p-4 text-left uppercase">User</th>
-            <th class="text-sm text-gray-500 font-medium bg-gray-100 p-4 text-left uppercase">Activity</th>
-            <th class="text-sm text-gray-500 font-medium bg-gray-100 p-4 text-left uppercase"></th>
+            <th class="text-sm text-gray-600 font-medium bg-gray-100 p-4 text-left uppercase">Event</th>
+            <th class="text-sm text-gray-600 font-medium bg-gray-100 p-4 text-left uppercase">User</th>
+            <th class="text-sm text-gray-600 font-medium bg-gray-100 p-4 text-left uppercase">Activity</th>
+            <th class="text-sm text-gray-600 font-medium bg-gray-100 p-4 text-left uppercase"></th>
         </tr>
         <tr>
             <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">
