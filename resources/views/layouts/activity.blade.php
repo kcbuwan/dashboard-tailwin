@@ -1,17 +1,17 @@
 <div class="lg:mt-0 mb-6 ">
-    <div class="py-4 text-xl font-semibold uppercase">
+    <div class="py-4 text-xl font-semibold">
         <h2>Latest Activity</h2>
     </div>
     <div class="rounded shadow-lg bg-white overflow-hidden overflow-x-auto">
         <table class="w-full">
             <tbody><tr>
-                <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-left uppercase">
+                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
                     Occurred
                 </th>
-                <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-left uppercase">Event</th>
-                <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-left uppercase">User</th>
-                <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-left uppercase">Activity</th>
-                <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-left uppercase"></th>
+                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Event</th>
+                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">User</th>
+                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Activity</th>
+                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase"></th>
             </tr>
             <tr>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">
