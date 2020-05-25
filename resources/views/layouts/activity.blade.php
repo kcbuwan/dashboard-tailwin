@@ -1,5 +1,5 @@
 <div class="lg:mt-0 mb-6 ">
-    <div class="py-4 text-xl font-semibold">
+    <div class="text-gray-700 py-4 text-xl font-semibold">
         <h2>Latest Activity</h2>
     </div>
     <div class="rounded shadow-lg bg-white overflow-hidden overflow-x-auto">
