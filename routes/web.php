@@ -96,6 +96,12 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.dashboard-table');
     });
 
+    Route::get('dashboard/dashboard-product', function () {
+        return view('admin.dashboard-product');
+    });
+
+    Route::get('dashboard/dashboard-product-v2', function () {
+        return view('admin.dashboard-product-v2');
+    });
+
 });
-
-
