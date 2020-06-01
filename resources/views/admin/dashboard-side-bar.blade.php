@@ -120,59 +120,59 @@
         </div>
 
         <div class="p-10 bg-gray-200">
-            <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="flex flex-wrap -mx-3">
 
-                <div class="w-1/2 xl:w-1/4 px-3">                
+                <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
                     <div class="w-full bg-white rounded shadow">
-                        <div class="md:flex p-2">
-                            <div class="pl-2 text-gray-700">
-                                <p class="text-sm text-gray-500 font-bold">Unshipped Orders</p>
-                                <p class="font-semibold text-3xl ">237</p>
+                        <div class="p-2">
+                            <div class="pl-2 text-gray-700 text-center">
+                                <p class="text-sm text-gray-600 font-semibold text-base">Unshipped Orders</p>
+                                <p class="font-semibold text-3xl">237</p>
                             </div> 
                         </div>
-                        <div class="bg-gray-100 text-gray-700 rounded text-center text-sm font-semibold p-2">
+                        <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
                             <a href="">View all Orders</a>
                         </div>
                     </div>                
                 </div>
 
-                <div class="w-1/2 xl:w-1/4 px-3">                
+                <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
                     <div class="w-full bg-white rounded shadow">
-                        <div class="md:flex p-2">
-                            <div class="pl-2 text-gray-700">
-                                <p class="text-sm text-gray-500 font-bold">Product Reviews</p>
-                                <p class="font-semibold text-3xl ">177</p>
+                        <div class="p-2">
+                            <div class="pl-2 text-gray-700 text-center">
+                                <p class="text-sm text-gray-600 font-semibold text-base">Product Reviews</p>
+                                <p class="font-semibold text-3xl">177</p>
                             </div> 
                         </div>
-                        <div class="bg-gray-100 text-gray-700 rounded text-center text-sm font-semibold p-2">
+                        <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
                             <a href="">View all Reviews</a>
                         </div>
                     </div>                
                 </div>
 
-                <div class="w-1/2 xl:w-1/4 px-3">                
+                <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
                     <div class="w-full bg-white rounded shadow">
-                        <div class="md:flex p-2">
-                            <div class="pl-2 text-gray-700">
-                                <p class="text-sm text-gray-500 font-bold">New Enquiries</p>
-                                <p class="font-semibold text-3xl ">31</p>
+                        <div class="p-2">
+                            <div class="pl-2 text-gray-700 text-center">
+                                <p class="text-sm text-gray-600 font-semibold text-base">New Enquiries</p>
+                                <p class="font-semibold text-3xl">31</p>
                             </div> 
                         </div>
-                        <div class="bg-gray-100 text-gray-700 rounded text-center text-sm font-semibold p-2">
+                        <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
                             <a href="">View all Enquiries</a>
                         </div>
                     </div>                
                 </div>
 
-                <div class="w-1/2 xl:w-1/4 px-3">                
+                <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
                     <div class="w-full bg-white rounded shadow">
-                        <div class="md:flex p-2">
-                            <div class="pl-2 text-gray-700">
-                                <p class="text-sm text-gray-500 font-bold">Trade Requests</p>
-                                <p class="font-semibold text-3xl ">16</p>
+                        <div class="p-2">
+                            <div class="pl-2 text-gray-700 text-center">
+                                <p class="text-sm text-gray-600 font-semibold text-base">Trade Requests</p>
+                                <p class="font-semibold text-3xl">16</p>
                             </div> 
                         </div>
-                        <div class="bg-gray-100 text-gray-700 rounded text-center text-sm font-semibold p-2">
+                        <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
                             <a href="">View all Requests</a>
                         </div>
                     </div>                
@@ -180,7 +180,7 @@
 
             </div>
             <div class="lg:mt-0 mb-6 ">
-                <div class="text-gray-700 py-4 text-xl font-semibold">
+                <div class="text-gray-700 py-4 pt-0 text-xl font-semibold">
                     <h2>Signup</h2>
                 </div>
                 <div class="bg-white shadow-md rounded overflow-hidden pt-4 pb-4">
