@@ -145,6 +145,7 @@
                             </a>
                             
                         </div>
+
                     </div>
                 </div>
                 <div class="md:w-1/2 text-center md:text-right">
@@ -155,11 +156,11 @@
                                 Add Product
                             </button>
                         </li>
-                        <li>
-                            <button class="block text-xs text-gray-800 bg-white border border-gray-400 hover:border-gray-500 rounded py-1 px-2 h-8 text-center">
-                                <i class="fas fa-ellipsis-h"></i>
+                        <!-- <li>
+                            <button class="block text-xs text-gray-800 bg-white border border-gray-400 hover:border-gray-500 rounded py-2 px-2 h-8 text-center">
+                                <i class="fas fa-plus"></i>
                             </button>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 
@@ -182,9 +183,6 @@
                                 <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Product Name</th>
                                 <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Created At</th>
                                 <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Order</th>
-                                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Warehouse</th>
-                                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Variants</th>
-                                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Quick Links</th>
                                 <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Options</th>
                             </tr>
                         </thead>
@@ -202,45 +200,7 @@
                                 <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 w-32 text-center">
                                     26 Sep, 2019 06:58 pm
                                 </td>
-                                 <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 text-center">2</td>
-                                  <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                                    <span class="bg-gray-300 inline-block px-3 p-1 rounded-sm w-32 text-center">United States</span>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                                    <div class="overflow-hidden inline-flex">
-                                        <span class="bg-white border border-gray-400 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-r-none">2</span>
-                                        <span class="bg-white border border-gray-400 border-l-0 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-l-none">
-                                            <i class="fas fa-info"></i>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <div class="inline-flex">
-                                        <div class="relative">
-                                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                                <option selected="">
-                                                    Information
-                                                </option>
-                                                <option>Inventory</option>
-                                                <option>Features</option>
-                                                <option>Note</option>
-                                                <option>Associations</option>
-                                                <option>Images</option>
-                                                <option>Attachments</option>
-                                                <option>Variants</option>
-                                                <option>Price</option>
-                                                <option>Review</option>
-                                                <option>Related Product</option>
-                                                <option>Shipping</option>
-                                                <option>eBay</option>
-                                            </select>
-                                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
+                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 text-center">2</td>
                                 <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-right">
                                     <ul class="inline-flex">
                                         <li>
@@ -275,44 +235,6 @@
                                     26 Sep, 2019 06:58 pm
                                 </td>
                                 <td class="text-sm p-4 pt-2 pb-2 text-gray-700 text-center">3</td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <span class="bg-gray-300 inline-block px-3 p-1 rounded-sm w-32 text-center">Australia</span>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                                    <div class="overflow-hidden inline-flex">
-                                        <span class="bg-white border border-gray-400 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-r-none">3</span>
-                                        <span class="bg-white border border-gray-400 border-l-0 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-l-none">
-                                            <i class="fas fa-info"></i>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <div class="inline-flex">
-                                        <div class="relative">
-                                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                                <option selected="">
-                                                    Information
-                                                </option>
-                                                <option>Inventory</option>
-                                                <option>Features</option>
-                                                <option>Note</option>
-                                                <option>Associations</option>
-                                                <option>Images</option>
-                                                <option>Attachments</option>
-                                                <option>Variants</option>
-                                                <option>Price</option>
-                                                <option>Review</option>
-                                                <option>Related Product</option>
-                                                <option>Shipping</option>
-                                                <option>eBay</option>
-                                            </select>
-                                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
                                 <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-right">
                                     <ul class="inline-flex">
                                         <li>
@@ -347,44 +269,6 @@
                                     26 Sep, 2019 06:58 pm
                                 </td>
                                 <td class="text-sm p-4 pt-2 pb-2 text-gray-700 text-center">4</td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <span class="bg-gray-300 inline-block px-3 p-1 rounded-sm w-32 text-center">Australia</span>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                                    <div class="overflow-hidden inline-flex">
-                                        <span class="bg-white border border-gray-400 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-r-none">4</span>
-                                        <span class="bg-white border border-gray-400 border-l-0 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-l-none">
-                                            <i class="fas fa-info"></i>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <div class="inline-flex">
-                                        <div class="relative">
-                                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                                <option selected="">
-                                                    Information
-                                                </option>
-                                                <option>Inventory</option>
-                                                <option>Features</option>
-                                                <option>Note</option>
-                                                <option>Associations</option>
-                                                <option>Images</option>
-                                                <option>Attachments</option>
-                                                <option>Variants</option>
-                                                <option>Price</option>
-                                                <option>Review</option>
-                                                <option>Related Product</option>
-                                                <option>Shipping</option>
-                                                <option>eBay</option>
-                                            </select>
-                                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
                                 <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-right">
                                     <ul class="inline-flex">
                                         <li>
@@ -419,44 +303,6 @@
                                     26 Sep, 2019 06:58 pm
                                 </td>
                                 <td class="text-sm p-4 pt-2 pb-2 text-gray-700 text-center">5</td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <span class="bg-gray-300 inline-block px-3 p-1 rounded-sm w-32 text-center">Australia</span>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                                    <div class="overflow-hidden inline-flex">
-                                        <span class="bg-white border border-gray-400 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-r-none">1</span>
-                                        <span class="bg-white border border-gray-400 border-l-0 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-l-none">
-                                            <i class="fas fa-info"></i>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <div class="inline-flex">
-                                        <div class="relative">
-                                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                                <option selected="">
-                                                    Information
-                                                </option>
-                                                <option>Inventory</option>
-                                                <option>Features</option>
-                                                <option>Note</option>
-                                                <option>Associations</option>
-                                                <option>Images</option>
-                                                <option>Attachments</option>
-                                                <option>Variants</option>
-                                                <option>Price</option>
-                                                <option>Review</option>
-                                                <option>Related Product</option>
-                                                <option>Shipping</option>
-                                                <option>eBay</option>
-                                            </select>
-                                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
                                 <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-right">
                                     <ul class="inline-flex">
                                         <li>
@@ -491,44 +337,6 @@
                                     26 Sep, 2019 06:58 pm
                                 </td>
                                 <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 text-center">6</td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                                    <span class="bg-gray-300 inline-block px-3 p-1 rounded-sm w-32 text-center">United States</span>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                                    <div class="overflow-hidden inline-flex">
-                                        <span class="bg-white border border-gray-400 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-r-none">2</span>
-                                        <span class="bg-white border border-gray-400 border-l-0 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-l-none">
-                                            <i class="fas fa-info"></i>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <div class="inline-flex">
-                                        <div class="relative">
-                                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                                <option selected="">
-                                                    Information
-                                                </option>
-                                                <option>Inventory</option>
-                                                <option>Features</option>
-                                                <option>Note</option>
-                                                <option>Associations</option>
-                                                <option>Images</option>
-                                                <option>Attachments</option>
-                                                <option>Variants</option>
-                                                <option>Price</option>
-                                                <option>Review</option>
-                                                <option>Related Product</option>
-                                                <option>Shipping</option>
-                                                <option>eBay</option>
-                                            </select>
-                                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
                                 <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-right">
                                     <ul class="inline-flex">
                                         <li>
@@ -563,44 +371,6 @@
                                     26 Sep, 2019 06:58 pm
                                 </td>
                                 <td class="text-sm p-4 pt-2 pb-2 text-gray-700 text-center">5</td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <span class="bg-gray-300 inline-block px-3 p-1 rounded-sm w-32 text-center">Australia</span>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                                    <div class="overflow-hidden inline-flex">
-                                        <span class="bg-white border border-gray-400 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-r-none">1</span>
-                                        <span class="bg-white border border-gray-400 border-l-0 text-gray-600 inline-block px-3 p-1 rounded-sm rounded-l-none">
-                                            <i class="fas fa-info"></i>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
-                                    <div class="inline-flex">
-                                        <div class="relative">
-                                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                                <option selected="">
-                                                    Information
-                                                </option>
-                                                <option>Inventory</option>
-                                                <option>Features</option>
-                                                <option>Note</option>
-                                                <option>Associations</option>
-                                                <option>Images</option>
-                                                <option>Attachments</option>
-                                                <option>Variants</option>
-                                                <option>Price</option>
-                                                <option>Review</option>
-                                                <option>Related Product</option>
-                                                <option>Shipping</option>
-                                                <option>eBay</option>
-                                            </select>
-                                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
                                 <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-right">
                                     <ul class="inline-flex">
                                         <li>
