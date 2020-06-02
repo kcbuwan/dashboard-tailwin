@@ -152,15 +152,31 @@
                     
                     <ul class="inline-flex mt-1">
                         <li class="mr-2">
+                          <div class="inline-flex">
+                        <div class="relative">
+                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                                <option selected=""></option>
+                                <option>Enable Selected Products</option>
+                                <option>Disable Selected Products</option>
+                                <option>Restore Selected Products</option>
+                                <option>Delete Selected Products</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="mr-2">
                             <button class="block text-sm font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 h-8 text-center uppercase">
                                 Add Product
                             </button>
                         </li>
-                        <!-- <li>
-                            <button class="block text-xs text-gray-800 bg-white border border-gray-400 hover:border-gray-500 rounded py-2 px-2 h-8 text-center">
-                                <i class="fas fa-plus"></i>
-                            </button>
-                        </li> -->
+                        <li>
+                            <a href="#" class="block text-sm font-medium text-gray-600 py-2 px-2">
+                            <i class="fas fa-cog fas fa-cog"></i></a>
+                        </li>
                     </ul>
                 </div>
                 
@@ -405,74 +421,38 @@
                                         <div class="w-1/2 text-left self-center">
                                             <span class="text-sm font-bold">Showing 5 of 5 results</span>
                                         </div>
+
                                         <div class="w-1/2 text-right">
-                                            <div class="inline-flex">
-                                                <div class="relative">
-                                                    <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 pr-8 p-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                                        <option selected="">20</option>
-                                                        <option>40</option>
-                                                        <option>60</option>
-                                                        <option>80</option>
-                                                        <option>100</option>
-                                                        <option>All</option>
-                                                        <option>Reset</option>
-                                                    </select>
-                                                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                                <a href="#" class="block text-xs font-medium text-gray-800 bg-white border border-solid border-gray-400 hover:border-gray-500 rounded-sm py-1 px-2 ml-1">Columns&nbsp;&nbsp;<i class="fas fa-cog fas fa-cog"></i></a>
-                                                
-                                            </div>
+                                          <div class="inline-flex">
+                                            <ul class="md:flex pl-0 list-none rounded mx-auto text-right">
+                                                <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 ml-0 rounded-l hover:bg-gray-400">
+                                                    <a href="#">
+                                                        <i class="fas fa-angle-double-left"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="text-md inline-block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 md:border-r-0">
+                                                    <a href="#">1</a>
+                                                </li>
+                                                <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
+                                                    <a href="#">2</a>
+                                                </li>
+                                                <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
+                                                    <a href="#">3</a>
+                                                </li>
+                                                <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
+                                                    <a href="#">
+                                                        <i class="fas fa-angle-double-right"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                          </div>
                                         </div>
+
                                     </div>
                                 </td>
                             </tr>
                         </tfoot>
                     </table>
-                </div>
-            </div>
-            <div class="flex flex-wrap">
-                <div class="mb-4 md:mb-0 w-full md:w-1/2">
-                    <ul class="md:flex pl-0 list-none rounded mx-auto text-center">
-                        <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 ml-0 rounded-l hover:bg-gray-400">
-                            <a href="#">
-                                <i class="fas fa-angle-double-left"></i>
-                            </a>
-                        </li>
-                        <li class="text-md inline-block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 md:border-r-0">
-                            <a href="#">1</a>
-                        </li>
-                        <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
-                            <a href="#">2</a>
-                        </li>
-                        <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
-                            <a href="#">3</a>
-                        </li>
-                        <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
-                            <a href="#">
-                                <i class="fas fa-angle-double-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-full md:w-1/2 text-center md:text-right">
-                    <div class="inline-flex">
-                        <div class="relative">
-                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                <option selected=""></option>
-                                <option>Enable Selected Products</option>
-                                <option>Disable Selected Products</option>
-                                <option>Restore Selected Products</option>
-                                <option>Delete Selected Products</option>
-                            </select>
-                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
