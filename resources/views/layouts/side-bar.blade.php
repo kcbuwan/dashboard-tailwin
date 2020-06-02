@@ -13,13 +13,7 @@
                    Element 7 Digital
                 </p>
                 <p class="text-sm text-white">
-                    @guest
-                        @if (Route::has('register'))
-                            <a class="no-underline hover:underline text-sm p-3" href="{{ route('register') }}">{{ __('Register') }}</a>
-                        @endif
-                    @else
-                        <span class="text-sm">Hi, {{ Auth::user()->name }}</span>
-                    @endguest
+                    Super Administrator
                 </p>
             </div>
             <a href="#" class="text-sm font-medium text-gray-400 self-center">
