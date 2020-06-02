@@ -89,7 +89,7 @@
                                 <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Product Name</th>
                                 <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Created At</th>
                                 <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Order</th>
-                                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Options</th>
+                                <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase text-center">Options</th>
                             </tr>
                         </thead>
                         <tbody class="mb-4">
