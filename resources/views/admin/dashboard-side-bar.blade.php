@@ -7,7 +7,7 @@
     <div id="main-content" class="w-full bg-gray-100 pl-0 lg:pl-64 min-h-screen">
         
         @include('layouts.header-sticky')
-
+        
         <div class="p-10 bg-gray-200">
             <div class="flex flex-wrap -mx-3">
 
