@@ -87,7 +87,7 @@
                                 </svg>
                             </li>
                             <li class="flex items-center">
-                                <a href="#" class="text-gray-600">Dashboard</a>
+                                <a href="#" class="text-blue-600">Dashboard</a>
                             </li>
                         </ol>
                     </nav>
@@ -123,7 +123,7 @@
                     <div class="inline-flex">                            
                         <div class="relative mb-4 lg:mb-0">
                             <span class="w-full algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;">
-                                <input id="docsearch" class="transition focus:outline-0 border border-transparent focus:bg-white focus:border-gray-300 placeholder-gray-600 bg-white py-2 pr-4 pl-4 h-10 block w-full appearance-none leading-normal ds-input rounded" type="text" placeholder="Search.." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-label="search input" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
+                                <input id="docsearch" class="form-input block transition focus:outline-0 border border-transparent focus:bg-white focus:border-gray-300 placeholder-gray-600 bg-white py-2 pr-4 pl-4 h-10 block w-full appearance-none leading-normal ds-input rounded" type="text" placeholder="Search.." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-label="search input" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
                                 <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
                                 <span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; left: 0px; right: auto; display: none;">
                                     <div class="ds-dataset-1"></div>
@@ -137,45 +137,40 @@
                             </div>
                         </div>
                         <div class="relative lg:mb-0">
-                            <a href="#" class="ml-2 bg-gray-500 hover:bg-gray-600 outline-none focus:border-teal-900 rounded text-white py-3 px-2 inline-flex text-sm font-medium">
+                            <a href="#" class="ml-2 bg-blue-500 hover:bg-blue-600 outline-none focus:border-blue-900 rounded text-white py-3 px-2 inline-flex text-sm font-medium">
                                 <i class="fas fa-filter"></i>
                                 <span class="pointer-events-none inset-y-0 right-0 flex items-center pl-2 text-white">
                                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
                                 </span>
-                            </a>
-                            
+                            </a> 
                         </div>
-
                     </div>
                 </div>
+
                 <div class="md:w-1/2 text-center md:text-right">
-                    
                     <ul class="inline-flex mt-1">
                         <li class="mr-2">
-                          <div class="inline-flex">
-                        <div class="relative">
-                            <select class="rounded-sm appearance-none text-gray-700 border border-gray-400 px-3 pr-6 h-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                <option selected=""></option>
-                                <option>Enable Selected Products</option>
-                                <option>Disable Selected Products</option>
-                                <option>Restore Selected Products</option>
-                                <option>Delete Selected Products</option>
-                            </select>
-                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"><svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-                                </svg>
+                            <div class="inline-flex">
+                                <label class="block">
+                                    <select class="form-select mt-1 block w-full">
+                                        <option selected=""></option>
+                                        <option>Enable Selected Products</option>
+                                        <option>Disable Selected Products</option>
+                                        <option>Restore Selected Products</option>
+                                        <option>Delete Selected Products</option>
+                                    </select>
+                                </label>
                             </div>
-                        </div>
-                    </div>
                         </li>
-                        <li class="mr-2">
-                            <button class="block text-sm font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 h-8 text-center uppercase">
+                        <li class="mr-1">
+                            <button class="block text-sm font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-2 mt-1 h-10 px-4 text-center uppercase">
                                 Add Product
                             </button>
                         </li>
                         <li>
-                            <a href="#" class="block text-sm font-medium text-gray-600 py-2 px-2">
-                            <i class="fas fa-cog fas fa-cog"></i></a>
+                            <a href="#" class="ml-1 bg-blue-500 hover:bg-blue-600 outline-none focus:border-blue-900 rounded text-white py-3 mt-1 h-10 px-4 inline-flex text-sm font-medium">
+                                <i class="fas fa-cog fas fa-cog"></i></a>
+                            </a>
                         </li>
                     </ul>
                 </div>
