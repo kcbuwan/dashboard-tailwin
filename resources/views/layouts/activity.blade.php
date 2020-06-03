@@ -20,8 +20,10 @@
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">User Login</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital (admin@element7digital.com.au) has just logged in.</td>
-                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium">
-                    <a href="#" class="text-xs font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 w-24 block text-center">View</a>
+                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium text-center">
+                    <a href="#" class="text-xs text-gray-800 border-solid bg-white border border-gray-400 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 h-8 text-center">
+                        <i class="fas fa-eye"></i>
+                    </a>
                 </td>
             </tr>
             <tr>
@@ -31,8 +33,10 @@
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">User Login</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital (admin@element7digital.com.au) has just logged in.</td>
-                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium">
-                    <a href="#" class="text-xs font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 w-24 block text-center">View</a>
+                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium text-center">
+                    <a href="#" class="text-xs text-gray-800 border-solid bg-white border border-gray-400 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 h-8 text-center">
+                        <i class="fas fa-eye"></i>
+                    </a>
                 </td>
             </tr>
             <tr>
@@ -42,8 +46,10 @@
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">User Login</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital (admin@element7digital.com.au) has just logged in.</td>
-                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium">
-                    <a href="#" class="text-xs font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 w-24 block text-center">View</a>
+                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium text-center">
+                    <a href="#" class="text-xs text-gray-800 border-solid bg-white border border-gray-400 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 h-8 text-center">
+                        <i class="fas fa-eye"></i>
+                    </a>
                 </td>
             </tr>
             <tr>
@@ -53,8 +59,10 @@
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">User Login</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital (admin@element7digital.com.au) has just logged in.</td>
-                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium">
-                    <a href="#" class="text-xs font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 w-24 block text-center">View</a>
+                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium text-center">
+                    <a href="#" class="text-xs text-gray-800 border-solid bg-white border border-gray-400 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 h-8 text-center">
+                        <i class="fas fa-eye"></i>
+                    </a>
                 </td>
             </tr>
             <tr>
@@ -64,8 +72,10 @@
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">User Login</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital</td>
                 <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">Element 7 Digital (admin@element7digital.com.au) has just logged in.</td>
-                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium">
-                    <a href="#" class="text-xs font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 w-24 block text-center">View</a>
+                <td class="p-4 text-gray-700 border-solid border-b border-gray-200 font-medium text-center">
+                    <a href="#" class="text-xs text-gray-800 border-solid bg-white border border-gray-400 hover:border-gray-500 rounded-sm py-1 px-2 mr-1 h-8 text-center">
+                        <i class="fas fa-eye"></i>
+                    </a>
                 </td>
             </tr>
             </tbody>
