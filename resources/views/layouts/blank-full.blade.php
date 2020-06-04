@@ -31,6 +31,7 @@
     @yield('footer')
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
         <script>
 
             var plot = [107,132,95,42,27,55,197,191,165,334,217,152,123,3598,878,311,215,130,101,100,136,207,129,112,98,123,64,249,131,126,13];
@@ -49,7 +50,7 @@
                 data: plot,
                 borderWidth: 3,
                 borderColor: 'rgba(3, 169, 244, 0.9)',
-                pointBackgroundColor: 'rgba(101,116,205)',
+                pointBackgroundColor: 'rgba(66,153,225,1)',
                 backgroundColor: gradient,
                 }]
             },
@@ -92,6 +93,115 @@
             }
         });
         
+    </script>
+    <script>
+        function app() {
+        return {
+            chartData: [112, 10, 225, 134, 101, 80, 50, 100, 200],
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+
+            tooltipContent: '',
+            tooltipOpen: false,
+            tooltipX: 0,
+            tooltipY: 0,
+            showTooltip(e) {
+            console.log(e);
+            this.tooltipContent = e.target.textContent
+            this.tooltipX = e.target.offsetLeft - e.target.clientWidth;
+            this.tooltipY = e.target.clientHeight + e.target.clientWidth;
+            },
+            hideTooltip(e) {
+            this.tooltipContent = '';
+            this.tooltipOpen = false;
+            this.tooltipX = 0;
+            this.tooltipY = 0;
+            }
+        }
+        }
+    </script>
+
+    <script>
+            window.chartColors = {
+                green: 'rgb(104, 211, 145, 1)',
+                yellow: 'rgb(236, 201, 75)',
+                red: 'rgb(252, 129, 129, 1)',
+            };
+
+            Chart.defaults.global.tooltips.custom = function(tooltip) {
+            // Tooltip Element
+            var tooltipEl = document.getElementById('chartjs-tooltip');
+
+            // Hide if no tooltip
+            if (tooltip.opacity === 0) {
+                tooltipEl.style.opacity = 0;
+                return;
+            }
+
+            // Set Text
+            if (tooltip.body) {
+                var total = 0;
+
+                // get the value of the datapoint
+                var value = this._data.datasets[tooltip.dataPoints[0].datasetIndex].data[tooltip.dataPoints[0].index].toLocaleString();
+
+                // calculate value of all datapoints
+            this._data.datasets[tooltip.dataPoints[0].datasetIndex].data.forEach(function(e) {
+                total += e;
+                });
+
+                // calculate percentage and set tooltip value
+                tooltipEl.innerHTML = '<h1>' + (value / total * 100) + '%</h1>';
+            }
+
+            // calculate position of tooltip
+            var centerX = (this._chartInstance.chartArea.left + this._chartInstance.chartArea.right) / 2;
+            var centerY = ((this._chartInstance.chartArea.top + this._chartInstance.chartArea.bottom) / 2);
+
+            // Display, position, and set styles for font
+            tooltipEl.style.opacity = 1;
+            tooltipEl.style.left = centerX + 'px';
+            tooltipEl.style.top = centerY + 'px';
+            tooltipEl.style.fontFamily = tooltip._fontFamily;
+            tooltipEl.style.fontSize = tooltip.fontSize;
+            tooltipEl.style.fontStyle = tooltip._fontStyle;
+            tooltipEl.style.padding = tooltip.yPadding + 'px ' + tooltip.xPadding + 'px';
+            };
+
+            var config = {
+            type: 'doughnut',
+            data: {
+                datasets: [{
+                data: [300, 40, 10],
+                backgroundColor: [
+                    window.chartColors.green,
+                    window.chartColors.yellow,
+                    window.chartColors.red,
+                ],
+                }],
+                labels: [
+                "Orders",
+                "Pending",
+                "Rejected"
+                ]
+            },
+            options: {
+                responsive: true,
+                legend: {
+                display: true,
+                labels: {
+                    padding: 20
+                },
+                },
+                tooltips: {
+                enabled: false,
+                }
+            }
+            };
+
+            window.onload = function() {
+                var ctx = document.getElementById("chart-area").getContext("2d");
+                window.myPie = new Chart(ctx, config);
+            };
     </script>
 
 </body>
