@@ -104,4 +104,20 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.dashboard-product-v2');
     });
 
+    Route::get('dashboard/media-manager-side', function () {
+        return view('admin.media-manager-side');
+    });
+
+    Route::get('dashboard/website-setting-side', function () {
+        return view('admin.website-setting-side');
+    });
+
+    Route::get('dashboard/permissions-side', function () {
+        return view('admin.permissions-side');
+    });
+
+    Route::get('dashboard/login', function () {
+        return view('admin.login');
+    });
+
 });
