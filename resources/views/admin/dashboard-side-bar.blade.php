@@ -4,11 +4,12 @@
 
     @include('layouts.side-bar')
 
-    <div id="main-content" class="w-full bg-gray-100 pl-0 lg:pl-64 min-h-screen">
+    <div id="main-content" class="w-full bg-gray-200 pl-0 lg:pl-64 min-h-screen">
         
         @include('layouts.header-sticky')
         
         <div class="p-10 bg-gray-200">
+
             <div class="flex flex-wrap -mx-3">
 
                 <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
@@ -80,8 +81,11 @@
                     </div>
                 </div>
             </div>
+
             @include('layouts.activity')
             @include('layouts.chart')
+            
         </div>
+
     </div>
 @endsection
