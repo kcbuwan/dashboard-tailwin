@@ -20,7 +20,7 @@
                                 <p class="font-semibold text-3xl">237</p>
                             </div> 
                         </div>
-                        <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
+                        <div class="bg-gray-100 text-teal-600 rounded text-center text-sm font-semibold p-2">
                             <a href="">View all Orders</a>
                         </div>
                     </div>                
@@ -34,7 +34,7 @@
                                 <p class="font-semibold text-3xl">177</p>
                             </div> 
                         </div>
-                        <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
+                        <div class="bg-gray-100 text-teal-600 rounded text-center text-sm font-semibold p-2">
                             <a href="">View all Reviews</a>
                         </div>
                     </div>                
@@ -48,7 +48,7 @@
                                 <p class="font-semibold text-3xl">31</p>
                             </div> 
                         </div>
-                        <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
+                        <div class="bg-gray-100 text-teal-600 rounded text-center text-sm font-semibold p-2">
                             <a href="">View all Enquiries</a>
                         </div>
                     </div>                
@@ -62,7 +62,7 @@
                                 <p class="font-semibold text-3xl">16</p>
                             </div> 
                         </div>
-                        <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
+                        <div class="bg-gray-100 text-teal-600 rounded text-center text-sm font-semibold p-2">
                             <a href="">View all Requests</a>
                         </div>
                     </div>                
