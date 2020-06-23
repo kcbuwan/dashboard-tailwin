@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="bg-gray-100 font-sans">
+<body class="bg-gray-200 font-sans">
     
     @yield('header')
 

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
-<body class="bg-gray-100 h-screen antialiased leading-none">
+<body class="bg-gray-200 h-screen antialiased leading-none">
     <div id="app">
         <nav class="bg-blue-900 shadow mb-8 py-6">
             <div class="container mx-auto px-6 md:px-0">
