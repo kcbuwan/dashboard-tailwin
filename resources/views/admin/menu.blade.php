@@ -46,7 +46,7 @@
                         </div>
                      </td>
                      <td class="p-3 text-gray-700 border-solid border-b border-gray-200">
-                        <a href="/dashboard/add-menu" class="bg-blue-400 hover:bg-blue-500 text-gray-100 inline-block px-3 p-2 rounded text-sm">Add Menu</a>
+                        <a href="/add-menu" class="bg-blue-400 hover:bg-blue-500 text-gray-100 inline-block px-3 p-2 rounded text-sm">Add Menu</a>
                      </td>
                   </tr>
                   <tr>
@@ -61,7 +61,7 @@
                         </div>
                      </td>
                      <td class="p-3 text-gray-700 border-solid border-b border-gray-200">
-                        <a href="/dashboard/add-menu" class="bg-blue-400 hover:bg-blue-500 text-gray-100 inline-block px-3 p-2 rounded text-sm">Add Menu</a>
+                        <a href="/add-menu" class="bg-blue-400 hover:bg-blue-500 text-gray-100 inline-block px-3 p-2 rounded text-sm">Add Menu</a>
                      </td>
                   </tr>
                </tbody>

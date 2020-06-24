@@ -21,52 +21,52 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['middleware' => ['auth','admin']], function () {
 
-    Route::get('dashboard/product-edit-sidebar', function () {
-        return view('admin.product-edit-sidebar');
+    Route::get('dashboard', function () {
+        return view('admin.dashboard');
     });
 
-    Route::get('dashboard/website-setting', function () {
+    Route::get('product-edit', function () {
+        return view('admin.product-edit');
+    });
+
+    Route::get('website-setting', function () {
         return view('admin.website-setting');
     });
 
-    Route::get('dashboard/data-import', function () {
+    Route::get('data-import', function () {
         return view('admin.data-import');
     });
 
-    Route::get('dashboard/dashboard-side-bar', function () {
-        return view('admin.dashboard-side-bar');
-    });
-
-    Route::get('dashboard/dashboard-table', function () {
+    Route::get('dashboard-table', function () {
         return view('admin.dashboard-table');
     });
 
-    Route::get('dashboard/dashboard-product-v2', function () {
-        return view('admin.dashboard-product-v2');
+    Route::get('product', function () {
+        return view('admin.product');
     });
 
-    Route::get('dashboard/media-manager-side', function () {
-        return view('admin.media-manager-side');
+    Route::get('media-manager', function () {
+        return view('admin.media-manager');
     });
 
-    Route::get('dashboard/website-setting-side', function () {
+    Route::get('website-setting-side', function () {
         return view('admin.website-setting-side');
     });
 
-    Route::get('dashboard/permissions-side', function () {
+    Route::get('permissions-side', function () {
         return view('admin.permissions-side');
     });
 
-    Route::get('dashboard/login', function () {
+    Route::get('login', function () {
         return view('admin.login');
     });
 
-    Route::get('dashboard/add-menu-side', function () {
-        return view('admin.add-menu-side');
+    Route::get('add-menu', function () {
+        return view('admin.add-menu');
     });
 
-    Route::get('dashboard/menu-side', function () {
-        return view('admin.menu-side');
+    Route::get('menu', function () {
+        return view('admin.menu');
     });
 
 });

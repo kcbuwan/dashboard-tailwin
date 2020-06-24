@@ -16,7 +16,7 @@
                             <span class="block mb-1 text-xs">BALLINA 2478, New South Wales, Australia</span>
                         </td>
                         <td class="p-4 border-solid border-b border-gray-200 text-left">
-                            <a href="#" class="text-xs font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 text-center">User</a>
+                            <a href="#" class="text-xs font-medium text-white bg-teal-500 hover:bg-teal-600 rounded py-1 px-4 text-center">User</a>
                         </td>
                     </tr>
                     <tr>
@@ -34,7 +34,7 @@
                             <span class="block mb-1 text-xs">BALLINA 2478, New South Wales, Australia</span>
                         </td>
                         <td class="p-4 border-solid border-b border-gray-200 text-left">
-                            <a href="#" class="text-xs font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-1 px-4 text-center">View</a>
+                            <a href="#" class="text-xs font-medium text-white bg-teal-500 hover:bg-teal-600 rounded py-1 px-4 text-center">View</a>
                         </td>
                     </tr>
                 </tbody>
@@ -70,7 +70,7 @@
 
                         <div class="px-2 w-1/6">
                             <div :style="`height: ${data}px`" 
-                                class="transition ease-in duration-200 bg-blue-400 hover:bg-blue-500 relative"
+                                class="transition ease-in duration-200 bg-teal-600 hover:bg-teal-700 relative"
                                 @mouseenter="showTooltip($event); tooltipOpen = true" 
                                 @mouseleave="hideTooltip($event)"
                                 >

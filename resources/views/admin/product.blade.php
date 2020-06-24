@@ -58,7 +58,7 @@
                             </div>
                         </li>
                         <li class="mr-1">
-                            <button class="block text-sm font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-2 mt-1 h-10 px-4 text-center uppercase">
+                            <button class="block text-sm font-medium text-white bg-teal-500 hover:bg-teal-600 rounded py-2 mt-1 h-10 px-4 text-center uppercase">
                                 Add Product
                             </button>
                         </li>

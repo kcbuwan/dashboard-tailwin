@@ -49,8 +49,8 @@
                 label: 'Pageviews',
                 data: plot,
                 borderWidth: 3,
-                borderColor: 'rgba(3, 169, 244, 0.9)',
-                pointBackgroundColor: 'rgba(66,153,225,1)',
+                borderColor: 'rgb(49, 151, 149, 1)',
+                pointBackgroundColor: 'rgb(49, 151, 149, 1)',
                 backgroundColor: gradient,
                 }]
             },
@@ -122,7 +122,7 @@
 
     <script>
             window.chartColors = {
-                green: 'rgb(104, 211, 145, 1)',
+                green: 'rgb(49, 151, 149, 1)',
                 yellow: 'rgb(236, 201, 75)',
                 red: 'rgb(252, 129, 129, 1)',
             };
