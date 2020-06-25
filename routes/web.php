@@ -57,10 +57,6 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.permissions-side');
     });
 
-    Route::get('login', function () {
-        return view('admin.login');
-    });
-
     Route::get('add-menu', function () {
         return view('admin.add-menu');
     });
