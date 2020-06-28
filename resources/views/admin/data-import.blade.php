@@ -1,11 +1,11 @@
-
-@extends('layouts.blank-full')  
+@extends('layouts.app') 
 
 @section('content')
-    @include('layouts.side-bar')
+
     <div id="main-content" class="w-full bg-gray-100 pl-0 lg:pl-64 min-h-screen">
-        @include('layouts.header-sticky')
+        <x-header />
     </div>
+
     <div class="flex flex-wrap lg:mt-0 mb-6">
         <div class="w-full lg:w-3/4 rounded-sm shadow bg-white pb-4 text-gray-700">
             <div class="p-4 pt-2 pb-2 border-b border-bg-gray-300 mb-4">

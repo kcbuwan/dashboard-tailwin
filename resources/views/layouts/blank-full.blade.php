@@ -18,7 +18,7 @@
 
 <body class="bg-gray-200 font-sans">
     
-    @yield('header')
+    <x-sidebar />
 
     <div id="app">
         <div id="main-body" class="leading-normal tracking-normal">

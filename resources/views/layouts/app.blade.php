@@ -11,8 +11,7 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
 </head>
 <body class="bg-gray-200 h-screen antialiased leading-none">
     <div id="app">
@@ -49,17 +48,5 @@
         @yield('content')
     </div>
 
-    
-
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.5.6/tinymce.min.js"></script>
-    <script>
-        
-        tinymce.init({
-            selector: '#mytextarea'
-        });
-        
-    </script>
 </body>
 </html>

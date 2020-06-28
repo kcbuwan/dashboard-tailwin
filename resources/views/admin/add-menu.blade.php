@@ -2,11 +2,10 @@
 
 @section('content')
 
-    @include('layouts.side-bar')
 
     <div id="main-content" class="w-full bg-gray-100 pl-0 lg:pl-64 min-h-screen">
 
-        @include('layouts.header-sticky')
+        <x-header />
 
         <div class="p-10 bg-gray-200">
             <div class="text-gray-700 py-4 pt-0 text-xl font-semibold">

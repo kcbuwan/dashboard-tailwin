@@ -1,8 +1,11 @@
-@extends('layouts.blank-full') 
+@extends('layouts.blank-full')
+
 @section('content')
-@include('layouts.side-bar')
+
    <div id="main-content" class="w-full bg-gray-100 pl-0 lg:pl-64 min-h-screen">
-      @include('layouts.header-sticky')
+      
+    <x-header />
+
       <div class="p-10 bg-gray-200">
 
          <div class="text-gray-700 py-4 pt-0 text-xl font-semibold">
@@ -68,7 +71,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-gray-100 w-full p-3 text-center">
+                    <div class="bg-gray-100 w-full p-3 text-right">
                         <button class="text-sm font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-2 px-8 text-center uppercase">
                             Save
                         </button>
