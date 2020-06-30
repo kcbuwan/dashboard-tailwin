@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="bg-blue-200 hidden lg:block w-full md:w-1/2 xl:w-1/2 h-screen">
-            <img class="w-full h-full object-cover" src="http://fdw.conceptdev.biz/media/45/1593494132.login.png">
+            <img class="mt-10 py-20 px-6 lg:px-20 xl:px-20 flex items-center" src="http://fdw.conceptdev.biz/media/46/1593495707.login.png" alt="" />
         </div>
     </div>
 @endsection
