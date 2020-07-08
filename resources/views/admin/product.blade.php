@@ -1,4 +1,4 @@
-<x-layouts.blank-full>
+<x-layouts.app>
     
     <div class="text-gray-700 py-4 pt-0 text-xl font-semibold">
         <h2>Products</h2>
@@ -336,4 +336,4 @@
         </div>
     </div>  
 
-</x-layouts.blank-full>
+</x-layouts.app>

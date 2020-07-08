@@ -1,4 +1,4 @@
-<x-layouts.blank-full>  
+<x-layouts.app>  
     <div class="text-gray-700 py-4 pt-0 text-xl font-semibold">
         <h2>Edit Role Permissions</h2>
     </div>
@@ -687,4 +687,4 @@
             </button>
         </div>
     </div>
-</x-layouts.blank-full>
+</x-layouts.app>

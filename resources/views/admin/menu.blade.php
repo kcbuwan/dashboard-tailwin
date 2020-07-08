@@ -1,4 +1,4 @@
-<x-layouts.blank-full>
+<x-layouts.app>
    <div class="flex py-4 pt-0">
       <div class="w-1/2 self-center text-gray-700 py-4 pt-0 text-xl font-semibold">
          <h2 class="uppercase pull-right pr-4 text-gray-700 font-medium">Add Menu</h2>
@@ -104,4 +104,4 @@
          </table>
       </div>
    </div>
-</x-layouts.blank-full>
+</x-layouts.app>

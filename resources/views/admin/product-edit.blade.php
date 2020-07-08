@@ -1,4 +1,4 @@
-<x-layouts.blank-full>
+<x-layouts.app>
     <div class="flex flex-wrap">
         <div class="w-full lg:w-3/4">
             <div class="md:flex">
@@ -413,4 +413,4 @@
             </ul>
         </div>
     </div>
-</x-layouts.blank-full>
+</x-layouts.app>
