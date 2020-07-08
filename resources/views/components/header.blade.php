@@ -1,5 +1,5 @@
 <div class="sticky top-0 z-40">
-    <div class="w-full h-16 px-10 bg-white  flex items-center justify-between">
+    <div class="w-full h-16 px-6 bg-white  flex items-center justify-between">
         
         <div class="flx">
 

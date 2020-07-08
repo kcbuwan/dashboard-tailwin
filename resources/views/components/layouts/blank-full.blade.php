@@ -1,7 +1,7 @@
-<html lang="en">
-
+<!doctype html>
+<html lang="{{ app()->getLocale() }}">
 <head>
-     <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
@@ -11,23 +11,23 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-</head>
-
-<body class="bg-gray-200 font-sans">
     
-    <x-sidebar />
+</head>
+<body class="bg-gray-200 h-screen antialiased leading-none">
 
-    <div id="app">
-        <div id="main-body" class="leading-normal tracking-normal">
-            <div class="flex flex-wrap">
-                @yield('content')
+    <div id="app" class="leading-normal tracking-normal">
+
+        <x-sidebar />
+
+        <div id="main-content" class="w-full bg-gray-200 pl-0 lg:pl-64 min-h-screen">
+            <x-header />
+            <div class="p-8 px-6">
+                {{ $slot }}
             </div>
+            
         </div>
     </div>
-        
+
     @yield('footer')
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.js"></script>
@@ -97,7 +97,7 @@
     <script>
         function app() {
         return {
-            chartData: [112, 10, 225, 134, 101, 80, 50, 100, 200],
+            chartData: [112, 10, 190, 134, 101, 80, 50, 100, 120],
             labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
 
             tooltipContent: '',
@@ -203,7 +203,5 @@
                 window.myPie = new Chart(ctx, config);
             };
     </script>
-
 </body>
-
 </html>
