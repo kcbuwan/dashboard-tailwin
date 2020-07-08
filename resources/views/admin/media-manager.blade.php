@@ -24,7 +24,7 @@
                 </div>
                 <div class="relative lg:mb-0">
                     <a href="#" class="ml-2 bg-blue-500 hover:bg-blue-600 outline-none focus:border-blue-900 rounded text-white py-3 px-2 inline-flex text-sm font-medium">
-                        <i class="fas fa-filter"></i>
+                        <svg class="h-4 w-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path></svg>
                         <span class="pointer-events-none inset-y-0 right-0 flex items-center pl-2 text-white">
                             <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
                         </span>
@@ -51,11 +51,11 @@
             <table class="w-full">
                 <thead>
                     <tr class="bg-gray-100 border-b">
-                            <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Media</th>  
-                            <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Media Name</th>
-                            <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Description</th>
-                            <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Created At</th>
-                            <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 uppercase text-center">Options</th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Media</th>  
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Media Name</th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Description</th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Created At</th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 uppercase text-center">Options</th>
                     </tr>
                 </thead>
                 <tbody class="mb-4">
@@ -234,27 +234,27 @@
 
                                 <div class="w-1/2 text-right">
                                     <div class="inline-flex">
-                                    <ul class="md:flex pl-0 list-none rounded mx-auto text-right">
-                                        <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 ml-0 rounded-l hover:bg-gray-400">
-                                            <a href="#">
-                                                <i class="fas fa-angle-double-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="text-md inline-block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 md:border-r-0">
-                                            <a href="#">1</a>
-                                        </li>
-                                        <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
-                                            <a href="#">2</a>
-                                        </li>
-                                        <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
-                                            <a href="#">3</a>
-                                        </li>
-                                        <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
-                                            <a href="#">
-                                                <i class="fas fa-angle-double-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                        <ul class="md:flex pl-0 list-none rounded mx-auto text-right">
+                                            <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 ml-0 rounded-l hover:bg-gray-400">
+                                                <a href="#">
+                                                    <svg class="w-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15 19l-7-7 7-7"></path></svg>
+                                                </a>
+                                            </li>
+                                            <li class="text-md inline-block py-1 px-3 bg-gray-200 border border-gray-400 text-gray-600 md:border-r-0">
+                                                <a href="#">1</a>
+                                            </li>
+                                            <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
+                                                <a href="#">2</a>
+                                            </li>
+                                            <li class="text-md inline-block py-1 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 hover:bg-gray-400">
+                                                <a href="#">3</a>
+                                            </li>
+                                            <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white rounded-r hover:bg-gray-400">
+                                                <a href="#">
+                                                    <svg class="w-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M9 5l7 7-7 7"></path></svg>
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
 

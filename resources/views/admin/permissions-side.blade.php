@@ -681,8 +681,8 @@
                 </thead>
             </table>
         </div>
-        <div class="bg-gray-100 w-full p-4 px-3 text-right">
-            <button class="text-sm font-medium text-white bg-blue-500 hover:bg-blue-600 rounded py-2 px-8 text-center uppercase">
+        <div class="bg-gray-100 w-full p-3 text-right">
+            <button class="text-sm font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-2 px-8 text-center uppercase">
                 Save
             </button>
         </div>
