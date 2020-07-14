@@ -1,4 +1,4 @@
-<x-layouts.base>
+<x-base>
     <div id="main-nav" class="w-1/2 md:w-1/3 lg:w-64 fixed md:top-0 md:left-0 h-screen lg:block bg-gray-900 z-30 hidden">
         
         <div class="w-full h-16 flex flex-wrap px-4 items-center text-center">
@@ -184,4 +184,4 @@
         </div>
         
     </div>
-</x-layouts.base>
+</x-base>
