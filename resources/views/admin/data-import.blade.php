@@ -1,4 +1,4 @@
-<x-layouts.app>
+<x-app>
     <div class="flex flex-wrap lg:mt-0 mb-6">
         <div class="w-full">
             <h2 class="text-gray-700 pb-4 text-xl font-semibold">
@@ -379,4 +379,4 @@
             </div>
         </div>
     </div>
-</x-layouts.app>
+</x-app>

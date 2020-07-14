@@ -1,4 +1,4 @@
-<x-layouts.base>
+<x-base>
     <div class="container mx-auto">
         <div class="flex flex-wrap justify-center">
             <div class="w-full max-w-sm">
@@ -60,4 +60,4 @@
             </div>
         </div>
     </div>
-</x-layouts.base>
+</x-base>
