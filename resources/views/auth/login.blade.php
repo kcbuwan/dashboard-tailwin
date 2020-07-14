@@ -1,4 +1,4 @@
-<x-layouts.app>
+<x-layouts.base>
     <div class="flex flex-col md:flex-row h-full items-center">
         <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/2 h-screen px-6 lg:px-40 xl:px-30 flex items-center justify-center">
             <div class="w-full h-100">
@@ -60,4 +60,4 @@
             </div>
         </div>
     </div>
-</x-layouts.app>
+</x-layouts.base>

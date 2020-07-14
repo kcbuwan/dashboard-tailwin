@@ -15,7 +15,9 @@
 </head>
 <body class="bg-gray-200 h-screen antialiased leading-none">
     <div id="app">
-        {{ $slot }}
+       <x-layouts.base>
+            {{ $slot }}
+       </x-layouts.base>
     </div>
 </body>
 </html>

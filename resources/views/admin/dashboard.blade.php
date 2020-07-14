@@ -1,5 +1,4 @@
-<x-layouts.app>
-    
+<x-layouts.base>
     <div class="flex flex-wrap -mx-3">
 
         <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
@@ -270,5 +269,4 @@
             </div>
         </div>
     </div>
-            
-</x-layouts.app>
+</x-layouts.base>
