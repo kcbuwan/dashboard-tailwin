@@ -1,10 +1,17 @@
 <x-app>
     <div class="flex py-4 pt-0">
         <div class="w-1/2 self-center text-gray-700 py-4 pt-0 text-xl font-semibold">
-            <h2 class="uppercase pull-right pr-4 text-gray-700 font-medium">Add Menu</h2>
+            <h2 class="uppercase pull-right pt-2 pr-4 text-gray-700 font-medium">Add Menu</h2>
         </div>
+
         <div class="w-1/2 text-right">
-            <a href="#" class="text-sm font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-2 px-8 text-center uppercase">All Menus</a>
+            <ul class="inline-flex">
+                <li>
+                    <x-inputs.button>
+                        All Menus
+                    </x-button>
+                </li>
+            </ul>
         </div>
     </div>
 

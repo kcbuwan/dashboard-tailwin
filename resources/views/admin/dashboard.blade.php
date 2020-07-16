@@ -1,61 +1,53 @@
 <x-app>
     <div class="flex flex-wrap -mx-3">
 
-        <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
-            <div class="w-full bg-white rounded shadow">
-                <div class="p-2">
-                    <div class="pl-2 text-gray-700 text-center">
-                        <p class="text-sm text-gray-600 font-semibold text-base">Unshipped Orders</p>
-                        <p class="font-semibold text-3xl">237</p>
-                    </div> 
-                </div>
-                <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
-                    <a href="">View all Orders</a>
-                </div>
-            </div>                
-        </div>
+        <x-layouts.widget-panel>
+            <div class="p-2">
+                <div class="pl-2 text-gray-700 text-center">
+                    <p class="text-sm text-gray-600 font-semibold text-base">Unshipped Orders</p>
+                    <p class="font-semibold text-3xl">237</p>
+                </div> 
+            </div>
+            <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
+                <a href="">View all Orders</a>
+            </div>
+        </x-widget-panel>
 
-        <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
-            <div class="w-full bg-white rounded shadow">
-                <div class="p-2">
-                    <div class="pl-2 text-gray-700 text-center">
-                        <p class="text-sm text-gray-600 font-semibold text-base">Product Reviews</p>
-                        <p class="font-semibold text-3xl">177</p>
-                    </div> 
-                </div>
-                <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
-                    <a href="">View all Reviews</a>
-                </div>
-            </div>                
-        </div>
+        <x-layouts.widget-panel>
+            <div class="p-2">
+                <div class="pl-2 text-gray-700 text-center">
+                    <p class="text-sm text-gray-600 font-semibold text-base">Product Reviews</p>
+                    <p class="font-semibold text-3xl">177</p>
+                </div> 
+            </div>
+            <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
+                <a href="">View all Reviews</a>
+            </div>
+        </x-widget-panel>
 
-        <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
-            <div class="w-full bg-white rounded shadow">
-                <div class="p-2">
-                    <div class="pl-2 text-gray-700 text-center">
-                        <p class="text-sm text-gray-600 font-semibold text-base">New Enquiries</p>
-                        <p class="font-semibold text-3xl">31</p>
-                    </div> 
-                </div>
-                <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
-                    <a href="">View all Enquiries</a>
-                </div>
-            </div>                
-        </div>
-
-        <div class="w-1/2 xl:w-1/4 px-3 mb-4 pb-4">                
-            <div class="w-full bg-white rounded shadow">
-                <div class="p-2">
-                    <div class="pl-2 text-gray-700 text-center">
-                        <p class="text-sm text-gray-600 font-semibold text-base">Trade Requests</p>
-                        <p class="font-semibold text-3xl">16</p>
-                    </div> 
-                </div>
-                <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
-                    <a href="">View all Requests</a>
-                </div>
-            </div>                
-        </div>
+        <x-layouts.widget-panel>
+            <div class="p-2">
+                <div class="pl-2 text-gray-700 text-center">
+                    <p class="text-sm text-gray-600 font-semibold text-base">New Enquiries</p>
+                    <p class="font-semibold text-3xl">31</p>
+                </div> 
+            </div>
+            <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
+                <a href="">View all Enquiries</a>
+            </div>
+        </x-widget-panel>
+        
+        <x-layouts.widget-panel>
+            <div class="p-2">
+                <div class="pl-2 text-gray-700 text-center">
+                    <p class="text-sm text-gray-600 font-semibold text-base">Trade Requests</p>
+                    <p class="font-semibold text-3xl">16</p>
+                </div> 
+            </div>
+            <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
+                <a href="">View all Requests</a>
+            </div>
+        </x-widget-panel>
 
     </div>
     
@@ -63,19 +55,21 @@
         <div class="text-gray-700 py-4 pt-0 text-xl font-semibold">
             <h2>Signup</h2>
         </div>
-        <div class="bg-white shadow-md rounded overflow-hidden pt-4 pb-4">
+
+        <x-layouts.panel class="pt-4 pb-4">
             <div class="p-4"><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
                 <div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
                 <canvas id="main-graph" class="mt-4 chartjs-render-monitor" width="821" height="200" style="display: block; width: 821px; height: 287px;"></canvas>
             </div>
-        </div>
+        </x-panel>        
     </div>
     
-    <div class="lg:mt-0 mb-6 ">
+    <div class="lg:mt-0 mb-6">
         <div class="text-gray-700 py-4 text-xl font-semibold">
             <h2>Latest Activity</h2>
         </div>
-        <div class="rounded shadow-lg bg-white overflow-hidden overflow-x-auto">
+
+        <x-layouts.panel>
             <table class="w-full">
                 <tbody><tr>
                     <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
@@ -153,7 +147,7 @@
                 </tr>
                 </tbody>
             </table>
-        </div>
+        </x-panel>
     </div>
 
     <div class="flex flex-wrap -mx-3">
@@ -161,7 +155,8 @@
             <div class="text-gray-700 py-4 text-xl font-semibold">
                 <h2>Latest Signups</h2>
             </div>
-            <div class="bg-white shadow-lg rounded overflow-hidden">
+
+            <x-layouts.panel>
                 <table class="w-full">
                     <tbody>
                         <tr>
@@ -197,76 +192,84 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </x-panel>
         </div>
+
         <div class="w-full lg:w-1/3 p-4">
             <div class="text-gray-700 py-4 text-xl font-semibold">
                 <h2>Product Sales</h2>
             </div>
-            <div class="bg-white shadow-lg rounded p-4">
-                <div x-data="app()" x-cloak class="px-4">
-                    <div class="line my-8 relative">
-                        <!-- Tooltip -->
-                        <template x-if="tooltipOpen == true">
-                            <div x-ref="tooltipContainer" class="p-0 m-0 z-10 shadow-lg rounded-lg absolute h-auto block"
-                                :style="`bottom: ${tooltipY}px; left: ${tooltipX}px`"
-                                >
-                            <div class="shadow-xs rounded-lg bg-white p-2">
-                                <div class="flex items-center justify-between text-sm">
-                                <div>Sales:</div>
-                                <div class="font-bold ml-2">
-                                    <span x-html="tooltipContent"></span>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </template>
 
-                        <!-- Bar Chart -->
-                        <div class="flex -mx-2 items-end mb-2">
-                            <template x-for="data in chartData">
-
-                            <div class="px-2 w-1/6">
-                                <div :style="`height: ${data}px`" 
-                                    class="transition ease-in duration-200 bg-teal-600 hover:bg-teal-700 relative"
-                                    @mouseenter="showTooltip($event); tooltipOpen = true" 
-                                    @mouseleave="hideTooltip($event)"
+            <x-layouts.panel>
+                <div class="p-4">
+                    <div x-data="app()" x-cloak class="px-4">
+                        <div class="line my-8 relative">
+                            <!-- Tooltip -->
+                            <template x-if="tooltipOpen == true">
+                                <div x-ref="tooltipContainer" class="p-0 m-0 z-10 shadow-lg rounded-lg absolute h-auto block"
+                                    :style="`bottom: ${tooltipY}px; left: ${tooltipX}px`"
                                     >
-                                    <div x-text="data" class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm"></div>
-                                <div>
+                                <div class="shadow-xs rounded-lg bg-white p-2">
+                                    <div class="flex items-center justify-between text-sm">
+                                    <div>Sales:</div>
+                                    <div class="font-bold ml-2">
+                                        <span x-html="tooltipContent"></span>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </template>
+
+                            <!-- Bar Chart -->
+                            <div class="flex -mx-2 items-end mb-2">
+                                <template x-for="data in chartData">
+
+                                <div class="px-2 w-1/6">
+                                    <div :style="`height: ${data}px`" 
+                                        class="transition ease-in duration-200 bg-teal-600 hover:bg-teal-700 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true" 
+                                        @mouseleave="hideTooltip($event)"
+                                        >
+                                        <div x-text="data" class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm"></div>
+                                    <div>
+                                </div>
+
+                                </template>
                             </div>
 
-                            </template>
-                        </div>
-
-                        <!-- Labels -->
-                        <div class="border-t border-gray-400 mx-auto" >
-                            <div class="flex -mx-2 items-end">
-                                <template x-for="data in labels">
-                                    <div class="px-2 w-1/6">
-                                        <div class="bg-red-600 relative">
-                                            <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto" style="width: 1px"></div>
-                                            <div x-text="data" class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm"></div>
+                            <!-- Labels -->
+                            <div class="border-t border-gray-400 mx-auto" >
+                                <div class="flex -mx-2 items-end">
+                                    <template x-for="data in labels">
+                                        <div class="px-2 w-1/6">
+                                            <div class="bg-red-600 relative">
+                                                <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto" style="width: 1px"></div>
+                                                <div x-text="data" class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm"></div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </template>	
+                                    </template>	
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </x-panel>
         </div>
+
         <div class="w-full lg:w-1/3 p-4">
             <div class="text-gray-700 py-4 text-xl font-semibold">
                 <h2>Product Orders</h2>
             </div>
-            <div class="bg-white shadow-lg rounded p-4"> 
-                <div id="canvas-holder">
-                    <canvas id="chart-area" width="230" height="164">
-                </div>
 
-                <div id="chartjs-tooltip"></div>
-            </div>
+            <x-layouts.panel>
+                <div class="p-4">
+                    <div id="canvas-holder">
+                        <canvas id="chart-area" width="230" height="164">
+                    </div>
+
+                    <div id="chartjs-tooltip"></div>
+                </div>
+            </x-panel>
         </div>
     </div>
 </x-app>

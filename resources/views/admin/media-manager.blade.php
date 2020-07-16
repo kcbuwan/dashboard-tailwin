@@ -36,9 +36,9 @@
         <div class="md:w-1/2 text-center md:text-right">
             <ul class="inline-flex mt-1">
                 <li>
-                    <button class="block text-sm font-medium text-white bg-gray-500 hover:bg-gray-600 rounded py-2 px-6 text-center uppercase">
+                    <x-inputs.button>
                         Add Media
-                    </button>
+                    </x-button>
                 </li>
             </ul>
         </div>
