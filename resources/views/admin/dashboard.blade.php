@@ -1,7 +1,7 @@
 <x-app>
     <div class="flex flex-wrap -mx-3">
 
-        <x-layouts.widget-panel>
+        <x-widget-panel>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
                     <p class="text-sm text-gray-600 font-semibold text-base">Unshipped Orders</p>
@@ -13,7 +13,7 @@
             </div>
         </x-widget-panel>
 
-        <x-layouts.widget-panel>
+        <x-widget-panel>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
                     <p class="text-sm text-gray-600 font-semibold text-base">Product Reviews</p>
@@ -25,7 +25,7 @@
             </div>
         </x-widget-panel>
 
-        <x-layouts.widget-panel>
+        <x-widget-panel>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
                     <p class="text-sm text-gray-600 font-semibold text-base">New Enquiries</p>
@@ -37,7 +37,7 @@
             </div>
         </x-widget-panel>
         
-        <x-layouts.widget-panel>
+        <x-widget-panel>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
                     <p class="text-sm text-gray-600 font-semibold text-base">Trade Requests</p>
@@ -56,7 +56,7 @@
             <h2>Signup</h2>
         </div>
 
-        <x-layouts.panel class="pt-4 pb-4">
+        <x-panel class="pt-4 pb-4">
             <div class="p-4"><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
                 <div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
                 <canvas id="main-graph" class="mt-4 chartjs-render-monitor" width="821" height="200" style="display: block; width: 821px; height: 287px;"></canvas>
@@ -69,7 +69,7 @@
             <h2>Latest Activity</h2>
         </div>
 
-        <x-layouts.panel>
+        <x-panel>
             <table class="w-full">
                 <tbody><tr>
                     <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
@@ -156,7 +156,7 @@
                 <h2>Latest Signups</h2>
             </div>
 
-            <x-layouts.panel>
+            <x-panel>
                 <table class="w-full">
                     <tbody>
                         <tr>
@@ -200,7 +200,7 @@
                 <h2>Product Sales</h2>
             </div>
 
-            <x-layouts.panel>
+            <x-panel>
                 <div class="p-4">
                     <div x-data="app()" x-cloak class="px-4">
                         <div class="line my-8 relative">
@@ -261,7 +261,7 @@
                 <h2>Product Orders</h2>
             </div>
 
-            <x-layouts.panel>
+            <x-panel>
                 <div class="p-4">
                     <div id="canvas-holder">
                         <canvas id="chart-area" width="230" height="164">
