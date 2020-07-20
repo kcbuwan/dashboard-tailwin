@@ -5,28 +5,11 @@
                 <h1 class="text-xl md:text-3xl font-bold leading-tight pb-6">Log in.</h1>
                 <form class="w-full" method="POST" action="{{ route('login') }}">
                     @csrf
-                    <div class="flex flex-wrap mb-6">
-                        <label for="email" class="block text-gray-700 font-medium mb-2">
-                            {{ __('Your Email') }}
-                        </label>
-                        <input id="email" type="email" class="border border-gray-400 bg-white rounded w-full py-3 px-3 text-gray-700 leading-tight focus:border-gray-500 focus:bg-white focus:outline-none @error('email') border-red-500 @enderror" name="email" value="{{ old('email') }}" placeholder="Email Address" required autocomplete="email" autofocus>
-                        @error('email')
-                            <p class="text-red-500 text-xs italic mt-4">
-                                {{ $message }}
-                            </p>
-                        @enderror
-                    </div>
-                    <div class="flex flex-wrap mb-6">
-                        <label for="password" class="block text-gray-700 font-medium mb-2">
-                            {{ __('Password') }}
-                        </label>
-                        <input id="password" type="password" class="border border-gray-400 bg-white rounded w-full py-3 px-3 text-gray-700 leading-tight focus:border-gray-500 focus:bg-white focus:outline-none @error('password') border-red-500 @enderror" name="password" placeholder="Password" required>
-                        @error('password')
-                            <p class="text-red-500 text-xs italic mt-4">
-                                {{ $message }}
-                            </p>
-                        @enderror
-                    </div>
+
+                    <x-form.text type="text" name="email" label="Your Email" placeholder="Your Email" reauired autofocus autocompletets="email" />
+                    <x-form.text type="password" name="password" label="Password" placeholder="Password" reauired  />
+                    
+                    
                     <div class="flex flex-wrap items-center mb-6">
                         <input type="checkbox" name="remember" class="form-checkbox h-4 w-4 border border-gray-400" id="remember" {{ old('remember') ? 'checked' : '' }}>
                         <label class="text-gray-500 hover:text-gray-700 text-md ml-3" for="remember">

@@ -50,9 +50,9 @@
                 </li>
 
                 <li class="mr-1">
-                    <x-inputs.button>
+                    <x-form.button>
                         Add Product
-                    </x-button>
+                    </x-form.button>
                 </li>
 
                 <li>

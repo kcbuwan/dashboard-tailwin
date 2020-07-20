@@ -16,21 +16,8 @@
                 <form class="w-full" method="POST" action="{{ route('password.email') }}">
                     @csrf
 
-                    <div class="flex flex-wrap mb-6">
-                        <label for="email" class="block text-gray-700 font-medium mb-2">
-                            {{ __('E-Mail Address') }}
-                        </label>
+                    <x-form.text type="text" name="email" label="E-Mail Address" placeholder="E-Mail Address" reauired autofocus autocompletets="email" />
 
-                        <input id="email" type="email" class="border border-gray-400 bg-white rounded w-full py-3 px-3 text-gray-700 leading-tight focus:border-gray-500 focus:bg-white focus:outline-none @error('email') border-red-500 @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
-                        @error('email')
-                            <p class="text-red-500 text-xs italic mt-4">
-                                {{ $message }}
-                            </p>
-                        @enderror
-                    </div>
-
-                    
                     <button type="submit" class="w-full bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-3 px-3 rounded focus:outline-none mb-6">
                         {{ __('Send Password Reset Link') }}
                     </button>

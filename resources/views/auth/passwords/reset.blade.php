@@ -27,6 +27,8 @@
                             @enderror
                         </div>
 
+                        
+
                         <div class="flex flex-wrap mb-6">
                             <label for="password" class="block text-gray-700 text-sm font-bold mb-2">
                                 {{ __('Password') }}:

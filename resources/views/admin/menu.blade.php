@@ -7,9 +7,9 @@
         <div class="w-1/2 text-right">
             <ul class="inline-flex">
                 <li>
-                    <x-inputs.button>
+                    <x-form.button>
                         All Menus
-                    </x-button>
+                    </x-form.button>
                 </li>
             </ul>
         </div>

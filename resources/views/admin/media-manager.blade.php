@@ -36,9 +36,9 @@
         <div class="md:w-1/2 text-center md:text-right">
             <ul class="inline-flex mt-1">
                 <li>
-                    <x-inputs.button>
+                    <x-form.button>
                         Add Media
-                    </x-button>
+                    </x-form.button>
                 </li>
             </ul>
         </div>
