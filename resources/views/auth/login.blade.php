@@ -9,7 +9,6 @@
                     <x-form.text type="text" name="email" label="Your Email" placeholder="Your Email" reauired autofocus autocompletets="email" />
                     <x-form.text type="password" name="password" label="Password" placeholder="Password" reauired  />
                     
-                    
                     <div class="flex flex-wrap items-center mb-6">
                         <input type="checkbox" name="remember" class="form-checkbox h-4 w-4 border border-gray-400" id="remember" {{ old('remember') ? 'checked' : '' }}>
                         <label class="text-gray-500 hover:text-gray-700 text-md ml-3" for="remember">
