@@ -76,7 +76,7 @@
                             </label>
                         </div>
                         <div class="w-full">
-                            <input class="rounded-sm appearance-none block w-full text-gray-700 border border-gray-400 py-2 px-3 mb-2 focus:outline-none focus:bg-white focus:border-gray-500 mb-4" type="text" placeholder="Menu Item" id="link-text">
+                            <input class="rounded-sm appearance-none block w-full text-gray-700 border border-gray-400 py-2 px-3 mb-4 focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Menu Item" id="link-text">
                             <label class="flex text-gray-700 mb-1">
                                 <input class="inline-flex mr-2 mt-1 form-checkbox border border-gray-500" type="checkbox">
                                 <span class="text-sm font-medium">

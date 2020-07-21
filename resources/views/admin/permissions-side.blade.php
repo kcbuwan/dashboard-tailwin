@@ -14,7 +14,7 @@
                         <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-center uppercase">Adds</th>
                         <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-center uppercase">Edits</th>
                         <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-center uppercase">Deletes</th>
-                        <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-center uppercase text-center">Restores</th>
+                        <th class="text-sm text-gray-600 font-medium bg-gray-100 border-b p-4 text-center uppercase">Restores</th>
                     </tr>
                     <tbody class="mb-4">
                         <tr class="border-solid border-b border-gray-200">

@@ -4,7 +4,7 @@
         <x-widget-panel>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
-                    <p class="text-sm text-gray-600 font-semibold text-base">Unshipped Orders</p>
+                    <p class="text-gray-600 font-semibold text-base">Unshipped Orders</p>
                     <p class="font-semibold text-3xl">237</p>
                 </div> 
             </div>
@@ -16,7 +16,7 @@
         <x-widget-panel>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
-                    <p class="text-sm text-gray-600 font-semibold text-base">Product Reviews</p>
+                    <p class="text-gray-600 font-semibold text-base">Product Reviews</p>
                     <p class="font-semibold text-3xl">177</p>
                 </div> 
             </div>
@@ -28,7 +28,7 @@
         <x-widget-panel>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
-                    <p class="text-sm text-gray-600 font-semibold text-base">New Enquiries</p>
+                    <p class="text-gray-600 font-semibold text-base">New Enquiries</p>
                     <p class="font-semibold text-3xl">31</p>
                 </div> 
             </div>
@@ -40,7 +40,7 @@
         <x-widget-panel>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
-                    <p class="text-sm text-gray-600 font-semibold text-base">Trade Requests</p>
+                    <p class="text-gray-600 font-semibold text-base">Trade Requests</p>
                     <p class="font-semibold text-3xl">16</p>
                 </div> 
             </div>
@@ -178,7 +178,7 @@
                                 <span class="block mb-1 text-xs">BALLINA 2478, New South Wales, Australia</span>
                             </td>
                             <td class="p-4 border-solid border-b border-gray-200 text-left">
-                                <a href="#" class="text-xs font-medium text-white bg-green-200 hover:bg-green-300 rounded py-1 px-4 text-center text-green-700">Administrator</a>
+                                <a href="#" class="text-xs font-medium bg-green-200 hover:bg-green-300 rounded py-1 px-4 text-center text-green-700">Administrator</a>
                             </td>
                         </tr>
                         <tr>

@@ -1,6 +1,6 @@
 <x-base>
     <div class="flex flex-col md:flex-row h-full items-center">
-        <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/2 h-screen px-6 lg:px-40 xl:px-30 flex items-center justify-center">
+        <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:w-1/2 xl:w-1/2 h-screen px-6 lg:px-40 xl:px-30 flex items-center justify-center">
             <div class="w-full h-100">
                 <h1 class="text-xl md:text-3xl font-bold leading-tight pb-6">Log in.</h1>
                 <form class="w-full" method="POST" action="{{ route('login') }}">
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="bg-blue-200 hidden lg:block w-full md:w-1/2 xl:w-1/2 h-screen">
-            <div class="w-full h-full w-full flex">
+            <div class="w-full h-full flex">
                 <img class="self-center items-center object-none object-center w-full " src="http://fdw.conceptdev.biz/media/46/1593495707.login.png" alt="" />
             </div>
         </div>
