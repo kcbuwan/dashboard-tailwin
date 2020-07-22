@@ -1,7 +1,7 @@
 <x-app>
     <div class="flex flex-wrap -mx-3">
 
-        <x-widget-panel>
+        <x-widget>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
                     <p class="text-gray-600 font-semibold text-base">Unshipped Orders</p>
@@ -11,9 +11,9 @@
             <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
                 <a href="">View all Orders</a>
             </div>
-        </x-widget-panel>
+        </x-widget>
 
-        <x-widget-panel>
+        <x-widget>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
                     <p class="text-gray-600 font-semibold text-base">Product Reviews</p>
@@ -23,9 +23,9 @@
             <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
                 <a href="">View all Reviews</a>
             </div>
-        </x-widget-panel>
+        </x-widget>
 
-        <x-widget-panel>
+        <x-widget>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
                     <p class="text-gray-600 font-semibold text-base">New Enquiries</p>
@@ -35,9 +35,9 @@
             <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
                 <a href="">View all Enquiries</a>
             </div>
-        </x-widget-panel>
+        </x-widget>
         
-        <x-widget-panel>
+        <x-widget>
             <div class="p-2">
                 <div class="pl-2 text-gray-700 text-center">
                     <p class="text-gray-600 font-semibold text-base">Trade Requests</p>
@@ -47,7 +47,7 @@
             <div class="bg-gray-100 text-gray-600 rounded text-center text-sm font-semibold p-2">
                 <a href="">View all Requests</a>
             </div>
-        </x-widget-panel>
+        </x-widget>
 
     </div>
     
