@@ -6,19 +6,19 @@ module.exports = {
                 input: {
                     "&:focus": {
                         borderColor: theme("colors.teal.400"),
-                        boxShadow: undefined
+                        boxShadow: "0 0 0 2px rgba(79, 209, 197, 0.5)"
                     }
                 },
                 select: {
                     "&:focus": {
                         borderColor: theme("colors.teal.400"),
-                        boxShadow: undefined
+                        boxShadow: "0 0 0 2px rgba(79, 209, 197, 0.5)"
                     }
                 },
                 textarea: {
                     "&:focus": {
                         borderColor: theme("colors.teal.400"),
-                        boxShadow: undefined
+                        boxShadow: "0 0 0 2px rgba(79, 209, 197, 0.5)"
                     }
                 }
             }

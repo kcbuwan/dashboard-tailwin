@@ -690,6 +690,7 @@ video {
 
 .form-input:focus {
   outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 209, 197, 0.5);
   border-color: #4fd1c5;
 }
 
@@ -736,6 +737,7 @@ video {
 
 .form-textarea:focus {
   outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 209, 197, 0.5);
   border-color: #4fd1c5;
 }
 
@@ -802,6 +804,7 @@ video {
 
 .form-select:focus {
   outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 209, 197, 0.5);
   border-color: #4fd1c5;
 }
 

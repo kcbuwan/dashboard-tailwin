@@ -27,7 +27,7 @@
 
                                     <div class="w-full md:w-3/4 px-4 mb-4">
                                         <div class="w-full flex flex-wrap">
-                                            <input class="form-input border-2 border-gray-300 mt-1 block w-full " placeholder="Name" id="name">
+                                            <input class="form-input mt-1 block w-full " placeholder="Name" id="name">
                                         </div>
                                     </div>
 
@@ -40,7 +40,7 @@
                                     <div class="w-full md:w-3/4 px-4 mb-4">
                                         <div class="flex flex-wrap">
                                             <div class="w-full md:w-5/6">
-                                                <select class="form-select mt-1 text-gray-500 block w-full border-2 border-gray-300">
+                                                <select class="form-select mt-1 text-gray-500 block w-full">
                                                     <option selected="">Select Category</option>
                                                     <option>Car, Bikes &amp; Boats</option>
                                                 </select>
@@ -64,7 +64,7 @@
                                     </div>
 
                                     <div class="w-full md:w-3/4 px-4 mb-4">
-                                        <select class="form-select mt-1 text-gray-500 block w-full border-2 border-gray-300">
+                                        <select class="form-select mt-1 text-gray-500 block w-full">
                                             <option selected="">Select Some Option</option>
                                             <option>New</option>
                                             <option>Refurbished</option>
@@ -137,7 +137,7 @@
                                     </div>
 
                                     <div class="w-full md:w-3/4 px-4 mb-4">
-                                        <textarea class="form-textarea mt-1 block w-full border-2 border-gray-300" rows="3" placeholder="Brief description here.." id="comment"></textarea>
+                                        <textarea class="form-textarea mt-1 block w-full" rows="3" placeholder="Brief description here.." id="comment"></textarea>
                                     </div>
                                 </div>
 
