@@ -46,8 +46,10 @@
                                                 </select>
                                             </div>
                                             <div class="w-full md:w-1/6 md:text-left">
-                                                <a href="#" class="w-full text-center ml-1 bg-gray-500 hover:bg-gray-600 outline-none focus:border-blue-900 rounded text-white py-3 mt-1 h-10 px-4 inline-flex text-sm font-medium">
+                                                <a href="#" class="w-full text-center ml-1 bg-gray-500 hover:bg-gray-600 outline-none focus:border-blue-900 rounded text-white py-3 mt-1 h-10 px-4 inline-block text-sm font-medium">
+                                                    <span class="justify-center inline-flex">
                                                     <svg class="w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 4v16m8-8H4"></path></svg>
+                                                    </span>
                                                 </a>
                                             </div>
                                         </div>
