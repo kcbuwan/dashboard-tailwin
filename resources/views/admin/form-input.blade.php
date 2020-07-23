@@ -27,7 +27,7 @@
 
                                     <div class="w-full md:w-3/4 px-4 mb-4">
                                         <div class="w-full flex flex-wrap">
-                                            <input class="form-input mt-1 block w-full" placeholder="Name" id="name">
+                                            <input class="form-input border-2 border-gray-300 mt-1 block w-full " placeholder="Name" id="name">
                                         </div>
                                     </div>
 
@@ -40,7 +40,7 @@
                                     <div class="w-full md:w-3/4 px-4 mb-4">
                                         <div class="flex flex-wrap">
                                             <div class="w-full md:w-5/6">
-                                                <select class="form-select mt-1 text-gray-500 block w-full">
+                                                <select class="form-select mt-1 text-gray-500 block w-full border-2 border-gray-300">
                                                     <option selected="">Select Category</option>
                                                     <option>Car, Bikes &amp; Boats</option>
                                                 </select>
@@ -64,7 +64,7 @@
                                     </div>
 
                                     <div class="w-full md:w-3/4 px-4 mb-4">
-                                        <select class="form-select mt-1 text-gray-500 block w-full">
+                                        <select class="form-select mt-1 text-gray-500 block w-full border-2 border-gray-300">
                                             <option selected="">Select Some Option</option>
                                             <option>New</option>
                                             <option>Refurbished</option>
@@ -80,20 +80,20 @@
                                     <div class="w-full md:w-3/4 px-4 mb-4">
                                         <div class="mt-0">
                                             <div>
-                                            <label class="inline-flex items-center">
-                                                <input type="checkbox" class="form-checkbox" checked>
-                                                <span class="ml-2 text-md text-gray-600">Check 1</span>
-                                            </label>
+                                                <label class="inline-flex items-center">
+                                                    <input type="checkbox" class="form-checkbox text-teal-500 focus:shadow-none" checked>
+                                                    <span class="ml-2 text-md text-gray-600">Check 1</span>
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label class="inline-flex items-center">
+                                                    <input type="checkbox" class="form-checkbox text-teal-500 focus:shadow-none">
+                                                    <span class="ml-2 text-md text-gray-600">Check 2</span>
+                                                </label>
                                             </div>
                                             <div>
                                             <label class="inline-flex items-center">
-                                                <input type="checkbox" class="form-checkbox">
-                                                <span class="ml-2 text-md text-gray-600">Check 2</span>
-                                            </label>
-                                            </div>
-                                            <div>
-                                            <label class="inline-flex items-center">
-                                                <input type="checkbox" class="form-checkbox">
+                                                <input type="checkbox" class="form-checkbox text-teal-500 focus:shadow-none">
                                                 <span class="ml-2 text-md text-gray-600">Check 3</span>
                                             </label>
                                             </div>
@@ -109,19 +109,19 @@
                                         <div class="mt-0">
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio" name="radio" value="1" checked>
+                                                    <input type="radio" class="form-radio text-teal-500 focus:shadow-none" name="radio" value="1" checked>
                                                     <span class="ml-2 text-md text-gray-600">Option 1</span>
                                                 </label>
                                             </div>
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio" name="radio" value="2">
+                                                    <input type="radio" class="form-radio text-teal-500 focus:shadow-none" name="radio" value="2">
                                                     <span class="ml-2 text-md text-gray-600">Option 2</span>
                                                 </label>
                                             </div>
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio" name="radio" value="3">
+                                                    <input type="radio" class="form-radio text-teal-500 focus:shadow-none" name="radio" value="3">
                                                     <span class="ml-2 text-md text-gray-600">Option 3</span>
                                                 </label>
                                             </div>
@@ -137,7 +137,7 @@
                                     </div>
 
                                     <div class="w-full md:w-3/4 px-4 mb-4">
-                                        <textarea class="form-textarea mt-1 block w-full" rows="3" placeholder="Brief description here.." id="comment"></textarea>
+                                        <textarea class="form-textarea mt-1 block w-full border-2 border-gray-300" rows="3" placeholder="Brief description here.." id="comment"></textarea>
                                     </div>
                                 </div>
 

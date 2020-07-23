@@ -10,7 +10,7 @@
 
                     <x-form.text type="text" name="name" label="Name" placeholder="Name" reauired autofocus autocompletets="name" />
                     <x-form.text type="text" name="email" label="E-Mail Address" placeholder="E-Mail Address" reauired autofocus autocompletets="email" />
-                    <x-form.text type="password" name="password" label="password" placeholder="password" reauired autofocus autocompletets="password" />
+                    <x-form.text type="password" name="assword" label="Password" placeholder="password" reauired autofocus autocompletets="password" />
                     <x-form.text type="password" name="Confirm Password" label="Confirm Password" placeholder="Confirm Password" reauired autofocus autocompletets="Confirm Password" />
                     <div class="w-full mb-6">
                         <button type="submit" class="w-full bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-3 px-3 rounded focus:outline-none">
