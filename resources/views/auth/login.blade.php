@@ -21,7 +21,7 @@
                         @endif
                     </div>
                     <div class="mb-6">
-                        <button type="submit" class="w-full bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-3 px-3 rounded focus:outline-none">
+                        <button type="submit" class="w-full bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-2 px-2 rounded focus:outline-none">
                             {{ __('Log in') }}
                         </button>
                     </div>

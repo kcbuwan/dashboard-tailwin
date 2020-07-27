@@ -13,7 +13,7 @@
                     <x-form.text type="password" name="assword" label="Password" placeholder="password" reauired autofocus autocompletets="password" />
                     <x-form.text type="password" name="Confirm Password" label="Confirm Password" placeholder="Confirm Password" reauired autofocus autocompletets="Confirm Password" />
                     <div class="w-full mb-6">
-                        <button type="submit" class="w-full bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-3 px-3 rounded focus:outline-none">
+                        <button type="submit" class="w-full bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-2 px-2 rounded focus:outline-none">
                             {{ __('Register') }}
                         </button>
                     </div>

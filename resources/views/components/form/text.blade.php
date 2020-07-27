@@ -2,7 +2,7 @@
 
     <input id="{{ $name}}"
         type="{{ isset($type) ? $type : 'text' }}" 
-        class="form-input w-full py-3 px-3 @error('email') border-red-500 @enderror"
+        class="form-input w-full @error('email') border-red-500 @enderror"
         name="{{ $name }}"
         placeholder="{{ isset($placeholder) ? $placeholder : '' }}"
         value="{{ old($name) ?: (isset($object) ? $object->{$name} : '') }}"
