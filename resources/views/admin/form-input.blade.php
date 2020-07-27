@@ -18,25 +18,25 @@
 
                             <div class="pb-4 pt-0 pl-0 pr-0">
 
-                                <div class="bg-teal-100 border border-teal-400 text-teal-700 mb-6 px-4 py-3 rounded relative" role="alert">
+                                <x-alert-success type="success" class="mb-6">
                                     <strong class="font-bold">Success!</strong>
                                     <span class="block sm:inline">Message sent successfully.</span>
-                                </div>
+                                </x-alert-success>
 
-                                <div class="bg-red-100 border border-red-400  mb-6 text-red-700 px-4 py-3 rounded relative" role="alert">
+                                <x-alert-error type="error" class="mb-6">
                                     <strong class="font-bold">Error!</strong>
                                     <span class="block sm:inline">Message not sent.</span>
-                                </div>
+                                </x-alert-error>
 
-                                <div class="bg-blue-100 border border-blue-400 text-blue-700 mb-6 px-4 py-3 rounded relative" role="alert">
+                                <x-alert type="message" class="mb-6">
                                     <strong class="font-bold">Info!</strong>
                                     <span class="block sm:inline">This is a info alert—check it out! </span>
-                                </div>
+                                </x-alert>
 
-                                <div class="bg-orange-100 border border-orange-400 text-orange-700 mb-6 px-4 py-3 rounded relative" role="alert">
+                                <x-alert-warning type="warning" class="mb-6">
                                     <strong class="font-bold">Warning!</strong>
                                     <span class="block sm:inline">This is a warning alert—check it out!</span>
-                                </div>
+                                </x-alert-warning>
 
                                 <hr class="w-full mb-6">
                                 
