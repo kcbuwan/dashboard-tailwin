@@ -1,16 +1,34 @@
 <x-base>
     <div class="flex flex-col md:flex-row h-full items-center">
-        <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:w-1/2 xl:w-1/2 h-screen px-6 lg:px-40 xl:px-30 flex items-center justify-center">
+        <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-0 md:w-1/2 xl:w-1/2 h-screen px-6 lg:px-40 xl:px-30 flex items-center justify-center">
             <div class="w-full h-100">
                 <h1 class="text-xl md:text-3xl font-bold leading-tight pb-6">Log in.</h1>
                 <form class="w-full" method="POST" action="{{ route('login') }}">
                     @csrf
-
-                    <x-form.text type="text" name="email" label="Your Email" placeholder="Your Email" reauired autofocus autocompletets="email" />
-                    <x-form.text type="password" name="password" label="Password" placeholder="Password" reauired  />
-                    
+                    <div class="flex flex-wrap mb-6">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">
+                            {{ __('Your Email') }}
+                        </label>
+                        <input id="email" type="email" class="w-full form-input @error('email') border-red-500 @enderror" name="email" value="{{ old('email') }}" placeholder="Email Address" required autocomplete="email" autofocus>
+                        @error('email')
+                            <p class="text-red-500 text-xs italic mt-4">
+                                {{ $message }}
+                            </p>
+                        @enderror
+                    </div>
+                    <div class="flex flex-wrap mb-6">
+                        <label for="password" class="block text-gray-700 font-medium mb-2">
+                            {{ __('Password') }}
+                        </label>
+                        <input id="password" type="password" class="w-full form-input @error('password') border-red-500 @enderror" name="password" placeholder="Password" required>
+                        @error('password')
+                            <p class="text-red-500 text-xs italic mt-4">
+                                {{ $message }}
+                            </p>
+                        @enderror
+                    </div>
                     <div class="flex flex-wrap items-center mb-6">
-                        <input type="checkbox" name="remember" class="form-checkbox h-4 w-4 border border-gray-400" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                        <input type="checkbox" name="remember" class="form-checkbox h-4 w-4 border" id="remember" {{ old('remember') ? 'checked' : '' }}>
                         <label class="text-gray-500 hover:text-gray-700 text-md ml-3" for="remember">
                             {{ __('Keep me logged in') }}
                         </label>

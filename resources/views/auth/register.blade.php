@@ -1,6 +1,6 @@
 <x-base>
     <div class="flex flex-col md:flex-row h-full items-center">
-        <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:w-1/2 xl:w-1/2 h-screen px-6 lg:px-48 xl:px-48 flex items-center justify-center">
+        <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/2 h-screen px-6 lg:px-48 xl:px-48 flex items-center justify-center">
             <div class="w-full h-100">
                 
                 <h1 class="text-xl md:text-3xl font-bold leading-tight pb-6"> {{ __('Register') }}</h1>
@@ -8,10 +8,56 @@
                 <form class="w-full" method="POST" action="{{ route('register') }}">
                     @csrf
 
-                    <x-form.text type="text" name="name" label="Name" placeholder="Name" reauired autofocus autocompletets="name" />
-                    <x-form.text type="text" name="email" label="E-Mail Address" placeholder="E-Mail Address" reauired autofocus autocompletets="email" />
-                    <x-form.text type="password" name="assword" label="Password" placeholder="password" reauired autofocus autocompletets="password" />
-                    <x-form.text type="password" name="Confirm Password" label="Confirm Password" placeholder="Confirm Password" reauired autofocus autocompletets="Confirm Password" />
+                    <div class="flex flex-wrap mb-6">
+                        <label for="name" class="block text-gray-700 font-medium mb-2">
+                            {{ __('Name') }}
+                        </label>
+
+                        <input id="name" type="text" class="form-input w-full @error('name')  border-red-500 @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+
+                        @error('name')
+                            <p class="text-red-500 text-xs italic mt-4">
+                                {{ $message }}
+                            </p>
+                        @enderror
+                    </div>
+
+                    <div class="flex flex-wrap mb-6">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">
+                            {{ __('E-Mail Address') }}
+                        </label>
+
+                        <input id="email" type="email" class="form-input w-full @error('email') border-red-500 @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+
+                        @error('email')
+                            <p class="text-red-500 text-xs italic mt-4">
+                                {{ $message }}
+                            </p>
+                        @enderror
+                    </div>
+
+                    <div class="flex flex-wrap mb-6">
+                        <label for="password" class="block text-gray-700 font-medium mb-2">
+                            {{ __('Password') }}
+                        </label>
+
+                        <input id="password" type="password" class="form-input w-full @error('password') border-red-500 @enderror" name="password" required autocomplete="new-password">
+
+                        @error('password')
+                            <p class="text-red-500 text-xs italic mt-4">
+                                {{ $message }}
+                            </p>
+                        @enderror
+                    </div>
+
+                    <div class="flex flex-wrap mb-6">
+                        <label for="password-confirm" class="block text-gray-700 font-medium mb-2">
+                            {{ __('Confirm Password') }}
+                        </label>
+
+                        <input id="password-confirm" type="password" class="form-input w-full" name="password_confirmation" required autocomplete="new-password">
+                    </div>
+
                     <div class="w-full mb-6">
                         <button type="submit" class="w-full bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-2 px-2 rounded focus:outline-none">
                             {{ __('Register') }}

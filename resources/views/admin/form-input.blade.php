@@ -39,20 +39,10 @@
                                 </div>
 
                                 <hr class="w-full mb-6">
+                                
+                                <x-form.text type="text" name="name" label="Name" placeholder="" reauired autofocus autocompletets="name" />
 
                                 <div class="flex flex-wrap">
-                                    <div class="w-full md:w-2/6 mb-6 pr-6">
-                                        <label class="block font-semibold text-gray-700" for="product-name">
-                                            Name
-                                        </label>
-                                        <span class="text-gray-600 pb-2">This informations will be displayed publicly so be careful what you share.</span>
-                                    </div>
-
-                                    <div class="w-full md:w-4/6 mb-6">
-                                        <div class="w-full flex flex-wrap">
-                                            <input class="form-input mt-1 block w-full " placeholder="" id="name">
-                                        </div>
-                                    </div>
 
                                     <div class="w-full md:w-2/6 mb-4">
                                         <label class="block font-semibold text-gray-700 pt-2" for="categories">

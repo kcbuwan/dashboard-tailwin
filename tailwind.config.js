@@ -12,7 +12,12 @@ module.exports = {
 
                 "checkbox, radio": {
                     borderColor: theme("colors.teal.400"),
-                    color: theme("colors.teal.500")
+                    color: theme("colors.teal.500"),
+
+                    "&:hover": {
+                        borderColor: theme("colors.teal.400"),
+                        boxShadow: "0 0 0 2px rgba(79, 209, 197, 0.5)"
+                    }
                 }
             }
         })
