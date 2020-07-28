@@ -18,25 +18,13 @@
 
                             <div class="pb-4 pt-0 pl-0 pr-0">
 
-                                <x-alert-success type="success" class="mb-6">
-                                    <strong class="font-bold">Success!</strong>
-                                    <span class="block sm:inline">Message sent successfully.</span>
-                                </x-alert-success>
+                                <x-admin.alert type="success">This is the success message here</x-admin.alert>
 
-                                <x-alert-error type="error" class="mb-6">
-                                    <strong class="font-bold">Error!</strong>
-                                    <span class="block sm:inline">Message not sent.</span>
-                                </x-alert-error>
+                                <x-admin.alert type="error">This is the error message here</x-admin.alert>
 
-                                <x-alert type="message" class="mb-6">
-                                    <strong class="font-bold">Info!</strong>
-                                    <span class="block sm:inline">This is a info alert—check it out! </span>
-                                </x-alert>
+                                <x-admin.alert type="danger">This is the danger message here</x-admin.alert>
 
-                                <x-alert-warning type="warning" class="mb-6">
-                                    <strong class="font-bold">Warning!</strong>
-                                    <span class="block sm:inline">This is a warning alert—check it out!</span>
-                                </x-alert-warning>
+                                <x-admin.alert type="warning">This is the warning message here</x-admin.alert>
 
                                 <hr class="w-full mb-6">
                                 
