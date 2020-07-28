@@ -65,7 +65,7 @@
                     </div>
                     <p class="w-full text-center text-gray-500 text-lg">
                         {{ __('Already have an account?') }}
-                        <a class="text-blue-500 hover:text-blue-700 no-underline" href="{{ route('login') }}">
+                        <a class="text-teal-500 hover:text-teal-700 no-underline" href="{{ route('login') }}">
                             {{ __('Login') }}
                         </a>
                     </p>

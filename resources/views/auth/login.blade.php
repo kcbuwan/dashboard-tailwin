@@ -46,7 +46,7 @@
                     @if (Route::has('register'))
                         <p class="w-full text-center text-gray-500 text-md">
                             {{ __("Don't have an account?") }}
-                            <a class="text-blue-500 hover:text-blue-700 no-underline" href="{{ route('register') }}">
+                            <a class="text-teal-500 hover:text-teal-700 no-underline" href="{{ route('register') }}">
                                 {{ __('Sign up') }}
                             </a>
                         </p>

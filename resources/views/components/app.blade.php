@@ -173,7 +173,7 @@
                         @endif
                     @else
                         <a href="{{ route('logout') }}"
-                            class="block text-sm font-medium text-white bg-teal-500 hover:bg-teal-600 rounded py-2 px-6 text-center"
+                            class="block text-sm font-medium text-white bg-teal-500 hover:bg-teal-600 rounded py-2 px-6 text-center focus:outline-none focus:shadow-outline"
                             onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">

@@ -1,6 +1,10 @@
 // tailwind.config.js
 module.exports = {
     theme: {
+        boxShadow: {
+            outline: "0 0 0 2px rgba(79, 209, 197, 0.5)"
+        },
+
         customForms: theme => ({
             default: {
                 "input, textarea, multiselect, select, checkbox, radio": {
