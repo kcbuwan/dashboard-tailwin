@@ -47,7 +47,7 @@
                                                 </select>
                                             </div>
                                             <div class="w-full md:w-1/6 md:text-left">
-                                                <a href="#" class="w-full text-center ml-1 bg-teal-500 hover:bg-teal-600 focus:outline-none focus:shadow-outline rounded text-white py-3 h-10 px-4 inline-block text-sm font-medium">
+                                                <a href="#" class="w-full text-center ml-1 bg-blue-500 hover:bg-blue-600 focus:outline-none focus:shadow-outline rounded text-white py-3 h-10 px-4 inline-block text-sm font-medium">
                                                     <span class="justify-center text-white inline-flex">
                                                         <svg class="w-5 fill-current text-white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 4v16m8-8H4"></path></svg>
                                                     </span>
