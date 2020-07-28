@@ -86,19 +86,19 @@
                                         <div class="mt-0">
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="checkbox" class="form-checkbox text-teal-500 focus:shadow-none">
+                                                    <input type="checkbox" class="form-checkbox text-teal-500">
                                                     <span class="ml-2 text-md text-gray-600">Check 1</span>
                                                 </label>
                                             </div>
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="checkbox" class="form-checkbox text-teal-500 focus:shadow-none">
+                                                    <input type="checkbox" class="form-checkbox text-teal-500">
                                                     <span class="ml-2 text-md text-gray-600">Check 2</span>
                                                 </label>
                                             </div>
                                             <div>
                                             <label class="inline-flex items-center">
-                                                <input type="checkbox" class="form-checkbox text-teal-500 focus:shadow-none">
+                                                <input type="checkbox" class="form-checkbox text-teal-500">
                                                 <span class="ml-2 text-md text-gray-600">Check 3</span>
                                             </label>
                                             </div>
@@ -115,19 +115,19 @@
                                         <div class="mt-0">
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio text-teal-500 focus:shadow-none" name="radio" value="1">
+                                                    <input type="radio" class="form-radio text-teal-500" name="radio" value="1">
                                                     <span class="ml-2 text-md text-gray-600">Option 1</span>
                                                 </label>
                                             </div>
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio text-teal-500 focus:shadow-none" name="radio" value="2">
+                                                    <input type="radio" class="form-radio text-teal-500" name="radio" value="2">
                                                     <span class="ml-2 text-md text-gray-600">Option 2</span>
                                                 </label>
                                             </div>
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio text-teal-500 focus:shadow-none" name="radio" value="3">
+                                                    <input type="radio" class="form-radio text-teal-500" name="radio" value="3">
                                                     <span class="ml-2 text-md text-gray-600">Option 3</span>
                                                 </label>
                                             </div>

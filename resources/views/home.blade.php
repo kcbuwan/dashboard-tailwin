@@ -1,4 +1,4 @@
-<x-layouts.app>
+<x-app>
     <div class="flex items-center">
         <div class="md:w-1/2 md:mx-auto">
 
@@ -23,4 +23,4 @@
             </div>
         </div>
     </div>
-</x-layouts.app>
+</x-app>
