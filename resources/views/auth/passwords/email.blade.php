@@ -31,7 +31,7 @@
                     </div>
 
                     <p class="w-full text-center text-lg">
-                        <a class="w-full block bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-2 px-2 rounded focus:outline-none" href="{{ route('login') }}">
+                        <a class="w-full block bg-teal-500 hover:bg-teal-600 text-gray-100 font-medium text-lg py-2 px-2 rounded focus:outline-none focus:shadow-outline" href="{{ route('login') }}">
                             {{ __('Back to login') }}
                         </a>
                     </p>

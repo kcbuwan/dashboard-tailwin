@@ -28,7 +28,7 @@
 
                                 <hr class="w-full mb-6">
 
-                                <x-form.text type="text" name="name" label="Name" placeholder="" reauired autofocus autocompletets="name" />
+                                <x-form.text type="text" name="name" label="Name" placeholder="" required autofocus autocompletets="name" />
 
                                 <div class="flex flex-wrap">
 
@@ -41,13 +41,13 @@
                                     <div class="w-full md:w-4/6 mb-6">
                                         <div class="flex flex-wrap">
                                             <div class="w-full md:w-5/6">
-                                                <select class="form-select mt-1 text-gray-500 block w-full">
+                                                <select class="form-select text-gray-500 block w-full h-10">
                                                     <option selected=""></option>
                                                     <option>Car, Bikes &amp; Boats</option>
                                                 </select>
                                             </div>
                                             <div class="w-full md:w-1/6 md:text-left">
-                                                <a href="#" class="w-full text-center ml-1 bg-blue-500 hover:bg-blue-600 outline-none focus:border-blue-900 rounded text-white py-3 mt-1 h-10 px-4 inline-block text-sm font-medium">
+                                                <a href="#" class="w-full text-center ml-1 bg-teal-500 hover:bg-teal-600 focus:outline-none focus:shadow-outline rounded text-white py-3 h-10 px-4 inline-block text-sm font-medium">
                                                     <span class="justify-center text-white inline-flex">
                                                         <svg class="w-5 fill-current text-white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 4v16m8-8H4"></path></svg>
                                                     </span>
@@ -86,19 +86,19 @@
                                         <div class="mt-0">
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="checkbox" class="form-checkbox text-teal-500">
+                                                    <input type="checkbox" class="form-checkbox">
                                                     <span class="ml-2 text-md text-gray-600">Check 1</span>
                                                 </label>
                                             </div>
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="checkbox" class="form-checkbox text-teal-500">
+                                                    <input type="checkbox" class="form-checkbox">
                                                     <span class="ml-2 text-md text-gray-600">Check 2</span>
                                                 </label>
                                             </div>
                                             <div>
                                             <label class="inline-flex items-center">
-                                                <input type="checkbox" class="form-checkbox text-teal-500">
+                                                <input type="checkbox" class="form-checkbox">
                                                 <span class="ml-2 text-md text-gray-600">Check 3</span>
                                             </label>
                                             </div>
@@ -115,19 +115,19 @@
                                         <div class="mt-0">
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio text-teal-500" name="radio" value="1">
+                                                    <input type="radio" class="form-radio" name="radio" value="1">
                                                     <span class="ml-2 text-md text-gray-600">Option 1</span>
                                                 </label>
                                             </div>
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio text-teal-500" name="radio" value="2">
+                                                    <input type="radio" class="form-radio" name="radio" value="2">
                                                     <span class="ml-2 text-md text-gray-600">Option 2</span>
                                                 </label>
                                             </div>
                                             <div>
                                                 <label class="inline-flex items-center">
-                                                    <input type="radio" class="form-radio text-teal-500" name="radio" value="3">
+                                                    <input type="radio" class="form-radio" name="radio" value="3">
                                                     <span class="ml-2 text-md text-gray-600">Option 3</span>
                                                 </label>
                                             </div>
@@ -156,7 +156,7 @@
                                         </label>
                                     </div>
                                     <div class="w-full md:w-4/6 mt-2 mb-4">
-                                        <label class="block text-center items-center px-4 py-6 bg-white text-gray-500 rounded-sm border-dashed border-2 border-gray-400 cursor-pointer hover:text-blue-600">
+                                        <label class="block text-center items-center px-4 py-6 bg-white text-gray-500 rounded-sm border-dashed border-2 border-gray-400 cursor-pointer hover:text-teal-600">
                                             <div class="inline-flex text-center items-center">
                                                 <svg class="w-8 h-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                                     <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
@@ -180,7 +180,7 @@
                                     </div>
                                     <div class="w-full md:w-4/6 mb-4">
                                         <div class="inline-block">
-                                            <button class="bg-teal-600 hover:bg-teal-700 outline-none focus:border-blue-900 rounded text-white py-2 pb-3 px-6 inline-flex font-semibold">
+                                            <button class="bg-teal-600 hover:bg-teal-700 focus:outline-none focus:shadow-outline rounded text-white py-2 pb-3 px-6 inline-flex font-semibold">
                                                 Submit
                                             </button>
                                         </div>
