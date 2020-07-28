@@ -10,9 +10,9 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="lg:mt-0 flex flex-wrap">
-                <div class="w-full block rounded shadow bg-white mb-6 px-6 py-4 overflow-hidden">                
+                <div class="w-full block rounded shadow bg-white mb-6 px-6 py-4 overflow-hidden">
                     <div class="flex flex-wrap mt-4 p-4">
                         <div class="w-full">
 
@@ -22,12 +22,12 @@
 
                                 <x-admin.alert type="error">This is the error message here</x-admin.alert>
 
-                                <x-admin.alert type="danger">This is the danger message here</x-admin.alert>
-
                                 <x-admin.alert type="warning">This is the warning message here</x-admin.alert>
 
+                                <x-admin.alert type="info">This is the info message here</x-admin.alert>
+
                                 <hr class="w-full mb-6">
-                                
+
                                 <x-form.text type="text" name="name" label="Name" placeholder="" reauired autofocus autocompletets="name" />
 
                                 <div class="flex flex-wrap">
