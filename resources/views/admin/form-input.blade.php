@@ -33,7 +33,7 @@
                                 <div class="flex flex-wrap">
 
                                     <div class="w-full md:w-2/6 mb-4">
-                                        <label class="block font-semibold text-gray-700 pt-2" for="categories">
+                                        <label class="block font-semibold text-gray-600 pt-2" for="categories">
                                             Add Select
                                         </label>
                                     </div>
@@ -41,7 +41,7 @@
                                     <div class="w-full md:w-4/6 mb-6">
                                         <div class="flex flex-wrap">
                                             <div class="w-full md:w-5/6">
-                                                <select class="form-select text-gray-500 block w-full h-10">
+                                                <select class="form-select text-gray-600 block w-full h-10">
                                                     <option selected=""></option>
                                                     <option>Car, Bikes &amp; Boats</option>
                                                 </select>
@@ -60,7 +60,7 @@
 
                                 <div class="flex flex-wrap">
                                     <div class="w-full md:w-2/6 mb-4">
-                                        <label class="block font-semibold text-gray-700 pt-2" for="product-condition">
+                                        <label class="block font-semibold text-gray-600 pt-2" for="product-condition">
                                             Select <span class="text-red-400">*</span>
                                         </label>
                                     </div>
@@ -79,7 +79,7 @@
 
                                 <div class="flex flex-wrap">
                                     <div class="w-full md:w-2/6 mb-4">
-                                        <span class="text-gray-700 font-semibold">Checkbox</span>
+                                        <span class="text-gray-600 font-semibold">Checkbox</span>
                                     </div>
 
                                     <div class="w-full md:w-4/6 mb-4">
@@ -108,7 +108,7 @@
 
                                 <div class="flex flex-wrap">
                                     <div class="w-full md:w-2/6 mb-4">
-                                        <span class="text-gray-700 font-semibold">Radio Buttons</span>
+                                        <span class="text-gray-600 font-semibold">Radio Buttons</span>
                                     </div>
 
                                     <div class="w-full md:w-4/6 mb-4">
@@ -139,7 +139,7 @@
 
                                 <div class="flex flex-wrap">
                                     <div class="w-full md:w-2/6 mb-4">
-                                        <label class="block text-gray-700 font-semibold pt-2" for="meta-title">
+                                        <label class="block text-gray-600 font-semibold pt-2" for="meta-title">
                                             Textarea
                                         </label>
                                     </div>
@@ -151,20 +151,20 @@
 
                                 <div class="flex flex-wrap">
                                     <div class="w-full md:w-2/6 mt-2 mb-4">
-                                        <label class="block text-gray-700 font-semibold pt-2" for="meta-title">
+                                        <label class="block text-gray-600 font-semibold pt-2" for="meta-title">
                                             Upload
                                         </label>
                                     </div>
                                     <div class="w-full md:w-4/6 mt-2 mb-4">
-                                        <label class="block text-center items-center px-4 py-6 bg-white text-gray-500 rounded-sm border-dashed border-2 border-gray-400 cursor-pointer hover:text-teal-600">
+                                        <label class="block text-center items-center px-4 py-6 bg-white text-gray-600 rounded-sm border-dashed border-2 border-gray-300 cursor-pointer hover:text-teal-600">
                                             <div class="inline-flex text-center items-center">
                                                 <svg class="w-8 h-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                                     <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
                                                 </svg>
                                             </div>
                                             <div class="w-full block">
-                                            <span class="mt-2 text-md text-gray-500 font-semibold">Upload a file</span>
-                                            <input type='file' class="hidden" />
+                                                <span class="mt-2 text-md text-gray-600 font-semibold">Upload a file</span>
+                                                <input type='file' class="hidden" />
                                             </div>
                                         </label>
                                     </div>
@@ -174,7 +174,7 @@
 
                                 <div class="flex flex-wrap">
                                     <div class="w-full md:w-2/6 mb-4">
-                                        <label class="block font-semibold text-gray-700 pt-2" for="meta-title">
+                                        <label class="block font-semibold text-gray-600 pt-2" for="meta-title">
                                             Button
                                         </label>
                                     </div>
