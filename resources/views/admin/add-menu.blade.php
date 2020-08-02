@@ -35,7 +35,7 @@
                             </label>
                         </div>
                         <div class="p-3 pt-0 text-right">
-                            <button class="text-sm font-medium bg-blue-500 hover:bg-blue-600 outline-none focus:border-teal-900 text-white py-2 px-4 rounded inline-flex">
+                            <button class="text-sm font-medium bg-blue-500 hover:bg-blue-600 focus:outline-none outline-none focus:border-teal-900 text-white py-2 px-4 rounded inline-flex">
                                 Add to Menu
                             </button>
                         </div>
@@ -85,7 +85,7 @@
                             </label>
                         </div>
                         <div class="p-3 pt-0 text-right">
-                            <button class="text-sm font-medium bg-blue-500 hover:bg-blue-600 outline-none focus:border-teal-900 text-white py-2 px-4 rounded inline-flex">
+                            <button class="text-sm font-medium bg-blue-500 hover:bg-blue-600 focus:outline-none outline-none focus:border-teal-900 text-white py-2 px-4 rounded inline-flex">
                                 Add to Menu
                             </button>
                         </div>
@@ -161,7 +161,7 @@
                     <div class="mb-5">
                         <span class="text-gray-700 text-sm"><strong>Note:</strong> For 'Mobile Menu' and 'Footer Menu',please set the menu limit to 0.</span>
                     </div>
-                    <button class="bg-blue-500 hover:bg-blue-600 outline-none focus:border-teal-900 text-white font-medium py-2 px-8 rounded inline-flex">
+                    <button class="bg-blue-500 hover:bg-blue-600 focus:outline-none outline-none focus:border-teal-900 text-white font-medium py-2 px-8 rounded inline-flex">
                         Save Menu
                     </button>
                 </div>
