@@ -46,39 +46,45 @@
     </div>
         
     <div class="lg:mt-0 rounded shadow-lg overflow-hidden bg-white mb-6 ">
-
         <div class="overflow-hidden overflow-x-auto p-0 pt-0">
-            <table class="w-full">
+
+            <x-table.table>
                 <thead>
                     <tr class="bg-gray-100 border-b">
-                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Media</th>  
-                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Media Name</th>
-                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Description</th>
-                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">Created At</th>
-                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 uppercase text-center">Options</th>
+                        <x-table.t-head>Media</x-table.t-head>
+                        <x-table.t-head>Media name</x-table.t-head>
+                        <x-table.t-head>Description</x-table.t-head>
+                        <x-table.t-head>Created At</x-table.t-head>
+                        <x-table.t-head>Options</x-table.t-head>
                     </tr>
                 </thead>
+
                 <tbody class="mb-4">
-                    
-                    <tr class="border-solid border-b border-gray-200">
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 w-40">
+                                        
+                    <x-table.table-row>
+                        <x-table.table-col>
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             <div class="text-center md:text-left">
-                            <h2 class="font-medium text-gray-800">Devil's Ivy.jpg</h2>
-                            <div class="text-gray-600 text-xs">
-                                400x578 - 44 KB
+                                <h2 class="font-medium text-gray-800">Devil's Ivy.jpg</h2>
+                                <div class="text-gray-600 text-xs">
+                                    400x578 - 44 KB
+                                </div>
                             </div>
-                            </div>
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             Turbo Intake Pipe Suit Nissan Patrol GU Y61 ZD30 Turbo End
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 w-32 text-center">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             26 Sep, 2019 06:58 pm
-                        </td>
-                        <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-center">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
+                          <div class="text-center w-full">
                             <ul class="inline-flex">
                                 <li>
                                     <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
@@ -91,136 +97,165 @@
                                     </button>
                                 </li>
                             </ul>
-                        </td>
-                    </tr>
+                          </div>
+                        </x-table.table-col>
 
-                    <tr class="border-solid border-b border-gray-200">
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 w-40">
+                    </x-table.table-row>
+
+                    <x-table.table-row>
+                        <x-table.table-col>
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/400/200/">
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">Tongue.jpg</h2>
                                 <div class="text-gray-600 text-xs">187x270 - 7 KB</div>
                             </div>
-                            </td>
-                            <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                            A/C Air Conditioning Kit suit Nissan Patrol GU Y61 TD42 Conversion
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 w-32 text-center">
-                            26 Sep, 2019 06:58 pm
-                        </td>
-                        <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-center">
-                            <ul class="inline-flex">
-                                <li>
-                                    <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
-                                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
-                                    </button>
-                                </li>
-                                <li>
-                                    <button class="block text-xs text-white bg-red-400 hover:bg-red-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
-                                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
-                                    </button>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
+                        </x-table.table-col>
 
-                    <tr class="border-solid border-b border-gray-200">
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 w-40">
+                        <x-table.table-col>
+                            A/C Air Conditioning Kit suit Nissan Patrol GU Y61 TD42 Conversion
+                        </x-table.table-col>
+
+                        <x-table.table-col>
+                            26 Sep, 2019 06:58 pm
+                        </x-table.table-col>
+
+                        <x-table.table-col>
+                            <div class="w-full text-center">
+                                <ul class="inline-flex">
+                                    <li>
+                                        <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none hover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
+                                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="block text-xs text-white bg-red-400 hover:bg-red-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
+                                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </x-table.table-col>
+
+                    </x-table.table-row>
+
+                    <x-table.table-row>
+                        <x-table.table-col>
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="https://via.placeholder.com/150C/O https://placeholder.com/">
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">Snapshot.jpg</h2>
                                 <div class="text-gray-600 text-xs">32x32 - 754 bytes</div>
                             </div>
-                            </td>
-                            <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                            False Floor Setup suits Nissan Patrol Y62 Rear Cargo Area
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 w-32 text-center">
-                            26 Sep, 2019 06:58 pm
-                        </td>
-                        <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-center">
-                            <ul class="inline-flex">
-                                <li>
-                                    <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
-                                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
-                                    </button>
-                                </li>
-                                <li>
-                                    <button class="block text-xs text-white bg-red-400 hover:bg-red-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
-                                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
-                                    </button>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
+                        </x-table.table-col>
 
-                    <tr class="border-solid border-b border-gray-200">
-                            <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 w-40">
+                        <x-table.table-col>
+                            False Floor Setup suits Nissan Patrol Y62 Rear Cargo Area
+                        </x-table.table-col>
+
+
+                        <x-table.table-col>
+                            26 Sep, 2019 06:58 pm
+                        </x-table.table-col>
+
+                        <x-table.table-col>
+                            <div class="w-full text-center">
+                                <ul class="inline-flex">
+                                    <li>
+                                        <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
+                                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="block text-xs text-white bg-red-400 hover:bg-red-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
+                                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </x-table.table-col>
+                    </x-table.table-row>
+
+                    <x-table.table-row>
+                        <x-table.table-col>
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                            </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">mockup1-352x332.jpg</h2>
                                 <div class="text-gray-600 text-xs">538x580 - 207 KB</div>
                             </div>
-                            </td>
-                            <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
-                            Just Released! Genuine Nissan Patrol Y62 VK56 Smoked Bonnet Protector Series 5
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 w-32 text-center">
-                            26 Sep, 2019 06:58 pm
-                        </td>
-                        <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-center">
-                            <ul class="inline-flex">
-                                <li>
-                                    <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
-                                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
-                                    </button>
-                                </li>
-                                <li>
-                                    <button class="block text-xs text-white bg-red-400 hover:bg-red-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
-                                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
-                                    </button>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
+                        </x-table.table-col>
 
-                    <tr class="border-solid border-b border-gray-200">
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 w-40">
+                        <x-table.table-col>
+                            Just Released! Genuine Nissan Patrol Y62 VK56 Smoked Bonnet Protector Series 5
+                        </x-table.table-col>
+
+                        <x-table.table-col>
+                            26 Sep, 2019 06:58 pm
+                        </x-table.table-col>
+
+                        <x-table.table-col>
+                            <div class="w-full text-center">
+                                <ul class="inline-flex">
+                                    <li>
+                                        <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
+                                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="block text-xs text-white bg-red-400 hover:bg-red-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
+                                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </x-table.table-col>
+                    </x-table.table-row>
+
+                    <x-table.table-row>
+
+                        <x-table.table-col>
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">alpha.png</h2>
                                 <div class="text-gray-600 text-xs">500x500 - 182 KB</div>
                             </div>
-                            </td>
-                            <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             Exhaust Gas Recirculation EGR Valve suit Nissan Patrol GU Y61 ZD30 CR 2007on
-                        </td>
-                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200 w-32 text-center">
+                        </x-table.table-col>
+
+                        <x-table.table-col>
                             26 Sep, 2019 06:58 pm
-                        </td>
-                        <td class="p-4 text-gray-700 border-solid border-b border-gray-200 text-center">
-                            <ul class="inline-flex">
-                                <li>
-                                    <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
-                                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
-                                    </button>
-                                </li>
-                                <li>
-                                    <button class="block text-xs text-white bg-red-400 hover:bg-red-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
-                                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
-                                    </button>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
+                        </x-table.table-col>
+
+                        <x-table.table-col>
+                            <div class="w-full text-center">
+                                <ul class="inline-flex">
+                                    <li>
+                                        <button class="block text-xs text-white bg-green-400 hover:bg-green-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
+                                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="block text-xs text-white bg-red-400 hover:bg-red-500 focus:outline-none focus:shadow-outlinehover:border-gray-500 rounded-sm py-1 px-2 mr-1 w-8 h-8 text-center">
+                                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </x-table.table-col>
+                    </x-table.table-row>
 
                 </tbody>
 
@@ -262,7 +297,9 @@
                         </td>
                     </tr>
                 </tfoot>
-            </table>
+
+            </x-table.table>
+
         </div>
     </div>
 
