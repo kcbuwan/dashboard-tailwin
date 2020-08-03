@@ -65,8 +65,12 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.menu');
     });
 
-     Route::get('form-input', function () {
+    Route::get('form-input', function () {
         return view('admin.form-input');
+    });
+
+    Route::get('auspost', function () {
+        return view('admin.auspost');
     });
 
 });
