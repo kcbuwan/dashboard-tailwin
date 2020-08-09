@@ -157,7 +157,7 @@
     </div>
 
     <div class="flex flex-wrap -mx-3">
-        <div class="w-full lg:w-1/3 p-4">
+        <div class="w-full xl:w-1/3 p-4">
             <div class="text-gray-700 py-4 text-xl font-semibold">
                 <h2>Latest Signups</h2>
             </div>
@@ -201,7 +201,7 @@
             </x-panel>
         </div>
 
-        <div class="w-full lg:w-1/3 p-4">
+        <div class="w-full lg:w-1/2 xl:w-1/3 p-4">
             <div class="text-gray-700 py-4 text-xl font-semibold">
                 <h2>Product Sales</h2>
             </div>
@@ -262,7 +262,7 @@
             </x-panel>
         </div>
 
-        <div class="w-full lg:w-1/3 p-4">
+        <div class="w-full lg:w-1/2 xl:w-1/3 p-4">
             <div class="text-gray-700 py-4 text-xl font-semibold">
                 <h2>Product Orders</h2>
             </div>

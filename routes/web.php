@@ -73,4 +73,8 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.auspost');
     });
 
+    Route::get('invoices', function () {
+        return view('admin.invoices');
+    });
+
 });
