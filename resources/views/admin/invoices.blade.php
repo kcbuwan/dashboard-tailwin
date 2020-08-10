@@ -201,7 +201,7 @@
 
                                 <div class="w-1/2 text-right">
                                     <div class="inline-flex">
-                                        <ul class="md:flex pl-0 list-none rounded mx-auto text-right">
+                                        <ul class="flex pl-0 list-none rounded mx-auto text-right">
                                             <li class="text-md inline-block py-2 px-3 bg-white border border-gray-400 text-gray-700 hover:text-white md:border-r-0 ml-0 rounded-l hover:bg-gray-400">
                                                 <a href="#">
                                                     <svg class="w-4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15 19l-7-7 7-7"></path></svg>
