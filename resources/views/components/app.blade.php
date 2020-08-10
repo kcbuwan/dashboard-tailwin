@@ -140,16 +140,41 @@
                 <div class="sm:1/2 md:w-1/1 lg:w-1/1 xl:w-1/4">
                     <div class="flex items-center relative justify-end">
 
-                        <a href="#" class="items-center text-gray-600 hover:text-gray-700 font-semibold leading-none flex lg:inline-flex px-3">
+                        <a href="#" class="items-center text-gray-600 hover:text-gray-700 font-semibold flex lg:inline-flex px-3">
                             <i class="fas fa-globe mr-2"></i>
                             <span class="text-sm font-semibold mr-2 text-left flex-auto">Website</span> 
                             <svg class="h-4 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
                         </a>
+                        <div class="relative" x-data="{ open: false }">
+                            <span @click="open = !open" class="items-center text-gray-600 hover:text-gray-700 font-semibold flex lg:inline-flex px-3 cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current hover:text-gray-600"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"></path></svg>
+                                <span class="badge mb-3 bg-teal-500 hover:bg-teal-600 rounded px-2 py-1 text-center object-right-top text-white text-xs font-normal mr-1">24</span>
+                            </span>
 
-                        <a href="#" class="items-center text-gray-600 hover:text-gray-700 font-semibold leading-none flex lg:inline-flex px-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current hover:text-gray-600"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"></path></svg>
-                            <span class="badge mb-3 bg-teal-500 hover:bg-teal-600 rounded px-2 py-1 text-center object-right-top text-white text-xs font-normal mr-1">24</span>
-                        </a>
+                            <ul x-show.transition="open" @click.away="open = false" class="absolute top-0 mt-12 right-0 w-64 bg-white shadow-xl rounded-lg rounded-t-none z-40 overflow-hidden px-2 py-2" style="display: none;">
+                                <li class="flex">
+                                    <a class="inline-flex items-center justify-between w-full px-2 py-2 text-sm font-medium transition-colors duration-150 rounded hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200" href="#">
+                                        <span>Messages</span>
+                                        <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold text-red-600 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-600">
+                                        13
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="flex">
+                                    <a class="inline-flex items-center justify-between w-full px-2 py-2 text-sm font-medium transition-colors duration-150 rounded hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200" href="#">
+                                        <span>Sales</span>
+                                        <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold text-red-600 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-600">
+                                        2
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="flex">
+                                    <a class="inline-flex items-center justify-between w-full px-2 py-2 text-sm font-medium transition-colors duration-150 rounded hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200" href="#">
+                                        <span>Alerts</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                         
                         @guest
                             <a class="no-underline hover:underline text-gray-300 text-sm p-3" href="{{ route('login') }}">{{ __('Login') }}</a>
