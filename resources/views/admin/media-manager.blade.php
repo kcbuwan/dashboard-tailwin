@@ -48,42 +48,52 @@
     <div class="lg:mt-0 rounded shadow-lg overflow-hidden bg-white mb-6 ">
         <div class="overflow-hidden overflow-x-auto p-0 pt-0">
 
-            <x-table.table>
+            <table class="w-full">
                 <thead>
                     <tr class="bg-gray-100 border-b">
-                        <x-table.t-head>Media</x-table.t-head>
-                        <x-table.t-head>Media name</x-table.t-head>
-                        <x-table.t-head>Description</x-table.t-head>
-                        <x-table.t-head>Created At</x-table.t-head>
-                        <x-table.t-head>Options</x-table.t-head>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            Media
+                        </th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            Media name
+                        </th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            Description
+                        </th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            Created At
+                        </th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            Options
+                        </th>
                     </tr>
                 </thead>
 
                 <tbody class="mb-4">
                                         
-                    <x-table.table-row>
-                        <x-table.table-col>
+                    <tr class="border-solid border-b border-gray-200">
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">Devil's Ivy.jpg</h2>
                                 <div class="text-gray-600 text-xs">
                                     400x578 - 44 KB
                                 </div>
                             </div>
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             Turbo Intake Pipe Suit Nissan Patrol GU Y61 ZD30 Turbo End
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             26 Sep, 2019 06:58 pm
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                           <div class="text-center w-full">
                             <ul class="inline-flex">
                                 <li>
@@ -98,31 +108,31 @@
                                 </li>
                             </ul>
                           </div>
-                        </x-table.table-col>
+                        </td>
 
-                    </x-table.table-row>
+                    </tr>
 
-                    <x-table.table-row>
-                        <x-table.table-col>
+                    <tr class="border-solid border-b border-gray-200">
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/400/200/">
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">Tongue.jpg</h2>
                                 <div class="text-gray-600 text-xs">187x270 - 7 KB</div>
                             </div>
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             A/C Air Conditioning Kit suit Nissan Patrol GU Y61 TD42 Conversion
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             26 Sep, 2019 06:58 pm
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="w-full text-center">
                                 <ul class="inline-flex">
                                     <li>
@@ -137,32 +147,32 @@
                                     </li>
                                 </ul>
                             </div>
-                        </x-table.table-col>
+                        </td>
 
-                    </x-table.table-row>
+                    </tr>
 
-                    <x-table.table-row>
-                        <x-table.table-col>
+                    <tr class="border-solid border-b border-gray-200">
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="https://via.placeholder.com/150C/O https://placeholder.com/">
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">Snapshot.jpg</h2>
                                 <div class="text-gray-600 text-xs">32x32 - 754 bytes</div>
                             </div>
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             False Floor Setup suits Nissan Patrol Y62 Rear Cargo Area
-                        </x-table.table-col>
+                        </td>
 
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             26 Sep, 2019 06:58 pm
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="w-full text-center">
                                 <ul class="inline-flex">
                                     <li>
@@ -177,30 +187,30 @@
                                     </li>
                                 </ul>
                             </div>
-                        </x-table.table-col>
-                    </x-table.table-row>
+                        </td>
+                    </tr>
 
-                    <x-table.table-row>
-                        <x-table.table-col>
+                    <tr class="border-solid border-b border-gray-200">
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">mockup1-352x332.jpg</h2>
                                 <div class="text-gray-600 text-xs">538x580 - 207 KB</div>
                             </div>
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             Just Released! Genuine Nissan Patrol Y62 VK56 Smoked Bonnet Protector Series 5
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             26 Sep, 2019 06:58 pm
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="w-full text-center">
                                 <ul class="inline-flex">
                                     <li>
@@ -215,31 +225,31 @@
                                     </li>
                                 </ul>
                             </div>
-                        </x-table.table-col>
-                    </x-table.table-row>
+                        </td>
+                    </tr>
 
-                    <x-table.table-row>
+                    <tr class="border-solid border-b border-gray-200">
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <img class="h-20 w-20 md:h-15 md:w-15 rounded mx-auto md:mx-0 md:mr-3" src="http://lorempixel.com/g/400/200/">
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="text-center md:text-left">
                                 <h2 class="font-medium text-gray-800">alpha.png</h2>
                                 <div class="text-gray-600 text-xs">500x500 - 182 KB</div>
                             </div>
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             Exhaust Gas Recirculation EGR Valve suit Nissan Patrol GU Y61 ZD30 CR 2007on
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             26 Sep, 2019 06:58 pm
-                        </x-table.table-col>
+                        </td>
 
-                        <x-table.table-col>
+                        <td class="text-sm p-4 pt-2 pb-2 text-gray-700 border-solid border-b border-gray-200">
                             <div class="w-full text-center">
                                 <ul class="inline-flex">
                                     <li>
@@ -254,8 +264,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </x-table.table-col>
-                    </x-table.table-row>
+                        </td>
+                    </tr>
 
                 </tbody>
 
@@ -298,7 +308,7 @@
                     </tr>
                 </tfoot>
 
-            </x-table.table>
+            </table>
 
         </div>
     </div>

@@ -70,15 +70,24 @@
         </div>
 
         <x-panel>
-            <x-table.table>
+            <table class="w-full">
 
                 <tbody>
                     <tr>
-                        <x-table.t-head>Occurred</x-table.t-head>
-                        <x-table.t-head>Event</x-table.t-head>
-                        <x-table.t-head>User</x-table.t-head>
-                        <x-table.t-head>Activity</x-table.t-head>
-                        <x-table.t-head></x-table.t-head>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            Occurred
+                        </th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            Event
+                        </th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            User
+                        </th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                            Activity
+                        </th>
+                        <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                        </th>
                     </tr>
 
                     <tr>
@@ -152,7 +161,7 @@
                     </tr>
                 </tbody>
 
-            </x-table.table>
+            </table>
         </x-panel>
     </div>
 
@@ -163,11 +172,15 @@
             </div>
 
             <x-panel>
-                <x-table.table>
+                <table class="w-full">
                     <tbody>
                         <tr>
-                            <x-table.t-head>User</x-table.t-head>
-                            <x-table.t-head>Role</x-table.t-head>
+                            <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                                User
+                            </th>
+                            <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase">
+                                Role
+                            </th>
                         </tr>
                         <tr>
                             <td class="text-sm p-4 text-gray-700 border-solid border-b border-gray-200">
@@ -197,7 +210,7 @@
                             </td>
                         </tr>
                     </tbody>
-                </x-table.table>
+                </table>
             </x-panel>
         </div>
 
