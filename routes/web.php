@@ -77,4 +77,12 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.invoices');
     });
 
+    Route::get('email-settings', function () {
+        return view('admin.email-settings');
+    });
+
+    Route::get('add-page', function () {
+        return view('admin.add-page');
+    });
+
 });
