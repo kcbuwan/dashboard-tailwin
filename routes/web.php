@@ -85,4 +85,12 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.add-page');
     });
 
+    Route::get('page-section', function () {
+        return view('admin.page-section');
+    });
+
+    Route::get('add-page-back', function () {
+        return view('admin.add-page-back');
+    });
+
 });

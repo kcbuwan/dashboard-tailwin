@@ -66,13 +66,12 @@
     </div>
 
     <div class="lg:mt-0 rounded shadow-lg overflow-hidden bg-white mb-6 ">
-
         <div class="overflow-hidden overflow-x-auto p-0 pt-0">
             <table class="w-full">
                 <thead>
                     <tr class="bg-gray-100 border-b">
-                        <th class="text-sm text-gray-500 font-semibold  p-4 text-left"></th>
-                        <th class="text-sm text-gray-500 font-semibold  p-4 text-left">
+                        <th class="text-sm text-gray-500 font-semibold p-4 text-left"></th>
+                        <th class="text-gray-500 font-semibold p-4 text-left">
                             <input class="mr-2 leading-tight form-checkbox" type="checkbox">
                         </th>
                         <th class="text-sm text-gray-600 font-semi-bold bg-gray-100 border-b p-4 text-left uppercase" style="width: 50px;">
