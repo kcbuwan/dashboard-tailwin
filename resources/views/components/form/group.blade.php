@@ -2,7 +2,7 @@
 
     <div class="w-full md:w-2/6 pr-6">
         @if (isset($label))
-            <label for="{{ $name }}" class="block text-gray-600 font-semibold mb-2">
+            <label for="{{ $name }}" class="block text-gray-600 text-sm font-semibold mb-2">
                 {{ __($label) }}
             </label>
         @endif

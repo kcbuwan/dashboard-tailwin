@@ -15,7 +15,7 @@
 
                 <div class="flex-1 w-0 self-center text-center">
                     <p class="text-white font-semibold">
-                    Element 7 Digital
+                        Element 7 Digital
                     </p>
                     <p class="text-sm text-white">
                         Super Administrator
@@ -68,13 +68,13 @@
             <div class="mb-4">
 
                 <p class="px-2 text-sm font-bold mb-2 text-white">PAGES</p>
-                <a href="/add-page" class="{{ 'product' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
+                <a href="add-page" class="{{ 'product' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
                     <svg viewBox="0 0 20 20" class="h-6 w-6 fill-current mr-2">
                         <path d="M14.613,10c0,0.23-0.188,0.419-0.419,0.419H10.42v3.774c0,0.23-0.189,0.42-0.42,0.42s-0.419-0.189-0.419-0.42v-3.774H5.806c-0.23,0-0.419-0.189-0.419-0.419s0.189-0.419,0.419-0.419h3.775V5.806c0-0.23,0.189-0.419,0.419-0.419s0.42,0.189,0.42,0.419v3.775h3.774C14.425,9.581,14.613,9.77,14.613,10 M17.969,10c0,4.401-3.567,7.969-7.969,7.969c-4.402,0-7.969-3.567-7.969-7.969c0-4.402,3.567-7.969,7.969-7.969C14.401,2.031,17.969,5.598,17.969,10 M17.13,10c0-3.932-3.198-7.13-7.13-7.13S2.87,6.068,2.87,10c0,3.933,3.198,7.13,7.13,7.13S17.13,13.933,17.13,10"></path>
                     </svg><span class="text-white font-semibold">Add New</span>
                 </a>
 
-                <a href="/product-edit" class="{{ 'product-edit' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
+                <a href="product-edit" class="{{ 'product-edit' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
                     <svg viewBox="0 0 20 20" class="h-6 w-6 fill-current mr-2 text-white">
                         <path d="M15.396,2.292H4.604c-0.212,0-0.385,0.174-0.385,0.386v14.646c0,0.212,0.173,0.385,0.385,0.385h10.792c0.211,0,0.385-0.173,0.385-0.385V2.677C15.781,2.465,15.607,2.292,15.396,2.292 M15.01,16.938H4.99v-2.698h1.609c0.156,0.449,0.586,0.771,1.089,0.771c0.638,0,1.156-0.519,1.156-1.156s-0.519-1.156-1.156-1.156c-0.503,0-0.933,0.321-1.089,0.771H4.99v-3.083h1.609c0.156,0.449,0.586,0.771,1.089,0.771c0.638,0,1.156-0.518,1.156-1.156c0-0.638-0.519-1.156-1.156-1.156c-0.503,0-0.933,0.322-1.089,0.771H4.99V6.531h1.609C6.755,6.98,7.185,7.302,7.688,7.302c0.638,0,1.156-0.519,1.156-1.156c0-0.638-0.519-1.156-1.156-1.156c-0.503,0-0.933,0.322-1.089,0.771H4.99V3.062h10.02V16.938z M7.302,13.854c0-0.212,0.173-0.386,0.385-0.386s0.385,0.174,0.385,0.386s-0.173,0.385-0.385,0.385S7.302,14.066,7.302,13.854 M7.302,10c0-0.212,0.173-0.385,0.385-0.385S8.073,9.788,8.073,10s-0.173,0.385-0.385,0.385S7.302,10.212,7.302,10 M7.302,6.146c0-0.212,0.173-0.386,0.385-0.386s0.385,0.174,0.385,0.386S7.899,6.531,7.688,6.531S7.302,6.358,7.302,6.146"></path>
                     </svg><span class="text-white font-semibold">All Pgaes</span>
@@ -85,13 +85,13 @@
             <div class="mb-4">
 
                 <p class="px-2 text-sm font-bold mb-2 text-white">PRODUCTS</p>
-                <a href="/product" class="{{ 'product' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
+                <a href="product" class="{{ 'product' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
                     <svg viewBox="0 0 20 20" class="h-6 w-6 fill-current mr-2">
                         <path d="M14.613,10c0,0.23-0.188,0.419-0.419,0.419H10.42v3.774c0,0.23-0.189,0.42-0.42,0.42s-0.419-0.189-0.419-0.42v-3.774H5.806c-0.23,0-0.419-0.189-0.419-0.419s0.189-0.419,0.419-0.419h3.775V5.806c0-0.23,0.189-0.419,0.419-0.419s0.42,0.189,0.42,0.419v3.775h3.774C14.425,9.581,14.613,9.77,14.613,10 M17.969,10c0,4.401-3.567,7.969-7.969,7.969c-4.402,0-7.969-3.567-7.969-7.969c0-4.402,3.567-7.969,7.969-7.969C14.401,2.031,17.969,5.598,17.969,10 M17.13,10c0-3.932-3.198-7.13-7.13-7.13S2.87,6.068,2.87,10c0,3.933,3.198,7.13,7.13,7.13S17.13,13.933,17.13,10"></path>
                     </svg><span class="text-white font-semibold">Add Product</span>
                 </a>
 
-                <a href="/product-edit" class="{{ 'product-edit' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
+                <a href="product-edit" class="{{ 'product-edit' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
                     <svg viewBox="0 0 20 20" class="h-6 w-6 fill-current mr-2 text-white">
                         <path d="M15.396,2.292H4.604c-0.212,0-0.385,0.174-0.385,0.386v14.646c0,0.212,0.173,0.385,0.385,0.385h10.792c0.211,0,0.385-0.173,0.385-0.385V2.677C15.781,2.465,15.607,2.292,15.396,2.292 M15.01,16.938H4.99v-2.698h1.609c0.156,0.449,0.586,0.771,1.089,0.771c0.638,0,1.156-0.519,1.156-1.156s-0.519-1.156-1.156-1.156c-0.503,0-0.933,0.321-1.089,0.771H4.99v-3.083h1.609c0.156,0.449,0.586,0.771,1.089,0.771c0.638,0,1.156-0.518,1.156-1.156c0-0.638-0.519-1.156-1.156-1.156c-0.503,0-0.933,0.322-1.089,0.771H4.99V6.531h1.609C6.755,6.98,7.185,7.302,7.688,7.302c0.638,0,1.156-0.519,1.156-1.156c0-0.638-0.519-1.156-1.156-1.156c-0.503,0-0.933,0.322-1.089,0.771H4.99V3.062h10.02V16.938z M7.302,13.854c0-0.212,0.173-0.386,0.385-0.386s0.385,0.174,0.385,0.386s-0.173,0.385-0.385,0.385S7.302,14.066,7.302,13.854 M7.302,10c0-0.212,0.173-0.385,0.385-0.385S8.073,9.788,8.073,10s-0.173,0.385-0.385,0.385S7.302,10.212,7.302,10 M7.302,6.146c0-0.212,0.173-0.386,0.385-0.386s0.385,0.174,0.385,0.386S7.899,6.531,7.688,6.531S7.302,6.358,7.302,6.146"></path>
                     </svg><span class="text-white font-semibold">Edit Product</span>
@@ -110,7 +110,7 @@
                     <span class="text-white font-semibold">Banner</span>
                 </div>
 
-                <a href="/menu" class="{{ 'menu' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
+                <a href="menu" class="{{ 'menu' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
                     <svg viewBox="0 0 20 20" class="h-6 w-6 fill-current mr-2 text-white">
                         <path d="M6.176,7.241V6.78c0-0.221-0.181-0.402-0.402-0.402c-0.221,0-0.403,0.181-0.403,0.402v0.461C4.79,7.416,4.365,7.955,4.365,8.591c0,0.636,0.424,1.175,1.006,1.35v3.278c0,0.222,0.182,0.402,0.403,0.402c0.222,0,0.402-0.181,0.402-0.402V9.941c0.582-0.175,1.006-0.714,1.006-1.35C7.183,7.955,6.758,7.416,6.176,7.241 M5.774,9.195c-0.332,0-0.604-0.272-0.604-0.604c0-0.332,0.272-0.604,0.604-0.604c0.332,0,0.604,0.272,0.604,0.604C6.377,8.923,6.105,9.195,5.774,9.195 M10.402,10.058V6.78c0-0.221-0.181-0.402-0.402-0.402c-0.222,0-0.402,0.181-0.402,0.402v3.278c-0.582,0.175-1.006,0.714-1.006,1.35c0,0.637,0.424,1.175,1.006,1.351v0.461c0,0.222,0.181,0.402,0.402,0.402c0.221,0,0.402-0.181,0.402-0.402v-0.461c0.582-0.176,1.006-0.714,1.006-1.351C11.408,10.772,10.984,10.233,10.402,10.058M10,12.013c-0.333,0-0.604-0.272-0.604-0.604S9.667,10.805,10,10.805c0.332,0,0.604,0.271,0.604,0.604S10.332,12.013,10,12.013M14.629,8.448V6.78c0-0.221-0.182-0.402-0.403-0.402c-0.221,0-0.402,0.181-0.402,0.402v1.668c-0.581,0.175-1.006,0.714-1.006,1.35c0,0.636,0.425,1.176,1.006,1.351v2.07c0,0.222,0.182,0.402,0.402,0.402c0.222,0,0.403-0.181,0.403-0.402v-2.07c0.581-0.175,1.006-0.715,1.006-1.351C15.635,9.163,15.21,8.624,14.629,8.448 M14.226,10.402c-0.331,0-0.604-0.272-0.604-0.604c0-0.332,0.272-0.604,0.604-0.604c0.332,0,0.604,0.272,0.604,0.604C14.83,10.13,14.558,10.402,14.226,10.402 M17.647,3.962H2.353c-0.221,0-0.402,0.181-0.402,0.402v11.27c0,0.222,0.181,0.402,0.402,0.402h15.295c0.222,0,0.402-0.181,0.402-0.402V4.365C18.05,4.144,17.869,3.962,17.647,3.962 M17.245,15.232H2.755V4.768h14.49V15.232z"></path>
                     </svg><span class="text-white font-semibold">Menu</span>
@@ -123,14 +123,14 @@
                     <span class="text-white font-semibold">Snippets</span>
                 </div>
 
-                <a href="/media-manager" class="{{ 'media-manager' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
+                <a href="media-manager" class="{{ 'media-manager' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
                     <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 fill-current mr-2 text-white">
                         <path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
                     </svg>
                     <span class="text-white font-semibold">Media Manager</span>
                 </a>
 
-                <a href="/form-input" class="{{ 'form-input' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
+                <a href="form-input" class="{{ 'form-input' == request()->path() ? 'bg-teal-600' : ''  }} w-full flex items-center text-gray-100 h-10 px-2 hover:bg-teal-600 rounded cursor-pointer">
                     <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 fill-current mr-2 text-white">
                         <path d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
                     </svg>
