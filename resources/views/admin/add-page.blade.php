@@ -103,6 +103,21 @@
             <h2 class="text-gray-600 font-semibold border-b border-gray-200 pb-4 mb-6">
                 SEO
             </h2>
+
+            <div class="flex flex-wrap mb-6">
+                <div class="w-full md:w-2/6 pr-6">
+                    <label for="meta-title" class="block text-gray-600 text-sm font-semibold mb-2">
+                        Search engine listing preview
+                    </label>
+                </div>
+                <div div="" class="w-full md:w-4/6">
+                    <span class="block text-indigo-700 font-medium">Element 7 Digital: Web Development Agency | Melbourne...</span>
+                    <p class="text-gray-700"><strong>Element 7 Digital</strong> Po Box 62 Belmont Victoria, 3216. (03) 5249 5570 info@element7digital.com.au. <br>
+                        ©2020 <strong>Element 7 Digital</strong> | All rights reserved. Terms and ...
+                    </p>
+                </div>
+            </div>
+            
             <div class="flex flex-wrap mb-6">
                 <div class="w-full md:w-2/6 pr-6">
                     <label for="meta-title" class="block text-gray-600 text-sm font-semibold mb-2">
@@ -111,7 +126,7 @@
                 </div>
                 <div div="" class="w-full md:w-4/6">
                     <input id="meta-title" type="text" class="form-input text-gray-600 w-full " name="meta-title" placeholder="About Us" value="" label="Meta Title" required="required" autofocus="autofocus" autocompletets="Meta Title">
-                    <span class="text-sm text-gray-500">8 of 70 characters used</span>
+                    <span class="text-sm text-gray-500">5 of 70 characters used</span>
                 </div>
             </div>
             <div class="flex flex-wrap mb-6">
@@ -122,10 +137,9 @@
                 </div>
                 <div div="" class="w-full md:w-4/6">
                     <input id="meta-keywords" type="text" class="form-input text-gray-600 w-full " name="meta-keywords" placeholder="" value="" label="Meta Keywords" required="required" autofocus="autofocus" autocompletets="Meta Keywords">
-                    <span class="text-sm text-gray-500">8 of 70 characters used</span>
+                    <span class="text-sm text-gray-500">5 of 70 characters used</span>
                 </div>
-            </div>
-
+            </div>            
             <div class="flex flex-wrap mb-6">
                 <div class="w-full md:w-2/6">
                     <label for="template" class="block text-gray-600 text-sm font-semibold pt-2">
@@ -134,7 +148,7 @@
                 </div>
                 <div class="w-full md:w-4/6">
                     <textarea class="w-full p-3 resize-none border rounded focus:outline-none focus:shadow-outline"></textarea>
-                    <span class="text-sm text-gray-500">195 of 320 characters used</span>
+                    <span class="text-sm text-gray-500">78 of 320 characters used</span>
                 </div>
             </div>
             <div class="flex flex-wrap mb-6">
@@ -161,17 +175,6 @@
                         <option selected="">Follow</option>
                         <option>Nofollow</option>
                     </select>
-                </div>
-            </div>
-            <div class="flex flex-wrap mb-6">
-                <div class="w-full md:w-2/6">
-                    <label for="template" class="block text-gray-600 text-sm font-semibold pt-2">
-                        Meta Robots Advanced 
-                    </label>
-                </div>
-                <div class="w-full md:w-4/6">
-                    <textarea class="w-full p-3 resize-none border rounded focus:outline-none focus:shadow-outline"></textarea>
-                    <span class="text-sm text-gray-500">Add more robots meta comma separated values like: Lorem, test, example, etc.</span>
                 </div>
             </div>
         </div>
